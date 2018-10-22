@@ -12,7 +12,7 @@ const characters = [
      },
      "universe":{  
         "name":"Bayonetta",
-        "icon":"../public/images/universe_icons/gray_icon_bayonetta.svg"
+        "icon":"images/universe_icons/gray_icon_bayonetta.svg"
      },
      "past_smash_games":[  
 
@@ -46,9 +46,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Bayonetta_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/bayonetta.png",
-        "icon":"../public/images/character_icons/bayonetta_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/bayonetta_head.png"
+        "large":"images/characters/bayonetta.png",
+        "icon":"images/character_icons/bayonetta_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/bayonetta_head.png"
      }
   },
   {  
@@ -64,7 +64,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -101,9 +101,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Bowser_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/bowser.png",
-        "icon":"../public/images/character_icons/bowser_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/bowser_head.png"
+        "large":"images/characters/bowser.png",
+        "icon":"images/character_icons/bowser_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/bowser_head.png"
      }
   },
   {  
@@ -119,7 +119,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "past_smash_games":[  
 
@@ -152,9 +152,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Bowser_Jr._(SSB4)",
      "images":{  
-        "large":"../public/images/characters/bowser_jr.png",
-        "icon":"../public/images/character_icons/bowser_jr_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/bowser_jr_head.png"
+        "large":"images/characters/bowser_jr.png",
+        "icon":"images/character_icons/bowser_jr_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/bowser_jr_head.png"
      }
   },
   {  
@@ -170,7 +170,7 @@ const characters = [
      },
      "universe":{  
         "name":"F-Zero",
-        "icon":"../public/images/universe_icons/gray_icon_f_zero.svg"
+        "icon":"images/universe_icons/gray_icon_f_zero.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -207,9 +207,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Captain_Falcon_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/captain_falcon.png",
-        "icon":"../public/images/character_icons/captain_falcon_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/captain_falcon_head.png"
+        "large":"images/characters/captain_falcon.png",
+        "icon":"images/character_icons/captain_falcon_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/captain_falcon_head.png"
      }
   },
   {  
@@ -225,7 +225,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -260,9 +260,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Charizard_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/charizard.png",
-        "icon":"../public/images/character_icons/charizard_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/charizard_head.png"
+        "large":"images/characters/charizard.png",
+        "icon":"images/character_icons/charizard_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/charizard_head.png"
      }
   },
   {  
@@ -278,7 +278,7 @@ const characters = [
      },
      "universe":{  
         "name":"Final Fantasy",
-        "icon":"../public/images/universe_icons/gray_icon_final_fantasy.svg"
+        "icon":"images/universe_icons/gray_icon_final_fantasy.svg"
      },
      "past_smash_games":[  
 
@@ -313,9 +313,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Cloud_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/cloud.png",
-        "icon":"../public/images/character_icons/cloud_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/cloud_head.png"
+        "large":"images/characters/cloud.png",
+        "icon":"images/character_icons/cloud_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/cloud_head.png"
      }
   },
   {  
@@ -331,7 +331,7 @@ const characters = [
      },
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "past_smash_games":[  
 
@@ -365,9 +365,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Corrin_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/corrin.png",
-        "icon":"../public/images/character_icons/corrin_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/corrin_head.png"
+        "large":"images/characters/corrin.png",
+        "icon":"images/character_icons/corrin_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/corrin_head.png"
      }
   },
   {  
@@ -383,7 +383,7 @@ const characters = [
      },
      "universe":{  
         "name":"Kid Icarus",
-        "icon":"../public/images/universe_icons/gray_icon_kid_icarus.svg"
+        "icon":"images/universe_icons/gray_icon_kid_icarus.svg"
      },
      "past_smash_games":[  
 
@@ -417,9 +417,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Dark_Pit_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/dark_pit.png",
-        "icon":"../public/images/character_icons/dark_pit_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/dark_pit_head.png"
+        "large":"images/characters/dark_pit.png",
+        "icon":"images/character_icons/dark_pit_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/dark_pit_head.png"
      }
   },
   {  
@@ -435,7 +435,7 @@ const characters = [
      },
      "universe":{  
         "name":"Donkey Kong",
-        "icon":"../public/images/universe_icons/gray_icon_donkey_kong.svg"
+        "icon":"images/universe_icons/gray_icon_donkey_kong.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -470,9 +470,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Diddy_Kong_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/diddy_kong.png",
-        "icon":"../public/images/character_icons/diddy_kong_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/diddy_kong_head.png"
+        "large":"images/characters/diddy_kong.png",
+        "icon":"images/character_icons/diddy_kong_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/diddy_kong_head.png"
      }
   },
   {  
@@ -488,7 +488,7 @@ const characters = [
      },
      "universe":{  
         "name":"Donkey Kong",
-        "icon":"../public/images/universe_icons/gray_icon_donkey_kong.svg"
+        "icon":"images/universe_icons/gray_icon_donkey_kong.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -524,9 +524,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Donkey_Kong_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/donkey_kong.png",
-        "icon":"../public/images/character_icons/donkey_kong_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/donkey_kong_head.png"
+        "large":"images/characters/donkey_kong.png",
+        "icon":"images/character_icons/donkey_kong_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/donkey_kong_head.png"
      }
   },
   {  
@@ -542,7 +542,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Melee"
@@ -577,9 +577,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Dr._Mario_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/dr_mario.png",
-        "icon":"../public/images/character_icons/dr_mario_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/dr_mario_head.png"
+        "large":"images/characters/dr_mario.png",
+        "icon":"images/character_icons/dr_mario_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/dr_mario_head.png"
      }
   },
   {  
@@ -595,7 +595,7 @@ const characters = [
      },
      "universe":{  
         "name":"Duck Hunt",
-        "icon":"../public/images/universe_icons/gray_icon_duck_hunt.svg"
+        "icon":"images/universe_icons/gray_icon_duck_hunt.svg"
      },
      "past_smash_games":[  
 
@@ -628,9 +628,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Duck_Hunt_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/duck_hunt.png",
-        "icon":"../public/images/character_icons/duck_hunt_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/duck_hunt_head.png"
+        "large":"images/characters/duck_hunt.png",
+        "icon":"images/character_icons/duck_hunt_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/duck_hunt_head.png"
      }
   },
   {  
@@ -646,7 +646,7 @@ const characters = [
      },
      "universe":{  
         "name":"Star Fox",
-        "icon":"../public/images/universe_icons/gray_icon_star_fox.svg"
+        "icon":"images/universe_icons/gray_icon_star_fox.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -680,9 +680,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Falco_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/falco.png",
-        "icon":"../public/images/character_icons/falco_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/falco_head.png"
+        "large":"images/characters/falco.png",
+        "icon":"images/character_icons/falco_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/falco_head.png"
      }
   },
   {  
@@ -698,7 +698,7 @@ const characters = [
      },
      "universe":{  
         "name":"Star Fox",
-        "icon":"../public/images/universe_icons/gray_icon_star_fox.svg"
+        "icon":"images/universe_icons/gray_icon_star_fox.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -733,9 +733,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Fox_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/fox.png",
-        "icon":"../public/images/character_icons/fox_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/fox_head.png"
+        "large":"images/characters/fox.png",
+        "icon":"images/character_icons/fox_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/fox_head.png"
      }
   },
   {  
@@ -751,7 +751,7 @@ const characters = [
      },
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -787,9 +787,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Ganondorf_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/ganondorf.png",
-        "icon":"../public/images/character_icons/ganondorf_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/ganondorf_head.png"
+        "large":"images/characters/ganondorf.png",
+        "icon":"images/character_icons/ganondorf_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/ganondorf_head.png"
      }
   },
   {  
@@ -805,7 +805,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "past_smash_games":[  
 
@@ -839,9 +839,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Greninja_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/greninja.png",
-        "icon":"../public/images/character_icons/greninja_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/greninja_head.png"
+        "large":"images/characters/greninja.png",
+        "icon":"images/character_icons/greninja_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/greninja_head.png"
      }
   },
   {  
@@ -857,7 +857,7 @@ const characters = [
      },
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -891,9 +891,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Ike_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/ike.png",
-        "icon":"../public/images/character_icons/ike_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/ike_head.png"
+        "large":"images/characters/ike.png",
+        "icon":"images/character_icons/ike_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/ike_head.png"
      }
   },
   {  
@@ -909,7 +909,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -945,9 +945,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Jigglypuff_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/jigglypuff.png",
-        "icon":"../public/images/character_icons/jigglypuff_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/jigglypuff_head.png"
+        "large":"images/characters/jigglypuff.png",
+        "icon":"images/character_icons/jigglypuff_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/jigglypuff_head.png"
      }
   },
   {  
@@ -963,7 +963,7 @@ const characters = [
      },
      "universe":{  
         "name":"Kirby",
-        "icon":"../public/images/universe_icons/gray_icon_kirby.svg"
+        "icon":"images/universe_icons/gray_icon_kirby.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -997,9 +997,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/King_Dedede_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/king_dedede.png",
-        "icon":"../public/images/character_icons/king_dedede_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/king_dedede_head.png"
+        "large":"images/characters/king_dedede.png",
+        "icon":"images/character_icons/king_dedede_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/king_dedede_head.png"
      }
   },
   {  
@@ -1015,7 +1015,7 @@ const characters = [
      },
      "universe":{  
         "name":"Kirby",
-        "icon":"../public/images/universe_icons/gray_icon_kirby.svg"
+        "icon":"images/universe_icons/gray_icon_kirby.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -1052,9 +1052,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Kirby_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/kirby.png",
-        "icon":"../public/images/character_icons/kirby_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/kirby_head.png"
+        "large":"images/characters/kirby.png",
+        "icon":"images/character_icons/kirby_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/kirby_head.png"
      }
   },
   {  
@@ -1070,7 +1070,7 @@ const characters = [
      },
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -1107,9 +1107,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Link_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/link.png",
-        "icon":"../public/images/character_icons/link_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/link_head.png"
+        "large":"images/characters/link.png",
+        "icon":"images/character_icons/link_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/link_head.png"
      }
   },
   {  
@@ -1125,7 +1125,7 @@ const characters = [
      },
      "universe":{  
         "name":"Punch Out!!",
-        "icon":"../public/images/universe_icons/gray_icon_punchout.svg"
+        "icon":"images/universe_icons/gray_icon_punchout.svg"
      },
      "past_smash_games":[  
 
@@ -1158,9 +1158,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Little_Mac_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/little_mac.png",
-        "icon":"../public/images/character_icons/little_mac_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/little_mac_head.png"
+        "large":"images/characters/little_mac.png",
+        "icon":"images/character_icons/little_mac_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/little_mac_head.png"
      }
   },
   {  
@@ -1176,7 +1176,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -1210,9 +1210,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Lucario_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/lucario.png",
-        "icon":"../public/images/character_icons/lucario_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/lucario_head.png"
+        "large":"images/characters/lucario.png",
+        "icon":"images/character_icons/lucario_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/lucario_head.png"
      }
   },
   {  
@@ -1228,7 +1228,7 @@ const characters = [
      },
      "universe":{  
         "name":"EarthBound",
-        "icon":"../public/images/universe_icons/gray_icon_earthbound.svg"
+        "icon":"images/universe_icons/gray_icon_earthbound.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -1262,9 +1262,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Lucas_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/lucas.png",
-        "icon":"../public/images/character_icons/lucas_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/lucas_head.png"
+        "large":"images/characters/lucas.png",
+        "icon":"images/character_icons/lucas_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/lucas_head.png"
      }
   },
   {  
@@ -1280,7 +1280,7 @@ const characters = [
      },
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "past_smash_games":[  
 
@@ -1313,9 +1313,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Lucina_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/lucina.png",
-        "icon":"../public/images/character_icons/lucina_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/lucina_head.png"
+        "large":"images/characters/lucina.png",
+        "icon":"images/character_icons/lucina_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/lucina_head.png"
      }
   },
   {  
@@ -1331,7 +1331,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -1366,9 +1366,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Luigi_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/luigi.png",
-        "icon":"../public/images/character_icons/luigi_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/luigi_head.png"
+        "large":"images/characters/luigi.png",
+        "icon":"images/character_icons/luigi_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/luigi_head.png"
      }
   },
   {  
@@ -1384,7 +1384,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -1419,9 +1419,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Mario_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/mario.png",
-        "icon":"../public/images/character_icons/mario_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/mario_head.png"
+        "large":"images/characters/mario.png",
+        "icon":"images/character_icons/mario_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/mario_head.png"
      }
   },
   {  
@@ -1437,7 +1437,7 @@ const characters = [
      },
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -1472,9 +1472,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Marth_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/marth.png",
-        "icon":"../public/images/character_icons/marth_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/marth_head.png"
+        "large":"images/characters/marth.png",
+        "icon":"images/character_icons/marth_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/marth_head.png"
      }
   },
   {  
@@ -1490,7 +1490,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mega Man",
-        "icon":"../public/images/universe_icons/gray_icon_mega_man.svg"
+        "icon":"images/universe_icons/gray_icon_mega_man.svg"
      },
      "past_smash_games":[  
 
@@ -1524,9 +1524,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Mega_Man_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/mega_man.png",
-        "icon":"../public/images/character_icons/mega_man_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/mega_man_head.png"
+        "large":"images/characters/mega_man.png",
+        "icon":"images/character_icons/mega_man_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/mega_man_head.png"
      }
   },
   {  
@@ -1542,7 +1542,7 @@ const characters = [
      },
      "universe":{  
         "name":"Kirby",
-        "icon":"../public/images/universe_icons/gray_icon_kirby.svg"
+        "icon":"images/universe_icons/gray_icon_kirby.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -1576,9 +1576,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Meta_Knight_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/meta_knight.png",
-        "icon":"../public/images/character_icons/meta_knight_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/meta_knight_head.png"
+        "large":"images/characters/meta_knight.png",
+        "icon":"images/character_icons/meta_knight_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/meta_knight_head.png"
      }
   },
   {  
@@ -1594,7 +1594,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Melee"
@@ -1628,9 +1628,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Mewtwo_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/mewtwo.png",
-        "icon":"../public/images/character_icons/mewtwo_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/mewtwo_head.png"
+        "large":"images/characters/mewtwo.png",
+        "icon":"images/character_icons/mewtwo_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/mewtwo_head.png"
      }
   },
   {  
@@ -1646,7 +1646,7 @@ const characters = [
      },
      "universe":{  
         "name":"Super Smash Bros.",
-        "icon":"../public/images/universe_icons/gray_icon_smash_bros.svg"
+        "icon":"images/universe_icons/gray_icon_smash_bros.svg"
      },
      "past_smash_games":[  
 
@@ -1680,9 +1680,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Mii_Brawler_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/mii_brawler.png",
-        "icon":"../public/images/character_icons/smash_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/mii_brawler_head.png"
+        "large":"images/characters/mii_brawler.png",
+        "icon":"images/character_icons/smash_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/mii_brawler_head.png"
      }
   },
   {  
@@ -1698,7 +1698,7 @@ const characters = [
      },
      "universe":{  
         "name":"Super Smash Bros.",
-        "icon":"../public/images/universe_icons/gray_icon_smash_bros.svg"
+        "icon":"images/universe_icons/gray_icon_smash_bros.svg"
      },
      "past_smash_games":[  
 
@@ -1732,9 +1732,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Mii_Gunner_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/mii_gunner.png",
-        "icon":"../public/images/character_icons/smash_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/mii_gunner_head.png"
+        "large":"images/characters/mii_gunner.png",
+        "icon":"images/character_icons/smash_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/mii_gunner_head.png"
      }
   },
   {  
@@ -1750,7 +1750,7 @@ const characters = [
      },
      "universe":{  
         "name":"Super Smash Bros.",
-        "icon":"../public/images/universe_icons/gray_icon_smash_bros.svg"
+        "icon":"images/universe_icons/gray_icon_smash_bros.svg"
      },
      "past_smash_games":[  
 
@@ -1784,9 +1784,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Mii_Fighter_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/mii_sword_fighter.png",
-        "icon":"../public/images/character_icons/smash_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/mii_sword_fighter_head.png"
+        "large":"images/characters/mii_sword_fighter.png",
+        "icon":"images/character_icons/smash_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/mii_sword_fighter_head.png"
      }
   },
   {  
@@ -1802,7 +1802,7 @@ const characters = [
      },
      "universe":{  
         "name":"Game & Watch",
-        "icon":"../public/images/universe_icons/gray_icon_game_and_watch.svg"
+        "icon":"images/universe_icons/gray_icon_game_and_watch.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -1837,9 +1837,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Mr._Game_%26_Watch_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/mr_game_and_watch.png",
-        "icon":"../public/images/character_icons/mr_game_and_watch_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/mr_game_and_watch_head.png"
+        "large":"images/characters/mr_game_and_watch.png",
+        "icon":"images/character_icons/mr_game_and_watch_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/mr_game_and_watch_head.png"
      }
   },
   {  
@@ -1855,7 +1855,7 @@ const characters = [
      },
      "universe":{  
         "name":"EarthBound",
-        "icon":"../public/images/universe_icons/gray_icon_earthbound.svg"
+        "icon":"images/universe_icons/gray_icon_earthbound.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -1891,9 +1891,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Ness_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/ness.png",
-        "icon":"../public/images/character_icons/ness_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/ness_head.png"
+        "large":"images/characters/ness.png",
+        "icon":"images/character_icons/ness_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/ness_head.png"
      }
   },
   {  
@@ -1909,7 +1909,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pikmin",
-        "icon":"../public/images/universe_icons/gray_icon_pikmin.svg"
+        "icon":"images/universe_icons/gray_icon_pikmin.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -1943,9 +1943,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Olimar_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/olimar.png",
-        "icon":"../public/images/character_icons/olimar_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/olimar_head.png"
+        "large":"images/characters/olimar.png",
+        "icon":"images/character_icons/olimar_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/olimar_head.png"
      }
   },
   {  
@@ -1961,7 +1961,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pac-Man",
-        "icon":"../public/images/universe_icons/gray_icon_pacman.svg"
+        "icon":"images/universe_icons/gray_icon_pacman.svg"
      },
      "past_smash_games":[  
 
@@ -1994,9 +1994,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Pac-Man_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/pac_man.png",
-        "icon":"../public/images/character_icons/pac_man_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/pac_man_head.png"
+        "large":"images/characters/pac_man.png",
+        "icon":"images/character_icons/pac_man_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/pac_man_head.png"
      }
   },
   {  
@@ -2012,7 +2012,7 @@ const characters = [
      },
      "universe":{  
         "name":"Kid Icarus",
-        "icon":"../public/images/universe_icons/gray_icon_kid_icarus.svg"
+        "icon":"images/universe_icons/gray_icon_kid_icarus.svg"
      },
      "past_smash_games":[  
 
@@ -2045,9 +2045,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Palutena_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/palutena.png",
-        "icon":"../public/images/character_icons/palutena_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/palutena_head.png"
+        "large":"images/characters/palutena.png",
+        "icon":"images/character_icons/palutena_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/palutena_head.png"
      }
   },
   {  
@@ -2063,7 +2063,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -2098,9 +2098,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Peach_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/peach.png",
-        "icon":"../public/images/character_icons/peach_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/peach_head.png"
+        "large":"images/characters/peach.png",
+        "icon":"images/character_icons/peach_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/peach_head.png"
      }
   },
   {  
@@ -2116,7 +2116,7 @@ const characters = [
      },
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -2152,9 +2152,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Pikachu_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/pikachu.png",
-        "icon":"../public/images/character_icons/pikachu_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/pikachu_head.png"
+        "large":"images/characters/pikachu.png",
+        "icon":"images/character_icons/pikachu_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/pikachu_head.png"
      }
   },
   {  
@@ -2170,7 +2170,7 @@ const characters = [
      },
      "universe":{  
         "name":"Kid Icarus",
-        "icon":"../public/images/universe_icons/gray_icon_kid_icarus.svg"
+        "icon":"images/universe_icons/gray_icon_kid_icarus.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -2200,9 +2200,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Pit_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/pit.png",
-        "icon":"../public/images/character_icons/pit_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/pit_head.png"
+        "large":"images/characters/pit.png",
+        "icon":"images/character_icons/pit_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/pit_head.png"
      }
   },
   {  
@@ -2218,7 +2218,7 @@ const characters = [
      },
      "universe":{  
         "name":"R.O.B.",
-        "icon":"../public/images/universe_icons/gray_icon_rob.svg"
+        "icon":"images/universe_icons/gray_icon_rob.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -2252,9 +2252,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/R.O.B._(SSB4)",
      "images":{  
-        "large":"../public/images/characters/rob.png",
-        "icon":"../public/images/character_icons/rob_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/rob_head.png"
+        "large":"images/characters/rob.png",
+        "icon":"images/character_icons/rob_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/rob_head.png"
      }
   },
   {  
@@ -2270,7 +2270,7 @@ const characters = [
      },
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "past_smash_games":[  
 
@@ -2304,9 +2304,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Robin_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/robin.png",
-        "icon":"../public/images/character_icons/robin_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/robin_head.png"
+        "large":"images/characters/robin.png",
+        "icon":"images/character_icons/robin_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/robin_head.png"
      }
   },
   {  
@@ -2322,7 +2322,7 @@ const characters = [
      },
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "past_smash_games":[  
 
@@ -2356,9 +2356,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Rosalina_%26_Luma_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/rosalina.png",
-        "icon":"../public/images/character_icons/rosalina_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/rosalina_head.png"
+        "large":"images/characters/rosalina.png",
+        "icon":"images/character_icons/rosalina_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/rosalina_head.png"
      }
   },
   {  
@@ -2374,7 +2374,7 @@ const characters = [
      },
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Melee"
@@ -2408,9 +2408,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Roy_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/roy.png",
-        "icon":"../public/images/character_icons/roy_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/roy_head.png"
+        "large":"images/characters/roy.png",
+        "icon":"images/character_icons/roy_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/roy_head.png"
      }
   },
   {  
@@ -2426,7 +2426,7 @@ const characters = [
      },
      "universe":{  
         "name":"Street Fighter",
-        "icon":"../public/images/universe_icons/gray_icon_street_fighter.svg"
+        "icon":"images/universe_icons/gray_icon_street_fighter.svg"
      },
      "past_smash_games":[  
 
@@ -2461,9 +2461,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Ryu_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/ryu.png",
-        "icon":"../public/images/character_icons/ryu_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/ryu_head.png"
+        "large":"images/characters/ryu.png",
+        "icon":"images/character_icons/ryu_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/ryu_head.png"
      }
   },
   {  
@@ -2479,7 +2479,7 @@ const characters = [
      },
      "universe":{  
         "name":"Metroid",
-        "icon":"../public/images/universe_icons/gray_icon_metroid.svg"
+        "icon":"images/universe_icons/gray_icon_metroid.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -2514,9 +2514,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Samus_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/samus.png",
-        "icon":"../public/images/character_icons/samus_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/samus_head.png"
+        "large":"images/characters/samus.png",
+        "icon":"images/character_icons/samus_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/samus_head.png"
      }
   },
   {  
@@ -2532,7 +2532,7 @@ const characters = [
      },
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -2569,9 +2569,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Sheik_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/sheik.png",
-        "icon":"../public/images/character_icons/sheik_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/sheik_head.png"
+        "large":"images/characters/sheik.png",
+        "icon":"images/character_icons/sheik_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/sheik_head.png"
      }
   },
   {  
@@ -2587,7 +2587,7 @@ const characters = [
      },
      "universe":{  
         "name":"Xenoblade",
-        "icon":"../public/images/universe_icons/gray_icon_xenoblade.svg"
+        "icon":"images/universe_icons/gray_icon_xenoblade.svg"
      },
      "past_smash_games":[  
 
@@ -2621,9 +2621,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Shulk_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/shulk.png",
-        "icon":"../public/images/character_icons/shulk_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/shulk_head.png"
+        "large":"images/characters/shulk.png",
+        "icon":"images/character_icons/shulk_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/shulk_head.png"
      }
   },
   {  
@@ -2639,7 +2639,7 @@ const characters = [
      },
      "universe":{  
         "name":"Sonic",
-        "icon":"../public/images/universe_icons/gray_icon_sonic.svg"
+        "icon":"images/universe_icons/gray_icon_sonic.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -2672,9 +2672,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Sonic_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/sonic.png",
-        "icon":"../public/images/character_icons/sonic_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/sonic_head.png"
+        "large":"images/characters/sonic.png",
+        "icon":"images/character_icons/sonic_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/sonic_head.png"
      }
   },
   {  
@@ -2690,7 +2690,7 @@ const characters = [
      },
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -2724,9 +2724,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Toon_Link_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/toon_link.png",
-        "icon":"../public/images/character_icons/toon_link_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/toon_link_head.png"
+        "large":"images/characters/toon_link.png",
+        "icon":"images/character_icons/toon_link_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/toon_link_head.png"
      }
   },
   {  
@@ -2742,7 +2742,7 @@ const characters = [
      },
      "universe":{  
         "name":"Animal Crossing",
-        "icon":"../public/images/universe_icons/gray_icon_animal_crossing.svg"
+        "icon":"images/universe_icons/gray_icon_animal_crossing.svg"
      },
      "past_smash_games":[  
 
@@ -2776,9 +2776,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Villager_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/villager.png",
-        "icon":"../public/images/character_icons/villager_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/villager_head.png"
+        "large":"images/characters/villager.png",
+        "icon":"images/character_icons/villager_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/villager_head.png"
      }
   },
   {  
@@ -2794,7 +2794,7 @@ const characters = [
      },
      "universe":{  
         "name":"Wario",
-        "icon":"../public/images/universe_icons/gray_icon_wario.svg"
+        "icon":"images/universe_icons/gray_icon_wario.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl"
@@ -2827,9 +2827,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Wario_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/wario.png",
-        "icon":"../public/images/character_icons/wario_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/wario_head.png"
+        "large":"images/characters/wario.png",
+        "icon":"images/character_icons/wario_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/wario_head.png"
      }
   },
   {  
@@ -2845,7 +2845,7 @@ const characters = [
      },
      "universe":{  
         "name":"Wii Fit",
-        "icon":"../public/images/universe_icons/gray_icon_wii_fit.svg"
+        "icon":"images/universe_icons/gray_icon_wii_fit.svg"
      },
      "past_smash_games":[  
 
@@ -2879,9 +2879,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Wii_Fit_Trainer_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/wii_fit_trainer.png",
-        "icon":"../public/images/character_icons/wii_fit_trainer_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/wii_fit_trainer_head.png"
+        "large":"images/characters/wii_fit_trainer.png",
+        "icon":"images/character_icons/wii_fit_trainer_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/wii_fit_trainer_head.png"
      }
   },
   {  
@@ -2897,7 +2897,7 @@ const characters = [
      },
      "universe":{  
         "name":"Yoshi",
-        "icon":"../public/images/universe_icons/gray_icon_yoshi.svg"
+        "icon":"images/universe_icons/gray_icon_yoshi.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -2933,9 +2933,9 @@ const characters = [
      ],
      "smash_wiki":"https://www.ssbwiki.com/Yoshi_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/yoshi.png",
-        "icon":"../public/images/character_icons/yoshi_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/yoshi_head.png"
+        "large":"images/characters/yoshi.png",
+        "icon":"images/character_icons/yoshi_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/yoshi_head.png"
      }
   },
   {  
@@ -2951,7 +2951,7 @@ const characters = [
      },
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "past_smash_games":[  
         "Smash Bros. Brawl",
@@ -2986,9 +2986,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Zelda_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/zelda.png",
-        "icon":"../public/images/character_icons/zelda_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/zelda_head.png"
+        "large":"images/characters/zelda.png",
+        "icon":"images/character_icons/zelda_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/zelda_head.png"
      }
   },
   {  
@@ -3036,9 +3036,9 @@ const characters = [
      ],
      "smash_wiki":"https://ssbworld.com/characters/Zero_Suit_Samus_(SSB4)",
      "images":{  
-        "large":"../public/images/characters/zero_suit_samus.png",
-        "icon":"../public/images/character_icons/zero_suit_samus_icon.png",
-        "small_icon":"../public/images/character_icons/small_character_icons/zero_suit_samus_head.png"
+        "large":"images/characters/zero_suit_samus.png",
+        "icon":"images/character_icons/zero_suit_samus_icon.png",
+        "small_icon":"images/character_icons/small_character_icons/zero_suit_samus_head.png"
      }
   }
 ]
@@ -3049,12 +3049,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/3D_Land",
-     "stage_image":"../public/images/stages/3d_land.png",
+     "stage_image":"images/stages/3d_land.png",
      "past_smash_games":[  
 
      ]
@@ -3064,12 +3064,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Donkey Kong",
-        "icon":"../public/images/universe_icons/gray_icon_donkey_kong.svg"
+        "icon":"images/universe_icons/gray_icon_donkey_kong.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/75m",
-     "stage_image":"../public/images/stages/75m.png",
+     "stage_image":"images/stages/75m.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3079,12 +3079,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Arena_Ferox",
-     "stage_image":"../public/images/stages/arena_ferox.png",
+     "stage_image":"images/stages/arena_ferox.png",
      "past_smash_games":[  
 
      ]
@@ -3094,12 +3094,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Balloon Fight",
-        "icon":"../public/images/universe_icons/gray_icon_balloon_fight.svg"
+        "icon":"images/universe_icons/gray_icon_balloon_fight.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Balloon_Fight",
-     "stage_image":"../public/images/stages/balloon_fight.png",
+     "stage_image":"images/stages/balloon_fight.png",
      "past_smash_games":[  
 
      ]
@@ -3109,12 +3109,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Super Smash Bros.",
-        "icon":"../public/images/universe_icons/gray_icon_smash_bros.svg"
+        "icon":"images/universe_icons/gray_icon_smash_bros.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Battlefield_(SSB4)",
-     "stage_image":"../public/images/stages/battlefield.jpg",
+     "stage_image":"images/stages/battlefield.jpg",
      "past_smash_games":[  
 
      ]
@@ -3124,12 +3124,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Super Smash Bros.",
-        "icon":"../public/images/universe_icons/gray_icon_smash_bros.svg"
+        "icon":"images/universe_icons/gray_icon_smash_bros.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Big_Battlefield_(SSB4)",
-     "stage_image":"../public/images/stages/big_battlefield.jpg",
+     "stage_image":"images/stages/big_battlefield.jpg",
      "past_smash_games":[  
 
      ]
@@ -3139,12 +3139,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Punch Out!!",
-        "icon":"../public/images/universe_icons/gray_icon_punchout.svg"
+        "icon":"images/universe_icons/gray_icon_punchout.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Boxing_Ring",
-     "stage_image":"../public/images/stages/boxing_ring.png",
+     "stage_image":"images/stages/boxing_ring.png",
      "past_smash_games":[  
 
      ]
@@ -3154,12 +3154,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Bridge_of_Eldin",
-     "stage_image":"../public/images/stages/bridge_of_eldin.png",
+     "stage_image":"images/stages/bridge_of_eldin.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3169,12 +3169,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Metroid",
-        "icon":"../public/images/universe_icons/gray_icon_metroid.svg"
+        "icon":"images/universe_icons/gray_icon_metroid.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Brinstar",
-     "stage_image":"../public/images/stages/brinstar.png",
+     "stage_image":"images/stages/brinstar.png",
      "past_smash_games":[  
         "Smash Bros. Brawl",
         "Smash Bros. Melee"
@@ -3185,12 +3185,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Castle_Siege",
-     "stage_image":"../public/images/stages/castle_seige.png",
+     "stage_image":"images/stages/castle_seige.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3200,12 +3200,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Fire Emblem",
-        "icon":"../public/images/universe_icons/gray_icon_fire_emblem.svg"
+        "icon":"images/universe_icons/gray_icon_fire_emblem.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Coliseum",
-     "stage_image":"../public/images/stages/coliseum.png",
+     "stage_image":"images/stages/coliseum.png",
      "past_smash_games":[  
 
      ]
@@ -3215,12 +3215,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Star Fox",
-        "icon":"../public/images/universe_icons/gray_icon_star_fox.svg"
+        "icon":"images/universe_icons/gray_icon_star_fox.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Corneria",
-     "stage_image":"../public/images/stages/corneria.png",
+     "stage_image":"images/stages/corneria.png",
      "past_smash_games":[  
         "Smash Bros. Brawl",
         "Smash Bros. Melee"
@@ -3231,12 +3231,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Delfino_Plaza",
-     "stage_image":"../public/images/stages/delfino_plaza.jpg",
+     "stage_image":"images/stages/delfino_plaza.jpg",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3246,12 +3246,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pikmin",
-        "icon":"../public/images/universe_icons/gray_icon_pikmin.svg"
+        "icon":"images/universe_icons/gray_icon_pikmin.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Distant_Planet",
-     "stage_image":"../public/images/stages/distant_planet.png",
+     "stage_image":"images/stages/distant_planet.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3261,12 +3261,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Kirby",
-        "icon":"../public/images/universe_icons/gray_icon_kirby.svg"
+        "icon":"images/universe_icons/gray_icon_kirby.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Dream_Land_(SSB4)",
-     "stage_image":"../public/images/stages/dream_land_64.png",
+     "stage_image":"images/stages/dream_land_64.png",
      "past_smash_games":[  
 
      ]
@@ -3276,12 +3276,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Kirby",
-        "icon":"../public/images/universe_icons/gray_icon_kirby.svg"
+        "icon":"images/universe_icons/gray_icon_kirby.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Dream_Land_(SSB)",
-     "stage_image":"../public/images/stages/dream_land_GB.png",
+     "stage_image":"images/stages/dream_land_GB.png",
      "past_smash_games":[  
         "Smash Bros. Melee",
         "Smash Bros. (64)"
@@ -3292,12 +3292,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Duck Hunt",
-        "icon":"../public/images/universe_icons/gray_icon_duck_hunt.svg"
+        "icon":"images/universe_icons/gray_icon_duck_hunt.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Duck_Hunt_(stage)",
-     "stage_image":"../public/images/stages/duck_hunt.png",
+     "stage_image":"images/stages/duck_hunt.png",
      "past_smash_games":[  
 
      ]
@@ -3307,12 +3307,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Super Smash Bros.",
-        "icon":"../public/images/universe_icons/gray_icon_smash_bros.svg"
+        "icon":"images/universe_icons/gray_icon_smash_bros.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Final_Destination_(SSB4)",
-     "stage_image":"../public/images/stages/final_destination.jpg",
+     "stage_image":"images/stages/final_destination.jpg",
      "past_smash_games":[  
 
      ]
@@ -3322,12 +3322,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Find Mii",
-        "icon":"../public/images/universe_icons/gray_icon_find_me.svg"
+        "icon":"images/universe_icons/gray_icon_find_me.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Find_Mii",
-     "stage_image":"../public/images/stages/find_mii.png",
+     "stage_image":"images/stages/find_mii.png",
      "past_smash_games":[  
 
      ]
@@ -3337,12 +3337,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Game & Watch",
-        "icon":"../public/images/universe_icons/gray_icon_game_and_watch.svg"
+        "icon":"images/universe_icons/gray_icon_game_and_watch.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Flat_Zone_2",
-     "stage_image":"../public/images/stages/flat_zone_2.png",
+     "stage_image":"images/stages/flat_zone_2.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3352,12 +3352,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Game & Watch",
-        "icon":"../public/images/universe_icons/gray_icon_game_and_watch.svg"
+        "icon":"images/universe_icons/gray_icon_game_and_watch.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Flat_Zone_X",
-     "stage_image":"../public/images/stages/flat_zone_x.png",
+     "stage_image":"images/stages/flat_zone_x.png",
      "past_smash_games":[  
 
      ]
@@ -3367,12 +3367,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Wario",
-        "icon":"../public/images/universe_icons/gray_icon_wario.svg"
+        "icon":"images/universe_icons/gray_icon_wario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Gamer",
-     "stage_image":"../public/images/stages/gamer.png",
+     "stage_image":"images/stages/gamer.png",
      "past_smash_games":[  
 
      ]
@@ -3382,12 +3382,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pikmin",
-        "icon":"../public/images/universe_icons/gray_icon_pikmin.svg"
+        "icon":"images/universe_icons/gray_icon_pikmin.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Garden_of_Hope",
-     "stage_image":"../public/images/stages/garden_of_hope.png",
+     "stage_image":"images/stages/garden_of_hope.png",
      "past_smash_games":[  
 
      ]
@@ -3397,12 +3397,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Xenoblade",
-        "icon":"../public/images/universe_icons/gray_icon_xenoblade.svg"
+        "icon":"images/universe_icons/gray_icon_xenoblade.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Gaur_Plain",
-     "stage_image":"../public/images/stages/gaur_plain.png",
+     "stage_image":"images/stages/gaur_plain.png",
      "past_smash_games":[  
 
      ]
@@ -3412,12 +3412,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Gerudo_Valley",
-     "stage_image":"../public/images/stages/gerudo_valley.png",
+     "stage_image":"images/stages/gerudo_valley.png",
      "past_smash_games":[  
 
      ]
@@ -3427,12 +3427,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Golden_Plains",
-     "stage_image":"../public/images/stages/golden_plains.png",
+     "stage_image":"images/stages/golden_plains.png",
      "past_smash_games":[  
 
      ]
@@ -3442,12 +3442,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Sonic",
-        "icon":"../public/images/universe_icons/gray_icon_sonic.svg"
+        "icon":"images/universe_icons/gray_icon_sonic.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Green_Hill_Zone",
-     "stage_image":"../public/images/stages/green_hill_zone.png",
+     "stage_image":"images/stages/green_hill_zone.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3457,12 +3457,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Kirby",
-        "icon":"../public/images/universe_icons/gray_icon_kirby.svg"
+        "icon":"images/universe_icons/gray_icon_kirby.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/The_Great_Cave_Offensive",
-     "stage_image":"../public/images/stages/the_great_cave_offensive.png",
+     "stage_image":"images/stages/the_great_cave_offensive.png",
      "past_smash_games":[  
 
      ]
@@ -3472,12 +3472,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Kirby",
-        "icon":"../public/images/universe_icons/gray_icon_kirby.svg"
+        "icon":"images/universe_icons/gray_icon_kirby.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Halberd",
-     "stage_image":"../public/images/stages/halberd.png",
+     "stage_image":"images/stages/halberd.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3487,12 +3487,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Hyrule_Castle",
-     "stage_image":"../public/images/stages/hyrule_castle.png",
+     "stage_image":"images/stages/hyrule_castle.png",
      "past_smash_games":[  
         "Smash Bros. (64)"
      ]
@@ -3502,12 +3502,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Donkey Kong",
-        "icon":"../public/images/universe_icons/gray_icon_donkey_kong.svg"
+        "icon":"images/universe_icons/gray_icon_donkey_kong.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Jungle_Hijinxs",
-     "stage_image":"../public/images/stages/jungle_hijinx.jpg",
+     "stage_image":"images/stages/jungle_hijinx.jpg",
      "past_smash_games":[  
 
      ]
@@ -3517,12 +3517,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Donkey Kong",
-        "icon":"../public/images/universe_icons/gray_icon_donkey_kong.svg"
+        "icon":"images/universe_icons/gray_icon_donkey_kong.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Jungle_Japes",
-     "stage_image":"../public/images/stages/jungle_japes.png",
+     "stage_image":"images/stages/jungle_japes.png",
      "past_smash_games":[  
         "Smash Bros. Brawl",
         "Smash Bros. Melee"
@@ -3533,12 +3533,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Kalos_Pok%C3%A9mon_League",
-     "stage_image":"../public/images/stages/kalos_pokemon_league",
+     "stage_image":"images/stages/kalos_pokemon_league",
      "past_smash_games":[  
 
      ]
@@ -3548,12 +3548,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Donkey Kong",
-        "icon":"../public/images/universe_icons/gray_icon_donkey_kong.svg"
+        "icon":"images/universe_icons/gray_icon_donkey_kong.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Kongo_Jungle_(SSB)",
-     "stage_image":"../public/images/stages/kongo_jungle.png",
+     "stage_image":"images/stages/kongo_jungle.png",
      "past_smash_games":[  
         "Smash Bros. Melee",
         "Smash Bros. (64)"
@@ -3564,12 +3564,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Nintendogs",
-        "icon":"../public/images/universe_icons/gray_icon_nintendogs.svg"
+        "icon":"images/universe_icons/gray_icon_nintendogs.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Living_Room",
-     "stage_image":"../public/images/stages/living_room.png",
+     "stage_image":"images/stages/living_room.png",
      "past_smash_games":[  
 
      ]
@@ -3579,12 +3579,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Luigi%27s_Mansion",
-     "stage_image":"../public/images/stages/luigis_mansion.png",
+     "stage_image":"images/stages/luigis_mansion.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3594,12 +3594,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Star Fox",
-        "icon":"../public/images/universe_icons/gray_icon_star_fox.svg"
+        "icon":"images/universe_icons/gray_icon_star_fox.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Lylat_Cruise",
-     "stage_image":"../public/images/stages/lylat_cruise.jpg",
+     "stage_image":"images/stages/lylat_cruise.jpg",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3609,12 +3609,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"EarthBound",
-        "icon":"../public/images/universe_icons/gray_icon_earthbound.svg"
+        "icon":"images/universe_icons/gray_icon_earthbound.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Magicant",
-     "stage_image":"../public/images/stages/magicant.png",
+     "stage_image":"images/stages/magicant.png",
      "past_smash_games":[  
 
      ]
@@ -3624,12 +3624,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Mario_Circuit_(SSBB)",
-     "stage_image":"../public/images/stages/mario_circuit.png",
+     "stage_image":"images/stages/mario_circuit.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3639,12 +3639,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Mario_Circuit_(SSB4)",
-     "stage_image":"../public/images/stages/mario_circuit_2.png",
+     "stage_image":"images/stages/mario_circuit_2.png",
      "past_smash_games":[  
 
      ]
@@ -3654,12 +3654,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Mario_Galaxy",
-     "stage_image":"../public/images/stages/mario_galaxy.jpg",
+     "stage_image":"images/stages/mario_galaxy.jpg",
      "past_smash_games":[  
 
      ]
@@ -3669,12 +3669,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Final Fantasy",
-        "icon":"../public/images/universe_icons/gray_icon_final_fantasy.svg"
+        "icon":"images/universe_icons/gray_icon_final_fantasy.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Midgar",
-     "stage_image":"../public/images/stages/midgar.jpg",
+     "stage_image":"images/stages/midgar.jpg",
      "past_smash_games":[  
 
      ]
@@ -3684,12 +3684,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Miiverse",
-        "icon":"../public/images/universe_icons/gray_icon_miiverse.svg"
+        "icon":"images/universe_icons/gray_icon_miiverse.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Miiverse",
-     "stage_image":"../public/images/stages/miiverse.jpg",
+     "stage_image":"images/stages/miiverse.jpg",
      "past_smash_games":[  
 
      ]
@@ -3699,12 +3699,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Mushroomy_Kingdom",
-     "stage_image":"../public/images/stages/mushroomy_kingdom.png",
+     "stage_image":"images/stages/mushroomy_kingdom.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3714,12 +3714,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Mushroom_Kingdom_U",
-     "stage_image":"../public/images/stages/mushroom_kingdom_u.png",
+     "stage_image":"images/stages/mushroom_kingdom_u.png",
      "past_smash_games":[  
 
      ]
@@ -3729,12 +3729,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"F-Zero",
-        "icon":"../public/images/universe_icons/gray_icon_f_zero.svg"
+        "icon":"images/universe_icons/gray_icon_f_zero.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Mute_City_(SSB4)",
-     "stage_image":"../public/images/stages/mute_city.png",
+     "stage_image":"images/stages/mute_city.png",
      "past_smash_games":[  
 
      ]
@@ -3744,12 +3744,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Metroid",
-        "icon":"../public/images/universe_icons/gray_icon_metroid.svg"
+        "icon":"images/universe_icons/gray_icon_metroid.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Norfair",
-     "stage_image":"../public/images/stages/norfair.png",
+     "stage_image":"images/stages/norfair.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3759,12 +3759,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"EarthBound",
-        "icon":"../public/images/universe_icons/gray_icon_earthbound.svg"
+        "icon":"images/universe_icons/gray_icon_earthbound.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Onett",
-     "stage_image":"../public/images/stages/onett.png",
+     "stage_image":"images/stages/onett.png",
      "past_smash_games":[  
         "Smash Bros. Brawl",
         "Smash Bros. Melee"
@@ -3775,12 +3775,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Star Fox",
-        "icon":"../public/images/universe_icons/gray_icon_star_fox.svg"
+        "icon":"images/universe_icons/gray_icon_star_fox.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Orbital_Gate_Assault",
-     "stage_image":"../public/images/stages/orbital_gate_assault.jpg",
+     "stage_image":"images/stages/orbital_gate_assault.jpg",
      "past_smash_games":[  
 
      ]
@@ -3790,12 +3790,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pac-Man",
-        "icon":"../public/images/universe_icons/gray_icon_pacman.svg"
+        "icon":"images/universe_icons/gray_icon_pacman.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Pac-Land",
-     "stage_image":"../public/images/stages/pac_land.png",
+     "stage_image":"images/stages/pac_land.png",
      "past_smash_games":[  
 
      ]
@@ -3805,12 +3805,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pac-Man",
-        "icon":"../public/images/universe_icons/gray_icon_pacman.svg"
+        "icon":"images/universe_icons/gray_icon_pacman.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Pac-Maze",
-     "stage_image":"../public/images/stages/pac_maze.jpg",
+     "stage_image":"images/stages/pac_maze.jpg",
      "past_smash_games":[  
 
      ]
@@ -3820,12 +3820,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Kid Icarus",
-        "icon":"../public/images/universe_icons/gray_icon_kid_icarus.svg"
+        "icon":"images/universe_icons/gray_icon_kid_icarus.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Palutena%27s_Temple",
-     "stage_image":"../public/images/stages/palutenas_temple.png",
+     "stage_image":"images/stages/palutenas_temple.png",
      "past_smash_games":[  
 
      ]
@@ -3835,12 +3835,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Paper_Mario",
-     "stage_image":"../public/images/stages/paper_mario.png",
+     "stage_image":"images/stages/paper_mario.png",
      "past_smash_games":[  
 
      ]
@@ -3850,12 +3850,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Peach%27s_Castle",
-     "stage_image":"../public/images/stages/peachs_castle.png",
+     "stage_image":"images/stages/peachs_castle.png",
      "past_smash_games":[  
         "Smash Bros. (64)"
      ]
@@ -3865,12 +3865,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Nintendo DS",
-        "icon":"../public/images/universe_icons/gray_icon_nintendo_ds.svg"
+        "icon":"images/universe_icons/gray_icon_nintendo_ds.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/PictoChat_2",
-     "stage_image":"../public/images/stages/pictochat_2.png",
+     "stage_image":"images/stages/pictochat_2.png",
      "past_smash_games":[  
 
      ]
@@ -3880,12 +3880,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pilotwings",
-        "icon":"../public/images/universe_icons/gray_icon_pilotwings.svg"
+        "icon":"images/universe_icons/gray_icon_pilotwings.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Pilotwings",
-     "stage_image":"../public/images/stages/pilotwings.png",
+     "stage_image":"images/stages/pilotwings.png",
      "past_smash_games":[  
 
      ]
@@ -3895,12 +3895,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Pirate_Ship",
-     "stage_image":"../public/images/stages/pirate_ship.png",
+     "stage_image":"images/stages/pirate_ship.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3910,12 +3910,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Pok%C3%A9mon_Stadium_2",
-     "stage_image":"../public/images/stages/pokemon_stadium_2.png",
+     "stage_image":"images/stages/pokemon_stadium_2.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3925,12 +3925,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"F-Zero",
-        "icon":"../public/images/universe_icons/gray_icon_f_zero.svg"
+        "icon":"images/universe_icons/gray_icon_f_zero.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Port_Town_Aero_Dive",
-     "stage_image":"../public/images/stages/port_town_aero_drive.png",
+     "stage_image":"images/stages/port_town_aero_drive.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -3940,12 +3940,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Prism_Tower",
-     "stage_image":"../public/images/stages/prism_tower.png",
+     "stage_image":"images/stages/prism_tower.png",
      "past_smash_games":[  
 
      ]
@@ -3955,12 +3955,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Metroid",
-        "icon":"../public/images/universe_icons/gray_icon_metroid.svg"
+        "icon":"images/universe_icons/gray_icon_metroid.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Pyrosphere",
-     "stage_image":"../public/images/stages/pyrosphere.png",
+     "stage_image":"images/stages/pyrosphere.png",
      "past_smash_games":[  
 
      ]
@@ -3970,12 +3970,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Rainbow_Road",
-     "stage_image":"../public/images/stages/rainbow_road.jpg",
+     "stage_image":"images/stages/rainbow_road.jpg",
      "past_smash_games":[  
 
      ]
@@ -3985,12 +3985,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Kid Icarus",
-        "icon":"../public/images/universe_icons/gray_icon_kid_icarus.svg"
+        "icon":"images/universe_icons/gray_icon_kid_icarus.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Reset_Bomb_Forest",
-     "stage_image":"../public/images/stages/reset_bomb_forest.png",
+     "stage_image":"images/stages/reset_bomb_forest.png",
      "past_smash_games":[  
 
      ]
@@ -4000,12 +4000,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Skyloft",
-     "stage_image":"../public/images/stages/skyloft.png",
+     "stage_image":"images/stages/skyloft.png",
      "past_smash_games":[  
 
      ]
@@ -4015,12 +4015,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Kid Icarus",
-        "icon":"../public/images/universe_icons/gray_icon_kid_icarus.svg"
+        "icon":"images/universe_icons/gray_icon_kid_icarus.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Skyworld",
-     "stage_image":"../public/images/stages/skyworld.png",
+     "stage_image":"images/stages/skyworld.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -4030,12 +4030,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Animal Crossing",
-        "icon":"../public/images/universe_icons/gray_icon_animal_crossing.svg"
+        "icon":"images/universe_icons/gray_icon_animal_crossing.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Smashville",
-     "stage_image":"../public/images/stages/smashville.png",
+     "stage_image":"images/stages/smashville.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -4045,12 +4045,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Spirit_train",
-     "stage_image":"../public/images/stages/spirit_train.png",
+     "stage_image":"images/stages/spirit_train.png",
      "past_smash_games":[  
 
      ]
@@ -4060,12 +4060,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Mario",
-        "icon":"../public/images/universe_icons/gray_icon_mario.svg"
+        "icon":"images/universe_icons/gray_icon_mario.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Super_Mario_Maker",
-     "stage_image":"../public/images/stages/super_mario_maker.png",
+     "stage_image":"images/stages/super_mario_maker.png",
      "past_smash_games":[  
 
      ]
@@ -4075,12 +4075,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Street Fighter",
-        "icon":"../public/images/universe_icons/gray_icon_street_fighter.svg"
+        "icon":"images/universe_icons/gray_icon_street_fighter.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Suzaku_Castle",
-     "stage_image":"../public/images/stages/suzaku_castle.png",
+     "stage_image":"images/stages/suzaku_castle.png",
      "past_smash_games":[  
 
      ]
@@ -4090,12 +4090,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"The Legend of Zelda",
-        "icon":"../public/images/universe_icons/gray_icon_zelda.svg"
+        "icon":"images/universe_icons/gray_icon_zelda.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Temple",
-     "stage_image":"../public/images/stages/temple.png",
+     "stage_image":"images/stages/temple.png",
      "past_smash_games":[  
         "Smash Bros. Brawl",
         "Smash Bros. Melee"
@@ -4106,12 +4106,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Tomodachi",
-        "icon":"../public/images/universe_icons/gray_icon_tomodachi.svg"
+        "icon":"images/universe_icons/gray_icon_tomodachi.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Tomodachi_Life",
-     "stage_image":"../public/images/stages/tomodachi_life.png",
+     "stage_image":"images/stages/tomodachi_life.png",
      "past_smash_games":[  
 
      ]
@@ -4121,12 +4121,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Animal Crossing",
-        "icon":"../public/images/universe_icons/gray_icon_animal_crossing.svg"
+        "icon":"images/universe_icons/gray_icon_animal_crossing.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Tortimer_Island",
-     "stage_image":"../public/images/stages/tortimer_island.png",
+     "stage_image":"images/stages/tortimer_island.png",
      "past_smash_games":[  
 
      ]
@@ -4136,12 +4136,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Animal Crossing",
-        "icon":"../public/images/universe_icons/gray_icon_animal_crossing.svg"
+        "icon":"images/universe_icons/gray_icon_animal_crossing.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Town_and_City",
-     "stage_image":"../public/images/stages/town_and_city.png",
+     "stage_image":"images/stages/town_and_city.png",
      "past_smash_games":[  
 
      ]
@@ -4151,12 +4151,12 @@ const stages = [
      "dlc":true,
      "universe":{  
         "name":"Bayonetta",
-        "icon":"../public/images/universe_icons/gray_icon_bayonetta.svg"
+        "icon":"images/universe_icons/gray_icon_bayonetta.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Umbra_Clock_Tower",
-     "stage_image":"../public/images/stages/umbra_clock_tower.png",
+     "stage_image":"images/stages/umbra_clock_tower.png",
      "past_smash_games":[  
 
      ]
@@ -4166,12 +4166,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Pok&#233mon",
-        "icon":"../public/images/universe_icons/gray_icon_pokemon.svg"
+        "icon":"images/universe_icons/gray_icon_pokemon.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Unova_Pok%C3%A9mon_League",
-     "stage_image":"../public/images/stages/unova_pokemon_league.png",
+     "stage_image":"images/stages/unova_pokemon_league.png",
      "past_smash_games":[  
 
      ]
@@ -4181,12 +4181,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Wario",
-        "icon":"../public/images/universe_icons/gray_icon_wario.svg"
+        "icon":"images/universe_icons/gray_icon_wario.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/WarioWare,_Inc.",
-     "stage_image":"../public/images/stages/warioware_inc.png",
+     "stage_image":"images/stages/warioware_inc.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
@@ -4196,12 +4196,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Wii Fit",
-        "icon":"../public/images/universe_icons/gray_icon_wii_fit.svg"
+        "icon":"images/universe_icons/gray_icon_wii_fit.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Wii_Fit_Studio",
-     "stage_image":"../public/images/stages/wii_fit_studio.png",
+     "stage_image":"images/stages/wii_fit_studio.png",
      "past_smash_games":[  
 
      ]
@@ -4211,12 +4211,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Mega Man",
-        "icon":"../public/images/universe_icons/gray_icon_mega_man.svg"
+        "icon":"images/universe_icons/gray_icon_mega_man.svg"
      },
      "wii_u":true,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Wily_Castle",
-     "stage_image":"../public/images/stages/wily_castle.png",
+     "stage_image":"images/stages/wily_castle.png",
      "past_smash_games":[  
 
      ]
@@ -4226,12 +4226,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Sonic",
-        "icon":"../public/images/universe_icons/gray_icon_sonic.svg"
+        "icon":"images/universe_icons/gray_icon_sonic.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Windy_Hill_Zone",
-     "stage_image":"../public/images/stages/windy_hill_zone.png",
+     "stage_image":"images/stages/windy_hill_zone.png",
      "past_smash_games":[  
 
      ]
@@ -4241,12 +4241,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Yoshi",
-        "icon":"../public/images/universe_icons/gray_icon_yoshi.svg"
+        "icon":"images/universe_icons/gray_icon_yoshi.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Woolly_World",
-     "stage_image":"../public/images/stages/wooly_world.jpg",
+     "stage_image":"images/stages/wooly_world.jpg",
      "past_smash_games":[  
 
      ]
@@ -4256,12 +4256,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Wrecking Crew",
-        "icon":"../public/images/universe_icons/gray_icon_wrecking_crew.svg"
+        "icon":"images/universe_icons/gray_icon_wrecking_crew.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Wrecking_Crew",
-     "stage_image":"../public/images/stages/wrecking_crew.png",
+     "stage_image":"images/stages/wrecking_crew.png",
      "past_smash_games":[  
 
      ]
@@ -4271,12 +4271,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Wii Sports",
-        "icon":"../public/images/universe_icons/gray_icon_wii_sports.svg"
+        "icon":"images/universe_icons/gray_icon_wii_sports.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Wuhu_Island",
-     "stage_image":"../public/images/stages/wuhu_island.png",
+     "stage_image":"images/stages/wuhu_island.png",
      "past_smash_games":[  
 
      ]
@@ -4286,12 +4286,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Yoshi",
-        "icon":"../public/images/universe_icons/gray_icon_yoshi.svg"
+        "icon":"images/universe_icons/gray_icon_yoshi.svg"
      },
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Yoshi%27s_Island_(SSBM)",
-     "stage_image":"../public/images/stages/yoshis_island_melee.png",
+     "stage_image":"images/stages/yoshis_island_melee.png",
      "past_smash_games":[  
         "Smash Bros. Brawl",
         "Smash Bros. Melee"
@@ -4302,12 +4302,12 @@ const stages = [
      "dlc":false,
      "universe":{  
         "name":"Yoshi",
-        "icon":"../public/images/universe_icons/gray_icon_yoshi.svg"
+        "icon":"images/universe_icons/gray_icon_yoshi.svg"
      },
      "wii_u":false,
      "nintendo_3ds":true,
      "smash_wiki":"https://www.ssbwiki.com/Yoshi%27s_Island_(SSBB)",
-     "stage_image":"../public/images/stages/yoshis_island_brawl.png",
+     "stage_image":"images/stages/yoshis_island_brawl.png",
      "past_smash_games":[  
         "Smash Bros. Brawl"
      ]
