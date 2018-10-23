@@ -5,81 +5,53 @@ import Compare from './Compare';
 import Stages from './Stages';
 import './styles/App.css';
 
+
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      characters: true,
-      stages: false,
-      compare: false,
+      Characters: true,
+      Stages: false,
+      Compare: false,
     }
+    this.keys = Object.keys(this.state)
   }
 
-  renderCharacters = () => {
+  renderSection = (e) => {
+    const section = e.target.classList[0];
     this.setState({
-      characters: true,
-      stages: false,
-      compare: false
+      Characters: false,
+      Stages: false,
+      Compare: false,
+      [section]: true
     })
-  }
-
-  renderStages = () => {
-    this.setState({
-      characters: false,
-      stages: true,
-      compare: false
-    })
-  }
-
-  renderCompare = () => {
-    this.setState({
-      characters: false,
-      stages: false,
-      compare: true
-    })
-
   }
 
   render() {
-
-    if (this.state.characters) {
-      return (
-        <div className="App">
-          {/* <Landing /> */}
-          <header>
-            <button className='characters' onClick={this.renderCharacters}>Characters</button>
-            <button className='stages' onClick={this.renderStages}>Stages</button>
-            <button className='compare' onClick={this.renderCompare}>Compare</button>
-          </header>
-          <Characters />
-        </div>
-      );
-    }
-    else if (this.state.stages) {
-      return (
-        <div className="App">
-          {/* <Landing /> */}
-          <header>
-            <button className='characters' onClick={this.renderCharacters}>Characters</button>
-            <button className='stages' onClick={this.renderStages}>Stages</button>
-            <button className='compare' onClick={this.renderCompare}>Compare</button>
-          </header>
-          <Stages />
-        </div>
-      );
-    } else {
-      return (
-        <div className="App">
-          {/* <Landing /> */}
-          <header>
-            <button className='characters' onClick={this.renderSection}>Characters</button>
-            <button className='stages' onClick={this.renderStages}>Stages</button>
-            <button className='compare' onClick={this.renderCompare}>Compare</button>
-          </header>
-          <Compare/>
-        </div>
-      );
-    }
+    return (
+      <div className="App">
+        {/* <Landing /> */}
+        <header>
+          <button className='Characters header-button' onClick={this.renderSection}>Characters</button>
+          <button className='Stages header-button'  onClick={this.renderSection}>Stages</button>
+          <button className='Compare header-button' onClick={this.renderSection}>Compare</button>
+        </header>
+        {
+          this.keys.map( key => {
+            if (this.state[key]) {
+              switch(key) {
+                case 'Characters':
+                return <Characters />
+                case 'Stages':
+                return <Stages />
+                case 'Compare':
+                return <Compare />
+              }
+            }
+          })
+        }
+      </div>
+    );
   }
 }
 
