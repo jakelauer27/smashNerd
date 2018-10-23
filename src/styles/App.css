@@ -1,3 +1,42 @@
+table, th, tr, td {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.compare_smash_logo {
+  width: 60px;
+}
+
+.compare-header {
+  color: black;
+  font-family: "Smash Bros", serrif;
+}
+
+.character-grid {
+  background-color: #9db3f9;
+  border: 6px solid #521a6e;
+  border-radius: 25%;
+  margin: 20px auto;
+  width: 90%;
+}
+.character-grid td {
+  background-color: #1a1a1a;
+  border: 0.5px solid black;
+  color: white;
+  padding: 3px 8px;
+}
+.character-grid .even {
+  background-color: #2e2e2e;
+}
+.character-grid th {
+  background-color: #686868;
+  border-bottom: 4px solid #e2e1e1;
+  border-right: 0.5px solid gray;
+  color: white;
+  padding: 0px 8px;
+}
+
 .landing-page {
   background-image: url("../images/battlefield_cover.jpg");
   background-size: cover;
@@ -13,6 +52,18 @@
 
 .hide {
   display: none;
+}
+
+@font-face {
+  font-family: "Smash Bros";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
+}
+body {
+  background: #929292;
+  background: -webkit-linear-gradient(to right, #494949, #1f1f1f);
+  background: linear-gradient(to right, #a3a3a3, #505050);
 }
 
 h1 {
