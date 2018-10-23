@@ -1,3 +1,20 @@
+.landing-page {
+  background-image: url("../images/battlefield_cover.jpg");
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.landing-page img {
+  width: 400px;
+}
+
+.hide {
+  display: none;
+}
+
 h1 {
   color: blue;
 }
