@@ -5,6 +5,8 @@ import Compare from './Compare';
 import Stages from './Stages';
 import './styles/App.css';
 
+
+
 class App extends Component {
   constructor() {
     super();
@@ -46,10 +48,13 @@ class App extends Component {
       return (
         <div className="App">
           {/* <Landing /> */}
-          <header>
-            <button className='characters' onClick={this.renderCharacters}>Characters</button>
-            <button className='stages' onClick={this.renderStages}>Stages</button>
-            <button className='compare' onClick={this.renderCompare}>Compare</button>
+          <header class="header">
+            <img src='images/universe_icons/red_icon_smash_bros.svg' class='smash-small' />
+            <div className="header-buttons">
+              <button className='characters' onClick={this.renderCharacters}>CHARACTERS</button>
+              <button className='stages' onClick={this.renderStages}>STAGES</button>
+              <button className='compare' onClick={this.renderCompare}>COMPARE</button>
+            </div>
           </header>
           <Characters />
         </div>
@@ -59,10 +64,13 @@ class App extends Component {
       return (
         <div className="App">
           {/* <Landing /> */}
-          <header>
-            <button className='characters' onClick={this.renderCharacters}>Characters</button>
-            <button className='stages' onClick={this.renderStages}>Stages</button>
-            <button className='compare' onClick={this.renderCompare}>Compare</button>
+          <header className="header">
+            <img src='images/universe_icons/red_icon_smash_bros.svg' class='smash-small' />
+            <div className="header-buttons">
+              <button className='characters' onClick={this.renderCharacters}>CHARACTERS</button>
+              <button className='stages' onClick={this.renderStages}>STAGES</button>
+              <button className='compare' onClick={this.renderCompare}>COMPARE</button>
+            </div>
           </header>
           <Stages />
         </div>
@@ -71,10 +79,13 @@ class App extends Component {
       return (
         <div className="App">
           {/* <Landing /> */}
-          <header>
-            <button className='characters' onClick={this.renderSection}>Characters</button>
-            <button className='stages' onClick={this.renderStages}>Stages</button>
-            <button className='compare' onClick={this.renderCompare}>Compare</button>
+          <header className="header">
+            <img src='images/universe_icons/red_icon_smash_bros.svg' class='smash-small' />
+            <div className="header-buttons">
+              <button className='characters' onClick={this.renderSection}>CHARACTERS</button>
+              <button className='stages' onClick={this.renderStages}>STAGES</button>
+              <button className='compare' onClick={this.renderCompare}>COMPARE</button>
+            </div>
           </header>
           <Compare/>
         </div>
