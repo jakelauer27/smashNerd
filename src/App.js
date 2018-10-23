@@ -30,10 +30,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        {/* <Landing /> */}
+      <Landing />
         <header>
           <button className='Characters header-button' onClick={this.renderSection}>Characters</button>
-          <button className='Stages header-button'  onClick={this.renderSection}>Stages</button>
+          <button className='Stages header-button' onClick={this.renderSection}>Stages</button>
           <button className='Compare header-button' onClick={this.renderSection}>Compare</button>
         </header>
         {
