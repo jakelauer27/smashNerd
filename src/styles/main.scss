@@ -2,6 +2,7 @@
 @import '_compare';
 @import '_stages';
 @import '_landing';
+@import '_header';
 
 $fireOrange: rgb(245, 88, 33);
 $lightOrange: rgb(249, 212, 174);
@@ -28,4 +29,41 @@ body {
 
 h1 {
   color: blue;
+}
+
+.characters,
+.stages,
+.compare {
+  background: transparent;
+  border: none;
+  display: inline-block;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 35px;
+  opacity: 1;
+  width: 152px;
+  position: relative;
+  left: 68%;
+}
+
+
+
+.header {
+  background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+  background-image:
+      linear-gradient(45deg, black 25%, transparent 100%), 
+      linear-gradient(135deg, black 25%, transparent 100%),
+      linear-gradient(45deg, transparent 85%, black 75%),
+      linear-gradient(135deg, transparent 85%, black 75%);
+  background-size:25px 25px; 
+  height: 60px;
+}
+
+.smash-small {
+  height: 60px;
+  position: absolute;
+  width: 85px;
+  z-index: 1;
 }
