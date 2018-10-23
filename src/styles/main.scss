@@ -3,6 +3,11 @@
 @import '_stages';
 @import '_landing';
 
+
 h1 {
   color: blue;
+}
+
+.character-card {
+  display: flex;
 }
