@@ -8,19 +8,21 @@ class Compare extends Component {
   constructor() {
     super();
     this.state = {
-      data: characters.slice(0, characters.length)
+      data: characters.slice(0, characters.length),
+      highlight: 'Name'
     }
   }
 
   sortTable(e, sortKey, sortKey2) {
     var sortedData;
     if (e.target.classList.contains('up')) {
-      sortedData = this.sortUp(e, sortKey, sortKey2)
+      sortedData = this.sortUp(e, sortKey, sortKey2);
     } else {
-      sortedData = this.sortDown(e, sortKey, sortKey2)
+      sortedData = this.sortDown(e, sortKey, sortKey2);
     }
     this.setState({
-      data: sortedData
+      data: sortedData,
+      highlight: e.target.innerText
     })
   }
 
@@ -84,7 +86,11 @@ class Compare extends Component {
             <th><img className='compare_smash_logo'src='./images/universe_icons/flame_smash_bros.svg'/></th>
             {
              categories.map( category => {
-              return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className='up'>
+              let highlight = '';
+              if (this.state.highlight === category.name) {
+                highlight = 'highlight';
+              }
+              return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className={`${highlight}`}>
                       {category.name} 
                       <span><img className='arrow' src='./images/general/arrow.svg'/></span>
                     </th>
@@ -103,7 +109,8 @@ class Compare extends Component {
                 }
                 return <CompareItem character={character} 
                                     counter={counter} 
-                                    row={even}/>
+                                    row={even}
+                                    highlight={this.state.highlight}/>
               })
             }
           </tbody>

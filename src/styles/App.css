@@ -42,6 +42,10 @@ table, th, tr, td {
   display: inline-block;
 }
 
+.highlight {
+  background-color: #a0a0a0 !important;
+}
+
 .landing-page {
   background-image: url("../images/battlefield_cover.jpg");
   background-size: cover;
