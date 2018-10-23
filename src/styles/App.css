@@ -37,6 +37,11 @@ table, th, tr, td {
   padding: 0px 8px;
 }
 
+.arrow {
+  width: 7px;
+  display: inline-block;
+}
+
 .landing-page {
   background-image: url("../images/battlefield_cover.jpg");
   background-size: cover;
@@ -61,13 +66,12 @@ table, th, tr, td {
   src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
 }
 body {
-  background: #929292;
-  background: -webkit-linear-gradient(to right, #494949, #1f1f1f);
-  background: linear-gradient(to right, #a3a3a3, #505050);
-}
-
-h1 {
-  color: blue;
+  background-image: url("../images/night_battlefield.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #403142;
+  background-blend-mode: overlay;
 }
 
 /*# sourceMappingURL=App.css.map */
