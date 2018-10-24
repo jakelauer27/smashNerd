@@ -1638,7 +1638,7 @@ const characters = [
      "counter":"n",
      "tier":{  
         "tier":"N/A",
-        "rank":"N/A"
+        "rank": 56
      },
      "world_stats":{  
         "wins":290,
@@ -1690,7 +1690,7 @@ const characters = [
      "counter":"n",
      "tier":{  
         "tier":"N/A",
-        "rank":"N/A"
+        "rank": 56
      },
      "world_stats":{  
         "wins":141,
@@ -1742,7 +1742,7 @@ const characters = [
      "counter":"n",
      "tier":{  
         "tier":"N/A",
-        "rank":"N/A"
+        "rank": 56
      },
      "world_stats":{  
         "wins":31,
@@ -4344,7 +4344,7 @@ const categories = [
     key2: 'losses'
   }, 
   {
-    name: 'Weight Cls',
+    name: 'Weight-Cls',
     key1: 'weight',
     key2: 'class'
   }, 
@@ -4383,7 +4383,7 @@ const categories = [
     key2: false
   }, 
   {
-    name: 'Top Smash',
+    name: 'Top-Smash',
     key1: 'strongest_smash',
     key2: 'damage'
   }, 

@@ -9,16 +9,22 @@ table, th, tr, td {
 }
 
 .compare-header {
-  color: black;
+  color: white;
   font-family: "Smash Bros", serrif;
+  text-align: center;
+}
+
+.table-container {
+  border: 10px solid #387fe7;
+  border-radius: 12px;
+  height: 600px;
+  overflow: scroll;
+  margin: 20px auto;
+  width: 90%;
 }
 
 .character-grid {
-  background-color: #9db3f9;
-  border: 6px solid #521a6e;
-  border-radius: 25%;
-  margin: 20px auto;
-  width: 90%;
+  width: 100%;
 }
 .character-grid td {
   background-color: #1a1a1a;
@@ -31,7 +37,7 @@ table, th, tr, td {
 }
 .character-grid th {
   background-color: #686868;
-  border-bottom: 4px solid #e2e1e1;
+  border-bottom: 4px solid #387fe7;
   border-right: 0.5px solid gray;
   color: white;
   padding: 0px 8px;
@@ -39,10 +45,45 @@ table, th, tr, td {
 
 .arrow {
   width: 7px;
+  display: inline-block;
+}
+
+.highlight {
+  background-color: #a0a0a0 !important;
 }
 
 .landing-page {
-  positon: ab;
+  background-image: url("../images/battlefield_cover.jpg");
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}
+
+.action-container {
+  width: 100%;
+}
+.action-container img {
+  margin: 20px calc(50vw - 305px);
+  width: 600px;
+}
+.action-container button {
+  border: 0px;
+  background: none;
+  font-family: "Smash Bros", serrif;
+  font-size: 2em;
+  margin: 20px calc(50vw - 100px);
+  width: 200px;
+}
+.action-container button:hover {
+  color: white;
+}
+
+.hide {
+  display: none;
 }
 
 @font-face {
@@ -61,7 +102,7 @@ body {
 }
 
 h1 {
-  color: blue;
+  color: white;
 }
 
 .header-button {
