@@ -1,30 +1,37 @@
-import React from 'react';
+import React, { Component }from 'react';
+import { categories } from './data';
 import './styles/App.css';
 
-const CompareItem = (props) => { 
+class CompareRow extends Component { 
+  constructor() {
+    super();
+    this.state = {
+      highlight: 'name'
+    }
+  }
+
+  render() {
     return (
       <tr>
-        <td className={props.row}><img src={props.character.images.small_icon}/></td>
-        <td className={props.row}>{props.character.name}</td>
-        <td className={props.row}>{props.character.tier.tier}</td>
-        <td className={props.row}>{props.character.tier.rank}</td>
-        <td className={props.row}>{props.character.world_stats.wins}</td>
-        <td className={props.row}>{props.character.world_stats.losses}</td>
-        <td className={props.row}>{props.character.weight.class}</td>
-        <td className={props.row}>{props.character.weight.weight_value}</td>
-        <td className={props.row}>{props.character.jump_height}</td>
-        <td className={props.row}>{props.character.speeds.initial_dash}</td>
-        <td className={props.row}>{props.character.speeds.run_speed}</td>
-        <td className={props.row}>{props.character.speeds.air_speed}</td>
-        <td className={props.row}>{props.character.speeds.fall_speed}</td>
-        <td className={props.row}>{props.character.speeds.fast_fall_speed}</td>
-        <td className={props.row}>{props.counter}</td>
-        <td className={props.row}>{props.character.strongest_smash.attack}</td>
-        <td className={props.row}>{props.character.strongest_smash.damage}</td>
+        <td className={this.props.row}><img src={this.props.character.images.small_icon}/></td>
+        {
+          categories.map( category => {
+            let highlight = '';
+            if (this.props.highlight === category.name) {
+              highlight = 'highlight';
+            }
+            if (!category.key2) {
+              return <td className={`${this.props.row} ${highlight}`}>{this.props.character[category.key1]}</td>
+            } else {
+              return <td className={`${this.props.row} ${highlight}`}>{this.props.character[category.key1][category.key2]}</td>
+            }
+          })
+        }
       </tr>
     )
+  }
 }
 
 
 
-export default CompareItem;
+export default CompareRow;

@@ -1,7 +1,7 @@
 const characters = [  
   {  
      "name":"Bayonetta",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"S",
         "rank":1
@@ -53,7 +53,7 @@ const characters = [
   },
   {  
      "name":"Bowser",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":24
@@ -108,7 +108,7 @@ const characters = [
   },
   {  
      "name":"Bowser Jr.",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"F",
         "rank":48
@@ -159,7 +159,7 @@ const characters = [
   },
   {  
      "name":"Captain Falcon",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"B",
         "rank":19
@@ -214,7 +214,7 @@ const characters = [
   },
   {  
      "name":"Charizard",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"E",
         "rank":43
@@ -267,7 +267,7 @@ const characters = [
   },
   {  
      "name":"Cloud",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"S",
         "rank":2
@@ -320,7 +320,7 @@ const characters = [
   },
   {  
      "name":"Corrin",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"B",
         "rank":13
@@ -372,7 +372,7 @@ const characters = [
   },
   {  
      "name":"Dark Pit",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":33
@@ -424,7 +424,7 @@ const characters = [
   },
   {  
      "name":"Diddy Kong",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"S",
         "rank":3
@@ -477,7 +477,7 @@ const characters = [
   },
   {  
      "name":"Donkey Kong",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":22
@@ -531,7 +531,7 @@ const characters = [
   },
   {  
      "name":"Dr. Mario",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"F",
         "rank":49
@@ -584,7 +584,7 @@ const characters = [
   },
   {  
      "name":"Duck Hunt",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":30
@@ -635,7 +635,7 @@ const characters = [
   },
   {  
      "name":"Falco",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"F",
         "rank":47
@@ -687,7 +687,7 @@ const characters = [
   },
   {  
      "name":"Fox",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":7
@@ -740,7 +740,7 @@ const characters = [
   },
   {  
      "name":"Ganondorf",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"G",
         "rank":53
@@ -794,7 +794,7 @@ const characters = [
   },
   {  
      "name":"Greninja",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"C",
         "rank":26
@@ -846,7 +846,7 @@ const characters = [
   },
   {  
      "name":"Ike",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"E",
         "rank":40
@@ -898,7 +898,7 @@ const characters = [
   },
   {  
      "name":"Jigglypuff",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"G",
         "rank":55
@@ -952,7 +952,7 @@ const characters = [
   },
   {  
      "name":"King Dedede",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"G",
         "rank":52
@@ -1004,7 +1004,7 @@ const characters = [
   },
   {  
      "name":"Kirby",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"F",
         "rank":50
@@ -1059,7 +1059,7 @@ const characters = [
   },
   {  
      "name":"Link",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":31
@@ -1114,7 +1114,7 @@ const characters = [
   },
   {  
      "name":"Little Mac",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"E",
         "rank":44
@@ -1165,7 +1165,7 @@ const characters = [
   },
   {  
      "name":"Lucario",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"B",
         "rank":17
@@ -1217,7 +1217,7 @@ const characters = [
   },
   {  
      "name":"Lucas",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":29
@@ -1269,7 +1269,7 @@ const characters = [
   },
   {  
      "name":"Lucina",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"B",
         "rank":14
@@ -1320,7 +1320,7 @@ const characters = [
   },
   {  
      "name":"Luigi",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"B",
         "rank":18
@@ -1373,7 +1373,7 @@ const characters = [
   },
   {  
      "name":"Mario",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":9
@@ -1426,7 +1426,7 @@ const characters = [
   },
   {  
      "name":"Marth",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"A",
         "rank":11
@@ -1479,7 +1479,7 @@ const characters = [
   },
   {  
      "name":"Mega Man",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":27
@@ -1531,7 +1531,7 @@ const characters = [
   },
   {  
      "name":"Meta Knight",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"B",
         "rank":16
@@ -1583,7 +1583,7 @@ const characters = [
   },
   {  
      "name":"Mewtwo",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":10
@@ -1635,7 +1635,7 @@ const characters = [
   },
   {  
      "name":"Mii Brawler",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"N/A",
         "rank":"N/A"
@@ -1687,7 +1687,7 @@ const characters = [
   },
   {  
      "name":"Mii Gunner",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"N/A",
         "rank":"N/A"
@@ -1739,7 +1739,7 @@ const characters = [
   },
   {  
      "name":"Mii Swordfighter",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"N/A",
         "rank":"N/A"
@@ -1791,7 +1791,7 @@ const characters = [
   },
   {  
      "name":"Mr. Game & Watch",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"E",
         "rank":39
@@ -1844,7 +1844,7 @@ const characters = [
   },
   {  
      "name":"Ness",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":28
@@ -1898,7 +1898,7 @@ const characters = [
   },
   {  
      "name":"Olimar",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":21
@@ -1950,7 +1950,7 @@ const characters = [
   },
   {  
      "name":"Pac-Man",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"F",
         "rank":46
@@ -2001,7 +2001,7 @@ const characters = [
   },
   {  
      "name":"Palutena",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"E",
         "rank":45
@@ -2052,7 +2052,7 @@ const characters = [
   },
   {  
      "name":"Peach",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"B",
         "rank":20
@@ -2105,7 +2105,7 @@ const characters = [
   },
   {  
      "name":"Pikachu",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"B",
         "rank":15
@@ -2159,7 +2159,7 @@ const characters = [
   },
   {  
      "name":"Pit",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":32
@@ -2180,7 +2180,10 @@ const characters = [
         "damage":15
      },
      "jump_height":31,
-     "weight":96,
+     "weight": {
+      "class":"Middle Weight",
+      "weight_value":96
+     },
      "speeds":{  
         "initial_dash":1.5,
         "run_speed":1.66,
@@ -2207,7 +2210,7 @@ const characters = [
   },
   {  
      "name":"R.O.B.",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":36
@@ -2259,7 +2262,7 @@ const characters = [
   },
   {  
      "name":"Robin",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":37
@@ -2311,7 +2314,7 @@ const characters = [
   },
   {  
      "name":"Rosalina & Luma",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":5
@@ -2363,7 +2366,7 @@ const characters = [
   },
   {  
      "name":"Roy",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"E",
         "rank":42
@@ -2415,7 +2418,7 @@ const characters = [
   },
   {  
      "name":"Ryu",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":12
@@ -2468,7 +2471,7 @@ const characters = [
   },
   {  
      "name":"Samus",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":38
@@ -2521,7 +2524,7 @@ const characters = [
   },
   {  
      "name":"Sheik",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":4
@@ -2576,7 +2579,7 @@ const characters = [
   },
   {  
      "name":"Shulk",
-     "counter":true,
+     "counter":"y",
      "tier":{  
         "tier":"D",
         "rank":35
@@ -2628,7 +2631,7 @@ const characters = [
   },
   {  
      "name":"Sonic",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":8
@@ -2679,7 +2682,7 @@ const characters = [
   },
   {  
      "name":"Toon Link",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":23
@@ -2731,7 +2734,7 @@ const characters = [
   },
   {  
      "name":"Villager",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"C",
         "rank":25
@@ -2783,7 +2786,7 @@ const characters = [
   },
   {  
      "name":"Wario",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"E",
         "rank":41
@@ -2834,7 +2837,7 @@ const characters = [
   },
   {  
      "name":"Wii Fit Trainer",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"F",
         "rank":51
@@ -2886,7 +2889,7 @@ const characters = [
   },
   {  
      "name":"Yoshi",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"D",
         "rank":34
@@ -2940,7 +2943,7 @@ const characters = [
   },
   {  
      "name":"Zelda",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"G",
         "rank":54
@@ -2993,7 +2996,7 @@ const characters = [
   },
   {  
      "name":"Zero Suit Samus",
-     "counter":false,
+     "counter":"n",
      "tier":{  
         "tier":"A",
         "rank":6
@@ -4314,8 +4317,81 @@ const stages = [
   }
 ]
 
+const categories = [ 
+  {
+    name: 'Name',
+    key1: 'name',
+    key2: false
+  }, 
+  {
+    name: 'Tier',
+    key1: 'tier',
+    key2: 'tier'
+  }, 
+  {
+    name: 'Rank',
+    key1: 'tier',
+    key2: 'rank'
+  }, 
+  {
+    name: 'Win',
+    key1: 'world_stats',
+    key2: 'wins'
+  }, 
+  {
+    name: 'Loss',
+    key1: 'world_stats',
+    key2: 'losses'
+  }, 
+  {
+    name: 'Weight Cls',
+    key1: 'weight',
+    key2: 'class'
+  }, 
+  {
+    name: 'Wt',
+    key1: 'weight',
+    key2: 'weight_value'
+  }, 
+  {
+    name: 'Jump',
+    key1: 'jump_height',
+  }, 
+  {
+    name: 'Dash',
+    key1: 'speeds',
+    key2: 'initial_dash'
+  }, 
+  {
+    name: 'Run',
+    key1: 'speeds',
+    key2: 'run_speed'
+  }, 
+  {
+    name: 'Air',
+    key1: 'speeds',
+    key2: 'air_speed'
+  }, 
+  {
+    name: 'Fall',
+    key1: 'speeds',
+    key2: 'fall_speed'
+  }, 
+  {
+    name: 'Ctr',
+    key1: 'counter',
+    key2: false
+  }, 
+  {
+    name: 'Top Smash',
+    key1: 'strongest_smash',
+    key2: 'damage'
+  }, 
+]
+
 export {
- characters,
- stages,
+  characters, 
+  stages,
+  categories
 };
 

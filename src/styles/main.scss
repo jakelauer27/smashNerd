@@ -23,9 +23,12 @@ $purple: rgb(82, 26, 110);
 
 
 body {
-  background: #929292; 
-  background: -webkit-linear-gradient(to right, #494949, #1f1f1f); 
-  background: linear-gradient(to right, #a3a3a3, #505050);
+  background-image: url('../images/night_battlefield.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(64, 49, 66);
+  background-blend-mode: overlay;
 }
 
 * {
@@ -127,5 +130,4 @@ h1 {
   height: 150px;
   width: 150px;
 }
-
 
