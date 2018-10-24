@@ -6,28 +6,26 @@
 .characters-page {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
-.characters-page-grid {
+.characters-page {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(15, 200px);
-  height: 100%;
-  width: 90%;
 }
 
-section div {
+.character-preview-card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   border: 1px black solid;
+  height: 200px;
 }
 
 div img {
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
 }
 
 /*# sourceMappingURL=App.css.map */
