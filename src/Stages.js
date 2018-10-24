@@ -20,6 +20,7 @@ class Stages extends Component {
         this.state.data.map((stage) => {
           return <div className='stage-cards'>
                    <h2>{stage.name}</h2>
+                   <img src={stage.stage_image} class='stage-image' />
                  </div>
         })
       } 
