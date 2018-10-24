@@ -4,6 +4,10 @@
 }
 
 .characters-page {
+  justify-content: center;
+}
+
+.characters-page {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(15, 200px);
@@ -106,8 +110,8 @@ table, th, tr, td {
   margin-left: 7px;
 }
 
-h1 {
-  color: black;
+.stages-header {
+  color: blue;
   font-family: "Smash Bros", serrif;
   height: 65%;
   width: 100%;
@@ -182,7 +186,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #403142;
+  background-color: #b8e0f7;
   background-blend-mode: overlay;
 }
 

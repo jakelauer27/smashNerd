@@ -27,7 +27,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(64, 49, 66);
+  background-color: rgb(184, 224, 247);
   background-blend-mode: overlay;
 }
 
@@ -55,7 +55,6 @@ section div {
   justify-content: space-evenly;
   align-items: center;
   border: 1px black solid;
-
 }
 
 div img {
@@ -100,6 +99,7 @@ h1 {
   z-index: 1;
 }
 
+
 h1 {
   color: black;
   font-family: 'Smash Bros', serrif;
@@ -129,4 +129,5 @@ h1 {
   height: 150px;
   width: 150px;
 }
+
 
