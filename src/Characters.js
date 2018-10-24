@@ -10,7 +10,6 @@ class Characters extends Component {
    }
  }
 
-
  componentDidMount() {
    fetch('http://whateverly-datasets.herokuapp.com/api/v1/characters')
      .then(response => response.json())
@@ -21,7 +20,6 @@ class Characters extends Component {
      })
      .catch(error => console.log(error))
  }
-
 
  render() {
    return (
