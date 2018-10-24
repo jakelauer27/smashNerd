@@ -1,12 +1,6 @@
-
 * {
   padding: 0;
   margin: 0;
-}
-
-.characters-page {
-  display: flex;
-  justify-content: center;
 }
 
 .characters-page {
@@ -24,7 +18,7 @@
   height: 200px;
 }
 
-div img {
+.character-preview-icon {
   height: 100px;
   width: 100px;
 }
@@ -109,15 +103,6 @@ table, th, tr, td {
   margin-left: 7px;
 }
 
-.arrow {
-  width: 7px;
-  display: inline-block;
-}
-
-.highlight {
-  background-color: #a0a0a0 !important;
-}
-
 h1 {
   color: black;
   font-family: "Smash Bros", serrif;
@@ -188,7 +173,6 @@ h1 {
   font-weight: 400;
   src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
 }
-
 body {
   background-image: url("../images/night_battlefield.jpg");
   background-repeat: no-repeat;
@@ -203,67 +187,8 @@ body {
   margin: 0;
 }
 
-.characters-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.characters-page-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(15, 200px);
-  height: 100%;
-  width: 90%;
-}
-
-section div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 1px black solid;
-}
-
-div img {
-  height: 90px;
-  width: 90px;
-}
-
 h1 {
   color: white;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-}
-
-.characters-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.characters-page-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(15, 200px);
-  height: 100%;
-  width: 90%;
-}
-
-section div {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 1px black solid;
-}
-
-div img {
-  height: 90px;
-  width: 90px;
 }
 
 .header-button {
