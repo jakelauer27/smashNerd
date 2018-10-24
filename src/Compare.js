@@ -9,9 +9,10 @@ class Compare extends Component {
     super();
     this.state = {
       data: characters.slice(0, characters.length),
-      highlight: 'Name',
       up: '',
       rotate: ''
+      highlight: 'Name'
+
     }
   }
 
