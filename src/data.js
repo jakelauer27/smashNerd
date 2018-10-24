@@ -28,7 +28,7 @@ const characters = [
      },
      "speeds":{  
         "initial_dash":1.7,
-        "run_speed":3.5,
+        "run_speed":1.6,
         "air_speed":0.97,
         "fall_speed":1.77,
         "fast_fall_speed":2.83
@@ -629,7 +629,7 @@ const characters = [
      "smash_wiki":"https://ssbworld.com/characters/Duck_Hunt_(SSB4)",
      "images":{  
         "large":"images/characters/duck_hunt.png",
-        "icon":"images/character_icons/duck_hunt_icon.png",
+        "icon":"images/character_icons/dunk_hunt_icon.png",
         "small_icon":"images/character_icons/small_character_icons/duck_hunt_head.png"
      }
   },
@@ -946,7 +946,7 @@ const characters = [
      "smash_wiki":"https://ssbworld.com/characters/Jigglypuff_(SSB4)",
      "images":{  
         "large":"images/characters/jigglypuff.png",
-        "icon":"images/character_icons/jigglypuff_icon.png",
+        "icon":"images/character_icons/jiggly_puff_icon.png",
         "small_icon":"images/character_icons/small_character_icons/jigglypuff_head.png"
      }
   },
@@ -2046,7 +2046,7 @@ const characters = [
      "smash_wiki":"https://ssbworld.com/characters/Palutena_(SSB4)",
      "images":{  
         "large":"images/characters/palutena.png",
-        "icon":"images/character_icons/palutena_icon.png",
+        "icon":"images/character_icons/palutena__icon.png",
         "small_icon":"images/character_icons/small_character_icons/palutena_head.png"
      }
   },
@@ -3041,7 +3041,7 @@ const characters = [
         "small_icon":"images/character_icons/small_character_icons/zero_suit_samus_head.png"
      }
   }
-]
+];
 
 const stages = [  
   {  
@@ -3538,7 +3538,7 @@ const stages = [
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Kalos_Pok%C3%A9mon_League",
-     "stage_image":"images/stages/kalos_pokemon_league",
+     "stage_image":"images/stages/kalos_pokemon_league.png",
      "past_smash_games":[  
 
      ]
@@ -3960,7 +3960,7 @@ const stages = [
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Pyrosphere",
-     "stage_image":"images/stages/pyrosphere.png",
+     "stage_image":"images/stages/pyrosphere.jpg",
      "past_smash_games":[  
 
      ]
@@ -4314,7 +4314,8 @@ const stages = [
   }
 ]
 
-module.exports = {
-  characters,
-  stages
-}
+export {
+ characters,
+ stages,
+};
+
