@@ -68,7 +68,7 @@ class Compare extends Component {
                   }
                   return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className={`${category.name} ${up} ${highlight}`}>
                           {category.name} 
-                          <span className='icon-span'><i className={`${category.name} arrow fas fa-caret-up ${up} ${rotate}`}></i></span>
+                          <span className='icon-span'><i className={`${category.name} arrow fas fa-caret-right ${up} ${rotate}`}></i></span>
                         </th>
               })
               }
