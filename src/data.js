@@ -629,7 +629,7 @@ const characters = [
      "smash_wiki":"https://ssbworld.com/characters/Duck_Hunt_(SSB4)",
      "images":{  
         "large":"images/characters/duck_hunt.png",
-        "icon":"images/character_icons/duck_hunt_icon.png",
+        "icon":"images/character_icons/dunk_hunt_icon.png",
         "small_icon":"images/character_icons/small_character_icons/duck_hunt_head.png"
      }
   },
@@ -946,7 +946,7 @@ const characters = [
      "smash_wiki":"https://ssbworld.com/characters/Jigglypuff_(SSB4)",
      "images":{  
         "large":"images/characters/jigglypuff.png",
-        "icon":"images/character_icons/jigglypuff_icon.png",
+        "icon":"images/character_icons/jiggly_puff_icon.png",
         "small_icon":"images/character_icons/small_character_icons/jigglypuff_head.png"
      }
   },
@@ -2046,7 +2046,7 @@ const characters = [
      "smash_wiki":"https://ssbworld.com/characters/Palutena_(SSB4)",
      "images":{  
         "large":"images/characters/palutena.png",
-        "icon":"images/character_icons/palutena_icon.png",
+        "icon":"images/character_icons/palutena__icon.png",
         "small_icon":"images/character_icons/small_character_icons/palutena_head.png"
      }
   },
