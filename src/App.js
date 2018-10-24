@@ -5,7 +5,6 @@ import Compare from './Compare';
 import Stages from './Stages';
 import './styles/App.css';
 
-
 class App extends Component {
   constructor() {
     super();
@@ -31,10 +30,13 @@ class App extends Component {
     return (
       <div className="App">
       <Landing />
-        <header>
-          <button className='Characters header-button' onClick={this.renderSection}>Characters</button>
-          <button className='Stages header-button' onClick={this.renderSection}>Stages</button>
-          <button className='Compare header-button' onClick={this.renderSection}>Compare</button>
+        <header className="header">
+          <img src='images/universe_icons/red_icon_smash_bros.svg' class='smash-small' />
+          <div className="header-buttons">
+            <button className='Characters header-button' onClick={this.renderSection}>CHARACTERS</button>
+            <button className='Stages header-button' onClick={this.renderSection}>STAGES</button>
+            <button className='Compare header-button' onClick={this.renderSection}>COMPARE</button>
+          </div>
         </header>
         {
           this.keys.map( key => {
