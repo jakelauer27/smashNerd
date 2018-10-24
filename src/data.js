@@ -3044,7 +3044,7 @@ const characters = [
         "small_icon":"images/character_icons/small_character_icons/zero_suit_samus_head.png"
      }
   }
-]
+];
 
 const stages = [  
   {  
@@ -3541,7 +3541,7 @@ const stages = [
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Kalos_Pok%C3%A9mon_League",
-     "stage_image":"images/stages/kalos_pokemon_league",
+     "stage_image":"images/stages/kalos_pokemon_league.png",
      "past_smash_games":[  
 
      ]
@@ -3963,7 +3963,7 @@ const stages = [
      "wii_u":true,
      "nintendo_3ds":false,
      "smash_wiki":"https://www.ssbwiki.com/Pyrosphere",
-     "stage_image":"images/stages/pyrosphere.png",
+     "stage_image":"images/stages/pyrosphere.jpg",
      "past_smash_games":[  
 
      ]

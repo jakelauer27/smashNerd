@@ -1,0 +1,40 @@
+$fireOrange: rgb(245, 88, 33);
+$lightOrange: rgb(249, 212, 174);
+$deepBlue: rgb(0, 28, 156);
+$brillantBlue: rgb(56, 127 ,231);
+$subduedBlue: rgb(157, 179, 249);
+$deepRed: rgb(107, 17, 10);
+$purple: rgb(82, 26, 110);
+
+
+
+
+h1 {
+  color: black;
+  font-family: 'Smash Bros', serrif;
+  height: 65%;
+  width: 100%;
+}
+
+.stages-page {
+  margin-left: 65px;
+}
+
+.stage-cards {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8px;
+}
+
+.stages-body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(12, 200px);
+  height: 100%;
+  width: 95%;
+}
+
+.stage-image {
+  height: 150px;
+  width: 150px;
+}

@@ -1,3 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.characters-page {
+  display: flex;
+  justify-content: center;
+}
+
+.characters-page {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15, 200px);
+}
+
+.character-preview-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px black solid;
+  height: 200px;
+}
+
+div img {
+  height: 100px;
+  width: 100px;
+}
+
 table, th, tr, td {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -76,6 +106,36 @@ table, th, tr, td {
 
 .icon-span {
   margin-left: 7px;
+}
+
+h1 {
+  color: black;
+  font-family: "Smash Bros", serrif;
+  height: 65%;
+  width: 100%;
+}
+
+.stages-page {
+  margin-left: 65px;
+}
+
+.stage-cards {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+}
+
+.stages-body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(12, 200px);
+  height: 100%;
+  width: 95%;
+}
+
+.stage-image {
+  height: 150px;
+  width: 150px;
 }
 
 .landing-page {
@@ -191,6 +251,36 @@ h1 {
   position: absolute;
   width: 85px;
   z-index: 1;
+}
+
+h1 {
+  color: black;
+  font-family: "Smash Bros", serrif;
+  height: 65%;
+  width: 100%;
+}
+
+.stages-page {
+  margin-left: 65px;
+}
+
+.stage-cards {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+}
+
+.stages-body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(12, 200px);
+  height: 100%;
+  width: 95%;
+}
+
+.stage-image {
+  height: 150px;
+  width: 150px;
 }
 
 /*# sourceMappingURL=App.css.map */
