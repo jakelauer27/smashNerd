@@ -9,7 +9,9 @@ class Compare extends Component {
     super();
     this.state = {
       data: characters.slice(0, characters.length),
-      highlight: 'Name'
+      highlight: 'Name',
+      up: '',
+      rotate: ''
     }
   }
 
@@ -22,12 +24,13 @@ class Compare extends Component {
     }
     this.setState({
       data: sortedData,
-      highlight: e.target.classList[0]
+      highlight: e.target.classList[0],
+      up: e.target.classList[0], 
+      rotate: e.target.classList[0]
     })
   }
 
   sortUp(e, sortKey, sortKey2) {
-    e.target.classList.add('up')
     return this.state.data.sort( (a, b) => {
       if (sortKey2) {
         if(a[sortKey][sortKey2] > b[sortKey][sortKey2]) { return -1;}
@@ -41,7 +44,6 @@ class Compare extends Component {
   }
 
   sortDown(e) {
-    e.target.classList.remove('up')
     return this.state.data.reverse();
   }
 
@@ -55,15 +57,19 @@ class Compare extends Component {
             <tr class='table-header'>
               <th><img className='compare_smash_logo'src='./images/universe_icons/flame_smash_bros.svg'/></th>
               {
-              categories.map( category => {
-                let highlight = '';
-                if (this.state.highlight === category.name) {
-                  highlight = 'highlight';
-                }
-                return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className={`${category.name} ${highlight}`}>
-                        {category.name} 
-                        <span><img className={`${category.name} arrow`} src='./images/general/arrow.svg'/></span>
-                      </th>
+                categories.map( category => {
+                  let highlight = '';
+                  let up = '';
+                  let rotate = '';
+                  if (this.state.highlight === category.name) {
+                    highlight = 'highlight';
+                    up = 'up';
+                    rotate = 'rotate-down'
+                  }
+                  return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className={`${category.name} ${up} ${highlight}`}>
+                          {category.name} 
+                          <span className='icon-span'><i className={`${category.name} arrow fas fa-caret-up ${up} ${rotate}`}></i></span>
+                        </th>
               })
               }
             </tr>
