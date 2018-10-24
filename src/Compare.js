@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { characters, categories } from './data';
+import { categories } from './data';
 import CompareItem from './CompareItem'
 import './styles/App.css';
 
@@ -8,11 +8,22 @@ class Compare extends Component {
   constructor() {
     super();
     this.state = {
-      data: characters.slice(0, characters.length),
+      data: [],
       highlight: 'Name',
       up: '',
       rotate: ''
     }
+  }
+
+  componentDidMount() {
+    fetch('http://whateverly-datasets.herokuapp.com/api/v1/characters')
+      .then(response => response.json())
+      .then(characters => {
+        this.setState({
+          data: characters.results
+        })
+      })
+      .catch(error => console.log(error));
   }
 
   sortTable(e, sortKey, sortKey2) {

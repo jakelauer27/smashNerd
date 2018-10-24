@@ -4,7 +4,6 @@
 }
 
 .characters-page {
-  display: flex;
   justify-content: center;
 }
 
@@ -194,7 +193,6 @@ body {
 }
 
 .characters-page {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
