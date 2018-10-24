@@ -18,8 +18,10 @@ class Landing extends Component {
     if (this.state.showLanding) {
       return (
         <div className='landing-page'>
+          <div className='action-container'>
           <img src='./images/general/smash_logo_large.png' />
           <button onClick={this.hide}>Continue to Site</button>
+          </div>
         </div>
       )
     } else {

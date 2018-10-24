@@ -1,3 +1,5 @@
+$subduedBlue: rgb(157, 179, 249);
+
 .landing-page {
   background-image: url('../images/battlefield_cover.jpg');
   background-size: cover;
@@ -7,9 +9,27 @@
   top: 0;
   right: 0;
   z-index: 3;
+}
 
+.action-container {
+  width: 100%;
+  
   img {
-    width: 400px;
+    margin: 20px calc(50vw - 305px);
+    width: 600px;
+  }
+
+  button {
+    border: 0px;
+    background: none;
+    font-family: 'Smash Bros', serrif;
+    font-size: 2em;
+    margin: 20px calc(50vw - 100px);
+    width: 200px;
+
+    &:hover {
+      color: white;
+    }
   }
 }
 

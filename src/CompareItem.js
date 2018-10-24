@@ -6,7 +6,6 @@ class CompareRow extends Component {
   constructor() {
     super();
     this.state = {
-      highlight: 'name'
     }
   }
 
@@ -31,7 +30,5 @@ class CompareRow extends Component {
     )
   }
 }
-
-
 
 export default CompareRow;
