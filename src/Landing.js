@@ -8,7 +8,8 @@ class Landing extends Component {
       showLanding: true
     }
   }
-  hide = () => {
+  hide = (e) => {
+    this.props.renderCharacters(e)
     this.setState({
       showLanding: false
     })
@@ -19,8 +20,9 @@ class Landing extends Component {
       return (
         <div className='landing-page'>
           <div className='action-container'>
-          <img src='./images/general/smash_logo_large.png' />
-          <button onClick={this.hide}>Continue to Site</button>
+          <img className='cloud6' src='./images/general/could6.png' />
+          <img className='smash-logo'src='./images/general/smash_logo_large.png' />
+          <button className='Characters' onClick={this.hide}>Continue to Site</button>
           </div>
         </div>
       )

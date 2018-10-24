@@ -37,7 +37,6 @@ body {
 }
 
 .characters-page {
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -101,5 +100,37 @@ h1 {
   z-index: 1;
 }
 
+<<<<<<< HEAD
 
+=======
+h1 {
+  color: black;
+  font-family: 'Smash Bros', serrif;
+  height: 65%;
+  width: 100%;
+}
+
+.stages-page {
+  margin-left: 65px;
+}
+
+.stage-cards {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 8px;
+}
+
+.stages-body {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(12, 200px);
+  height: 100%;
+  width: 95%;
+}
+
+.stage-image {
+  height: 150px;
+  width: 150px;
+}
+>>>>>>> d36a621b3133556e782274efafadd2b8b3be2c1d
 
