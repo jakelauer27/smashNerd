@@ -1,4 +1,4 @@
-const characters = [  
+    const characters = [  
   {  
      "name":"Bayonetta",
      "counter":"y",
