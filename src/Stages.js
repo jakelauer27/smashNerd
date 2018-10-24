@@ -1,14 +1,24 @@
 import React, { Component } from 'react';
-import { stages } from './data';
 import './styles/App.css';
 
 class Stages extends Component {
   constructor() {
     super();
     this.state = {
-      data: stages.slice(0, stages.length)
+      data: []
     } 
-  }
+}
+
+  componentDidMount(){
+    fetch('http://whateverly-datasets.herokuapp.com/api/v1/stages')
+      .then(response => response.json())
+      .then(stages => {
+        this.setState({
+          data: stages.stages
+        })
+      })
+      .catch(error => console.log(error));
+    }
 
 
   render() {
