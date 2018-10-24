@@ -9,14 +9,16 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      Characters: true,
+      Characters: false,
       Stages: false,
       Compare: false,
     }
-    this.keys = Object.keys(this.state)
+    this.keys = Object.keys(this.state);
+    this.renderSection = this.renderSection.bind(this);
   }
 
   renderSection = (e) => {
+    console.log(e.target.classList[0])
     const section = e.target.classList[0];
     this.setState({
       Characters: false,
@@ -25,11 +27,12 @@ class App extends Component {
       [section]: true
     })
   }
+  
 
   render() {
     return (
       <div className="App">
-      <Landing />
+      <Landing renderCharacters={this.renderSection}/>
         <header className="header">
           <img src='./images/universe_icons/flame_smash_bros.svg' className='smash-small' />
           <div className="header-buttons">

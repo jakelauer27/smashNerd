@@ -27,7 +27,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(64, 49, 66);
+  background-color: rgb(184, 224, 247);
   background-blend-mode: overlay;
 }
 
@@ -36,6 +36,31 @@ body {
   margin: 0;
 }
 
+.characters-page {
+  justify-content: center;
+  align-items: center;
+}
+
+.characters-page-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15 , 200px);
+  height: 100%;
+  width: 90%;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px black solid;
+}
+
+div img {
+  height: 90px;
+  width: 90px;
+}
 
 h1 {
   color: white;
@@ -104,4 +129,5 @@ h1 {
   height: 150px;
   width: 150px;
 }
+
 

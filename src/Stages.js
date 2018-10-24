@@ -10,7 +10,7 @@ class Stages extends Component {
 }
 
   componentDidMount(){
-    fetch('http://whateverly-datasets.herokuapp.com/api/v1/stages')
+    fetch('https://whateverly-datasets.herokuapp.com/api/v1/stages')
       .then(response => response.json())
       .then(stages => {
         this.setState({
