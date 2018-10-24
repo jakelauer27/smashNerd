@@ -8,7 +8,7 @@ class Compare extends Component {
   constructor() {
     super();
     this.state = {
-      data: [],
+      characters: [],
       highlight: 'Name',
       up: '',
       rotate: ''
@@ -16,14 +16,14 @@ class Compare extends Component {
   }
 
   componentDidMount() {
-    fetch('http://whateverly-datasets.herokuapp.com/api/v1/characters')
-      .then(response => response.json())
-      .then(characters => {
-        this.setState({
-          data: characters.results
-        })
+    fetch('https://whateverly-datasets.herokuapp.com/api/v1/characters')
+    .then(response => response.json())
+    .then(data => {
+      this.setState({
+        characters: data.characters
       })
-      .catch(error => console.log(error));
+    })
+    .catch(error => console.log(error))
   }
 
   sortTable(e, sortKey, sortKey2) {
@@ -34,7 +34,7 @@ class Compare extends Component {
       sortedData = this.sortUp(e, sortKey, sortKey2);
     }
     this.setState({
-      data: sortedData,
+      characters: sortedData,
       highlight: e.target.classList[0],
       up: e.target.classList[0], 
       rotate: e.target.classList[0]
@@ -42,7 +42,7 @@ class Compare extends Component {
   }
 
   sortUp(e, sortKey, sortKey2) {
-    return this.state.data.sort( (a, b) => {
+    return this.state.characters.sort( (a, b) => {
       if (sortKey2) {
         if(a[sortKey][sortKey2] > b[sortKey][sortKey2]) { return -1;}
         if(a[sortKey][sortKey2] < b[sortKey][sortKey2]) {return 1;}
@@ -55,7 +55,7 @@ class Compare extends Component {
   }
 
   sortDown(e) {
-    return this.state.data.reverse();
+    return this.state.characters.reverse();
   }
 
   render() {
@@ -85,7 +85,7 @@ class Compare extends Component {
               }
             </tr>
               {
-                this.state.data.map( (character, i) => {
+                this.state.characters.map( (character, i) => {
                   var even = 'even'
                   let counter = 'n';
                   if (character.counter) {

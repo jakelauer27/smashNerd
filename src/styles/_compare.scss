@@ -20,13 +20,16 @@ table, th, tr, td {
 .compare-header {
   color: rgb(255, 255, 255);
   font-family: 'Smash Bros', serrif;
+  font-size: 2.5em;
+  margin: 30px;
   text-align: center;
 }
 
 .table-container {
   border: 10px solid $brillantBlue;
   border-radius: 12px;
-  height: 600px;
+  height: 75VH;
+  min-height: 400px;
   overflow: scroll;
   margin: 20px auto;
   width: 90%;

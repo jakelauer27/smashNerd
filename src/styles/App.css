@@ -46,7 +46,7 @@ table, th, tr, td {
 .table-container {
   border: 10px solid #387fe7;
   border-radius: 12px;
-  height: 600px;
+  height: 70VH;
   overflow: scroll;
   margin: 20px auto;
   width: 90%;
@@ -151,7 +151,7 @@ h1 {
 .action-container {
   width: 100%;
 }
-.action-container img {
+.action-container .smash-logo {
   margin: 20px calc(50vw - 305px);
   height: 290px;
   width: 600px;
@@ -170,6 +170,10 @@ h1 {
 
 .hide {
   display: none;
+}
+
+img {
+  z-index: 12;
 }
 
 @font-face {
