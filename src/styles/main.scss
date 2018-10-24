@@ -27,7 +27,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: rgb(64, 49, 66);
+  background-color: rgb(184, 224, 247);
   background-blend-mode: overlay;
 }
 
@@ -102,33 +102,4 @@ h1 {
 }
 
 
-h1 {
-  color: black;
-  font-family: 'Smash Bros', serrif;
-  height: 65%;
-  width: 100%;
-}
-
-.stages-page {
-  margin-left: 65px;
-}
-
-.stage-cards {
-  color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 8px;
-}
-
-.stages-body {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(12, 200px);
-  height: 100%;
-  width: 95%;
-}
-
-.stage-image {
-  height: 150px;
-  width: 150px;
-}
 
