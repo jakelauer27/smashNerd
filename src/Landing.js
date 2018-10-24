@@ -2,12 +2,32 @@ import React, { Component } from 'react';
 import './styles/App.css';
 
 class Landing extends Component {
+  constructor() {
+    super();
+    this.state = {
+      showLanding: true
+    }
+  }
+  hide = () => {
+    this.setState({
+      showLanding: false
+    })
+  }
+
   render() {
-    return (
-      <div className='landing-page'>
-        <img src='images/general/smash_logo_large.png' />
-      </div>
-    )
+    if (this.state.showLanding) {
+      return (
+        <div className='landing-page'>
+          <img src='./images/general/smash_logo_large.png' />
+          <button onClick={this.hide}>Continue to Site</button>
+        </div>
+      )
+    } else {
+      return (
+        <div className='nothing'>
+        </div>
+      )
+    }
   } 
 }
 

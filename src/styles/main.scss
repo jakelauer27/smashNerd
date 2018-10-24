@@ -2,4 +2,104 @@
 @import '_compare';
 @import '_stages';
 @import '_landing';
+@import '_header';
 
+$fireOrange: rgb(245, 88, 33);
+$lightOrange: rgb(249, 212, 174);
+$deepBlue: rgb(0, 28, 156);
+$brillantBlue: rgb(56, 127 ,231);
+$subduedBlue: rgb(157, 179, 249);
+$deepRed: rgb(107, 17, 10);
+$purple: rgb(82, 26, 110);
+
+@font-face {
+  font-family: 'Smash Bros';
+  font-style: normal;
+  font-weight: 400;
+  src:  url('../fonts/smash_font.ttf') format('truetype'), 
+  url('../fonts/smash_font-webfont.woff') format('woff'), 
+  url('../fonts/smash_font-webfont.woff2') format('woff2'); 
+}
+
+body {
+  background: #929292; 
+  background: -webkit-linear-gradient(to right, #494949, #1f1f1f); 
+  background: linear-gradient(to right, #a3a3a3, #505050);
+}
+
+<<<<<<< HEAD
+=======
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.characters-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.characters-page-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15 , 200px);
+  height: 100%;
+  width: 90%;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px black solid;
+
+}
+
+div img {
+  height: 90px;
+  width: 90px;
+}
+
+h1 {
+  color: blue;
+}
+
+.characters,
+.stages,
+.compare {
+  background: transparent;
+  border: none;
+  display: inline-block;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 35px;
+  opacity: 1;
+  width: 152px;
+  position: relative;
+  left: 68%;
+}
+
+
+
+.header {
+  background-position:0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+  background-image:
+      linear-gradient(45deg, black 25%, transparent 100%), 
+      linear-gradient(135deg, black 25%, transparent 100%),
+      linear-gradient(45deg, transparent 85%, black 75%),
+      linear-gradient(135deg, transparent 85%, black 75%);
+  background-size:25px 25px; 
+  height: 60px;
+}
+
+.smash-small {
+  height: 60px;
+  position: absolute;
+  width: 85px;
+  z-index: 1;
+}
+>>>>>>> e467616f99a048d6da263738f44e64fc6f3ba9f5

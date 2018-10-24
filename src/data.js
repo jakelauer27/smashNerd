@@ -28,7 +28,7 @@ const characters = [
      },
      "speeds":{  
         "initial_dash":1.7,
-        "run_speed":3.5,
+        "run_speed":1.6,
         "air_speed":0.97,
         "fall_speed":1.77,
         "fast_fall_speed":2.83
