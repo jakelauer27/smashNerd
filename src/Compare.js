@@ -11,7 +11,9 @@ class Compare extends Component {
       characters: [],
       highlight: 'Name',
       up: '',
-      rotate: ''
+      rotate: '',
+      highlight: 'Name'
+
     }
   }
 
