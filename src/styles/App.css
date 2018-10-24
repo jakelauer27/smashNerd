@@ -37,6 +37,24 @@ table, th, tr, td {
   padding: 0px 8px;
 }
 
+.stages-header {
+  color: black;
+  font-family: "Smash Bros", serrif;
+}
+
+.stage-cards {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.stages-page {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(15, 200px);
+  height: 100%;
+  width: 90%;
+}
+
 .landing-page {
   background-image: url("../images/battlefield_cover.jpg");
   background-size: cover;
@@ -45,6 +63,7 @@ table, th, tr, td {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 3;
 }
 .landing-page img {
   width: 400px;
@@ -97,6 +116,24 @@ h1 {
   position: absolute;
   width: 85px;
   z-index: 1;
+}
+
+.stages-header {
+  color: black;
+  font-family: "Smash Bros", serrif;
+}
+
+.stage-cards {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+.stages-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15, 200px);
+  height: 100%;
+  width: 90%;
 }
 
 /*# sourceMappingURL=App.css.map */

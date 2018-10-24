@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import characters from './data';
+import { characters } from './data';
 import CompareItem from './CompareItem'
 import './styles/App.css';
 

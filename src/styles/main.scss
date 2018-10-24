@@ -21,6 +21,7 @@ $purple: rgb(82, 26, 110);
   url('../fonts/smash_font-webfont.woff2') format('woff2'); 
 }
 
+
 body {
   background: #929292; 
   background: -webkit-linear-gradient(to right, #494949, #1f1f1f); 
@@ -31,9 +32,7 @@ h1 {
   color: blue;
 }
 
-.characters,
-.stages,
-.compare {
+.header-button {
   background: transparent;
   border: none;
   display: inline-block;
@@ -66,4 +65,28 @@ h1 {
   position: absolute;
   width: 85px;
   z-index: 1;
+}
+
+.stages-header {
+  color: black;
+  font-family: 'Smash Bros', serrif;
+}
+
+.stages-body {
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.stage-cards {
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.stages-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15, 200px);
+  height: 100%;
+  width: 90%;
 }

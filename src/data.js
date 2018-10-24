@@ -3041,7 +3041,7 @@ const characters = [
         "small_icon":"images/character_icons/small_character_icons/zero_suit_samus_head.png"
      }
   }
-]
+];
 
 const stages = [  
   {  
@@ -4314,4 +4314,7 @@ const stages = [
   }
 ]
 
-export default characters;
+export {
+ characters,
+ stages,
+};
