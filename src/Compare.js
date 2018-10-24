@@ -10,7 +10,7 @@ class Compare extends Component {
     this.state = {
       data: characters.slice(0, characters.length),
       up: '',
-      rotate: ''
+      rotate: '',
       highlight: 'Name'
 
     }
