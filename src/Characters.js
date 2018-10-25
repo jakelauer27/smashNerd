@@ -19,15 +19,18 @@ class Characters extends Component {
      .then(response => response.json())
      .then(characters => {
         this.setState({
-          characters: characters.characters,
-       })
+          characters: characters.characters.map((character, i) => {
+            character.index = i;
+            return character;
+            })
+        })
      })
      .catch(error => console.log(error))
  }
 
   selectCharacter(e) {
-   let character = this.state.characters.find((character) => {
-      return character.name.replace(/\s/g, '') === e.target.classList[0];
+    let character = this.state.characters.find((character) => {
+      return character.index === parseInt(e.target.classList[0]);
     })
     this.setState({
       currentCharacter: e.target.classList[0],
@@ -35,15 +38,23 @@ class Characters extends Component {
     })
   }
 
+  setIndex() {
+    this.setState({
+      characters: this.state.characters.map((character, i) => {
+        character.index = i;
+        return character;
+      })
+    })
+  }
+
  render() {
-  console.log('character:', this.state.card)
    return (
      <div className="characters-page">
        {
          this.state.characters.map((character) => {
-           return  <div onClick={e => this.selectCharacter(e)} className={`${character.name.replace(/\s/g, '')} character-preview-card`}>
-                     <h2 onClick={e => this.selectCharacter(e)} className={character.name.replace(/\s/g, '')}>{character.name}</h2>
-                     <img onClick={e => this.selectCharacter(e)} className={`${character.name.replace(/\s/g, '')} character-preview-icon`} src={character.images.icon} />
+           return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`}>
+                     <h2 onClick={e => this.selectCharacter(e)} className={character.index}>{character.name}</h2>
+                     <img onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-icon`} src={character.images.icon} />
                    </div>
          })
        }

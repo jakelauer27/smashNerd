@@ -12,6 +12,7 @@ class CharacterInfoCard extends Component {
  }
 
   render() {
+    console.log(this.props.character);
     if(this.props.character === '') {
       return ( <div></div> )
     } else return (
