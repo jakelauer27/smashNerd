@@ -10,8 +10,8 @@ class Characters extends Component {
      characters: [],
      currentCharacter: '',
      nextCharacter: ''
-
    }
+   this.scrollCard = this.scrollCard.bind(this)
  }
 
  componentDidMount() {
@@ -33,7 +33,7 @@ class Characters extends Component {
       return character.index === parseInt(e.target.classList[0]);
     })
     this.setState({
-      currentCharacter: e.target.classList[0],
+      currentCharacter: parseInt(e.target.classList[0]),
       card: character
     })
   }
@@ -47,6 +47,26 @@ class Characters extends Component {
     })
   }
 
+  scrollCard(e) {
+    if (e.target.classList.contains('left-button')) {
+      let character = this.state.characters.find((character) => {
+      return character.index === this.state.currentCharacter - 1
+    })
+      this.setState ({
+        currentCharacter: this.state.currentCharacter - 1,
+        card: character
+      })
+    } else {
+      let character = this.state.characters.find((character) => {
+      return character.index === this.state.currentCharacter + 1
+    })
+      this.setState ({
+        currentCharacter: this.state.currentCharacter + 1,
+        card: character
+      })
+    }
+  }
+
  render() {
    return (
      <div className="characters-page">
@@ -58,7 +78,8 @@ class Characters extends Component {
                    </div>
          })
        }
-       <CharacterInfoCard character={this.state.card}/>
+       <CharacterInfoCard character={this.state.card} scrollCard={this.scrollCard}/>
+
      </div>
    )
  }
