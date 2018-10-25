@@ -12,7 +12,6 @@ class CharacterInfoCard extends Component {
  }
 
   render() {
-    console.log('this.props:', this.props.character)
     if(this.props.character === '') {
       return ( <div></div> )
     } else return (
@@ -35,7 +34,6 @@ class CharacterInfoCard extends Component {
             }
             {
               cardProsCons.map( category => {
-
                 return <div className='character-stats-div'>
                           <p className={`character-card-title-${category.name.toLowerCase()}`}>
                           {category.name}</p>
@@ -54,13 +52,5 @@ class CharacterInfoCard extends Component {
     )
   }
 }
-
-
-
-
-
-
-
-
 
 export default CharacterInfoCard;
