@@ -104,6 +104,7 @@ const cardProsCons = [
   }
 ]
 
+
 export {
   categories,
   cardCategories,
