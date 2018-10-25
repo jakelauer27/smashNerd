@@ -12,6 +12,7 @@ class CharacterInfoCard extends Component {
  }
 
   render() {
+    console.log(this.props.character);
     if(this.props.character === '') {
       return ( <div></div> )
     } else return (
@@ -48,6 +49,9 @@ class CharacterInfoCard extends Component {
             <a href={this.props.character.smash_wiki} className='character-card-info-link'>Learn More</a>
           </section>
         </div>
+        <button onClick={e => this.props.scrollCard(e)} className='left-button'>Left</button>
+        <button onClick={e => this.props.scrollCard(e)} className='right-button'>Right</button>
+        <button className='delete-button'>Delete</button>
       </div>
     )
   }
