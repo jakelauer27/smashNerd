@@ -3,13 +3,6 @@ import './styles/App.css';
 
 
 class StagesCards extends Component {
-  constructor() {
-    super();
-    this.state = {
-      stages: []
-    }
-  }
-
 
   render() {
     if(this.props.stage === '') {
