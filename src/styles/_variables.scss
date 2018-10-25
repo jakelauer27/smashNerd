@@ -1,0 +1,16 @@
+$fireOrange: rgb(245, 88, 33);
+$lightOrange: rgb(249, 212, 174);
+$deepBlue: rgb(0, 28, 156);
+$brillantBlue: rgb(56, 127 ,231);
+$subduedBlue: rgb(157, 179, 249);
+$deepRed: rgb(107, 17, 10);
+$purple: rgb(82, 26, 110);
+
+@font-face {
+  font-family: 'Smash Bros';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/smash_font.ttf') format('truetype'), 
+  url('../fonts/smash_font-webfont.woff') format('woff'), 
+  url('../fonts/smash_font-webfont.woff2') format('woff2'); 
+}

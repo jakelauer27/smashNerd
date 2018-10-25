@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import './styles/main.scss';
 
 class Stages extends Component {
   constructor() {

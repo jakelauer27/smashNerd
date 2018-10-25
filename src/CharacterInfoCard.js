@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { cardCategories } from './data';
 import { cardProsCons } from './data';
-import './styles/App.css';
+import './styles/main.scss';
 
 class CharacterInfoCard extends Component {
  constructor() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { categories } from './data';
 import CompareItem from './CompareItem'
-import './styles/App.css';
+import './styles/main.scss';
 
 
 class Compare extends Component {

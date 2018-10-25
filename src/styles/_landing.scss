@@ -1,4 +1,4 @@
-$subduedBlue: rgb(157, 179, 249);
+@import 'variables';
 
 .landing-page {
   background-image: url('../images/battlefield_cover.jpg');
@@ -30,10 +30,97 @@ $subduedBlue: rgb(157, 179, 249);
 
     &:hover {
       color: white;
+      text-shadow: 1px 2px 1px black;
     }
   }
 }
 
 .hide {
   display: none;
+}
+
+@mixin cloud($duration, $left, $margin-top, $width) {
+  animation: cloudMove $duration linear infinite;
+  left: $left;
+  margin-top: $margin-top;
+  position: absolute;
+  width: $width;
+  opacity: 0.85;
+}
+
+.cloud1 {
+  @include cloud(97s, -700px, 40px, 400px);
+}
+
+.cloud2 {
+  @include cloud(100s, -1000px, 570px, 400px);
+}
+
+.cloud3 {
+  @include cloud(103s, -300px, 540px, 400px);
+}
+
+.cloud4 {
+  @include cloud(107s, -200px, 70px, 400px);
+  height: 200px;
+}
+
+.cloud5 {
+  @include cloud(116s, -600px, 350px, 200px);
+}
+
+.cloud6 {
+  @include cloud(101s, -1050px, 280px, 400px);
+}
+
+.cloud7 {
+  @include cloud(112s, 100px, 300px, 400px);
+}
+
+.cloud8 {
+  @include cloud(138s, -1300px, -20px, 500px);
+  height: 300px
+}
+
+.cloud9 {
+  @include cloud(97s, (500px), 40px, 400px);
+}
+
+.cloud10 {
+  @include cloud(100s, 200px, 570px, 400px);
+}
+
+.cloud11 {
+  @include cloud(103s, 900px, 540px, 400px);
+}
+
+.cloud12 {
+  @include cloud(107s, 1000px, 70px, 400px);
+  height: 200px;
+}
+
+.cloud13 {
+  @include cloud(116s, 600px, 350px, 200px);
+}
+
+.cloud14 {
+  @include cloud(101s, 150px, 280px, 400px);
+}
+
+.cloud15 {
+  @include cloud(112s, 1300px, 300px, 400px);
+}
+
+.cloud16 {
+  @include cloud(138s, -100px, -20px, 500px);
+  height: 300px
+}
+
+@keyframes cloudMove {
+  from {
+    transform: translateX(1200px);
+  }
+  to {
+    transform: translateX(0px)
+  }
 }
