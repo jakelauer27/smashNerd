@@ -10,6 +10,7 @@ class StagesCards extends Component {
     }
   }
 
+
   render() {
     if(this.props.stage === '') {
       return ( <div></div> )
@@ -25,17 +26,15 @@ class StagesCards extends Component {
           </section>
           <section className='stage-game-availability'>
             {
-            this.props.stage.map( stage => {
-              if (this.props.stage.dlc === true || this.props.stage.nintendo_3ds === true || this.props.stage.wii_u === true) {
-                return (
-                  <div>
-                  <p className='stage-cards-dlc'>{this.props.stage.dlc}</p>
-                  <p className='stage-cards-nintendo'>{this.props.stage.nintendo_3ds}</p>
-                  <p className='stage-cards-wii'>{this.props.stage.wii_u}</p> 
-                  </div>
-                  )
-              }
-            })
+            Object.keys((this.props.stage)).map((key) => {
+              if (typeof this.props.stage[key] === 'boolean') {
+                let value = 'No' 
+                 if (this.props.stage[key]) {
+                 value = 'Yes'
+                 } 
+                 return ( <p className={`stage-cards-${key}`}>{value}</p> )
+               }
+             })
             }
           </section>
       </div>
@@ -45,6 +44,5 @@ class StagesCards extends Component {
 
 
                        
-
 
 export default StagesCards;

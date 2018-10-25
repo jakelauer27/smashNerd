@@ -8,8 +8,7 @@ class Stages extends Component {
     this.state = {
       stages: [],
       card: '',
-      currentStage: '',
-      nextStage: ''
+      currentStage: ''
     } 
 }
 
