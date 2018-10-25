@@ -46,11 +46,11 @@ class App extends Component {
             if (this.state[key]) {
               switch(key) {
                 case 'Characters':
-                return <Characters />
+                return <Characters key={key} />
                 case 'Stages':
-                return <Stages />
+                return <Stages key={key} />
                 case 'Compare':
-                return <Compare />
+                return <Compare key={key}/>
               }
             }
           })

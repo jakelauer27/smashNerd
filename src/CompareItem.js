@@ -14,15 +14,15 @@ class CompareRow extends Component {
       <tr>
         <td className={this.props.row}><img src={this.props.character.images.small_icon}/></td>
         {
-          categories.map( category => {
+          categories.map((category, index) => {
             let highlight = '';
             if (this.props.highlight === category.name) {
               highlight = 'highlight';
             }
             if (!category.key2) {
-              return <td className={`${this.props.row} ${highlight}`}>{this.props.character[category.key1]}</td>
+              return <td className={`${this.props.row} ${highlight}`} key={index}>{this.props.character[category.key1]}</td>
             } else {
-              return <td className={`${this.props.row} ${highlight}`}>{this.props.character[category.key1][category.key2]}</td>
+              return <td className={`${this.props.row} ${highlight}`} key={index}>{this.props.character[category.key1][category.key2]}</td>
             }
           })
         }

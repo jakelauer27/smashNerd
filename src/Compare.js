@@ -67,10 +67,10 @@ class Compare extends Component {
         <div className='table-container'>
           <table className='character-grid'>
             <tbody>
-            <tr class='table-header'>
+            <tr className='table-header'>
               <th><img className='compare_smash_logo'src='./images/universe_icons/flame_smash_bros.svg'/></th>
               {
-                categories.map( category => {
+                categories.map((category, index) => {
                   let highlight = '';
                   let up = '';
                   let rotate = '';
@@ -79,7 +79,7 @@ class Compare extends Component {
                     up = 'up';
                     rotate = 'rotate-down'
                   }
-                  return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className={`${category.name} ${up} ${highlight}`}>
+                  return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className={`${category.name} ${up} ${highlight}`} key={index}>
                           {category.name} 
                           <span className='icon-span'><i className={`${category.name} arrow fas fa-caret-right ${up} ${rotate}`}></i></span>
                         </th>
@@ -96,7 +96,7 @@ class Compare extends Component {
                   if ( (i + 2) % 2 !== 0) {
                     even = 'odd';
                   }
-                  return <CompareItem character={character} 
+                  return <CompareItem character={character} key={i}
                                       counter={counter} 
                                       row={even}
                                       highlight={this.state.highlight}/>
