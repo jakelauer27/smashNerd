@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import './styles/main.scss';
 import StagesCards from './StagesCards.js';
+
 
 class Stages extends Component {
   constructor() {

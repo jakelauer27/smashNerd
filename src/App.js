@@ -3,7 +3,7 @@ import Landing from './Landing';
 import Characters from './Characters';
 import Compare from './Compare';
 import Stages from './Stages';
-import './styles/App.css';
+import './styles/main.scss';
 
 class App extends Component {
   constructor() {

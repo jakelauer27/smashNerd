@@ -1,6 +1,6 @@
 import React, { Component }from 'react';
 import { categories } from './data';
-import './styles/App.css';
+import './styles/main.scss';
 
 class CompareRow extends Component { 
   constructor() {

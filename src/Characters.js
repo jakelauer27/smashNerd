@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './styles/App.css';
+import './styles/main.scss';
 import CharacterInfoCard from './CharacterInfoCard.js';
 
 class Characters extends Component {
  constructor() {
    super();
    this.state = {
-    card: '',
+     card: '',
      characters: [],
      currentCharacter: '',
      nextCharacter: ''
@@ -18,8 +18,8 @@ class Characters extends Component {
    fetch('http://whateverly-datasets.herokuapp.com/api/v1/characters')
      .then(response => response.json())
      .then(characters => {
-       this.setState({
-       characters: characters.characters,
+        this.setState({
+          characters: characters.characters,
        })
      })
      .catch(error => console.log(error))

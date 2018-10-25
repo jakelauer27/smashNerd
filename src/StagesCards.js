@@ -1,5 +1,7 @@
+import './styles/main.scss';
 import React, { Component } from 'react';
-import './styles/App.css';
+
+
 
 
 class StagesCards extends Component {
