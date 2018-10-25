@@ -70,6 +70,42 @@ const categories = [
   }, 
 ]
 
+const cardCategories = [
+  {
+    name: 'Universe',
+    key1: 'universe',
+    key2: 'name'
+  },
+  {
+    name: 'Tier',
+    key1: 'tier',
+    key2: 'tier'
+  },
+  {
+    name: 'Rank',
+    key1: 'tier',
+    key2: 'rank'
+  },
+  {
+    name: 'Weight Class',
+    key1: 'weight',
+    key2: 'class'
+  }
+]
+
+const cardProsCons = [
+  {
+    name: 'Pros',
+    key: 'pros'
+  },
+  {
+    name: 'Cons',
+    key: 'cons'
+  }
+]
+
 export {
-  categories
+  categories,
+  cardCategories,
+  cardProsCons
 };
