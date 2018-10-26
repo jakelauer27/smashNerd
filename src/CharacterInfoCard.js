@@ -17,8 +17,8 @@ class CharacterInfoCard extends Component {
           <section className='character-card-info-stats'>
             <h1 className='character-card-info-name'>{this.props.character.name}</h1> 
             {
-              cardCategories.map( category => {
-                return <div className='character-stats-div'>
+              cardCategories.map((category, index) => {
+                return <div className='character-stats-div' key={index}>
                           <p className={`character-card-title-${category.name.toLowerCase()}`}>
                           {category.name}</p>
                           <p className={`character-card-info-${category.name.toLowerCase()}`}>
@@ -27,13 +27,13 @@ class CharacterInfoCard extends Component {
               })
             }
             {
-              cardProsCons.map( category => {
-                return <div className='character-stats-div'>
+              cardProsCons.map((category, index) => {
+                return <div className='character-stats-div' key={index}>
                           <p className={`character-card-title-${category.name.toLowerCase()}`}>
                           {category.name}</p>
                           {
-                            this.props.character[category.key].map( item => {
-                              return <p className={`character-card-info-${category.key}`}>{item}</p>
+                            this.props.character[category.key].map((item, index) => {
+                              return <p className={`character-card-info-${category.key}`} key={index}>{item}</p>
                             })
                           }
                        </div>

@@ -21,13 +21,13 @@ class StagesCards extends Component {
           </section>
           <section className='stage-game-availability'>
             {
-            Object.keys((this.props.stage)).map((key) => {
+            Object.keys((this.props.stage)).map((key, index) => {
               if (typeof this.props.stage[key] === 'boolean') {
                 let value = 'No' 
                  if (this.props.stage[key]) {
                  value = 'Yes'
                  } 
-                 return ( <p className={`stage-cards-${key}`}>{value}</p> )
+                 return ( <p className={`stage-cards-${key}`} key={index}>{value}</p> )
                }
              })
             }
