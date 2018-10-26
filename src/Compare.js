@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { categories } from './data';
 import CompareItem from './CompareItem'
 import './styles/main.scss';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 
 class Compare extends Component {

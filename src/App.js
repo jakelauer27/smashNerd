@@ -4,6 +4,7 @@ import Characters from './Characters';
 import Compare from './Compare';
 import Stages from './Stages';
 import './styles/main.scss';
+import { CSSTransitionGroup } from 'react-transition-group';
 
 class App extends Component {
   constructor() {

@@ -113,4 +113,34 @@ h1 {
   width: 150px;
 }
 
+/////ANIMATION
+.zoom-appear {
+  opacity: 0;
+}
 
+.zoom-appear.zoom-appear-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.zoom-exit {
+  opacity: 1;
+}
+
+.zoom-exit.zoom-exit-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.zoom-exit-done {
+  opacity: 0;
+}
+
+.zoom-enter {
+  opacity: 0;
+}
+
+.zoom-enter.zoom-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
