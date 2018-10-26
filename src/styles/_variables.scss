@@ -14,3 +14,15 @@ $purple: rgb(82, 26, 110);
   url('../fonts/smash_font-webfont.woff') format('woff'), 
   url('../fonts/smash_font-webfont.woff2') format('woff2'); 
 }
+
+@keyframes zoomIn {
+  0%{
+    transform: translateX(2500px)
+  }
+  90% {
+    transform: translateX(-5px)
+  }
+  100% {
+    transform: translateX(0px)
+  }
+}

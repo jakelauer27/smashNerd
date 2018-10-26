@@ -4,15 +4,8 @@ import { cardProsCons } from './data';
 import './styles/main.scss';
 
 class CharacterInfoCard extends Component {
- constructor() {
-   super();
-   this.state = {
-     characters: []
-   }
- }
-
+ 
   render() {
-    console.log(this.props.character);
     if(this.props.character === '') {
       return ( <div></div> )
     } else return (
@@ -46,7 +39,7 @@ class CharacterInfoCard extends Component {
                        </div>
               } )
             }
-            <a href={this.props.character.smash_wiki} className='character-card-info-link'>Learn More</a>
+            <a href={this.props.character.smash_wiki} target='_blank' className='character-card-info-link'>Learn More</a>
           </section>
         </div>
         <button onClick={e => this.props.scrollCard(e)} className='left-button'>Left</button>

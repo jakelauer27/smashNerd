@@ -1,92 +1,96 @@
 @import 'variables';
 
-table, th, tr, td {
-  font-family: 'Open Sans', sans-serif;
-  text-align: center;
-  border-collapse: collapse;
-}
+.compare-page {
+  animation: zoomIn .8s ease;
 
-.compare_smash_logo {
-  width: 60px;
-}
-
-.compare-header {
-  color: rgb(255, 255, 255);
-  font-family: 'Smash Bros', serrif;
-  font-size: 2.5em;
-  margin: 30px;
-  text-align: center;
-}
-
-.table-container {
-  border: 10px solid $brillantBlue;
-  border-radius: 12px;
-  height: 75VH;
-  min-height: 400px;
-  overflow: scroll;
-  margin: 20px auto;
-  width: 90%;
-}
-
-.character-grid {
-  background-color: black;
-  width: 100%;
-
-  tr:nth-child(1) th {
-    background-color: rgb(0, 0, 0);
-    border: .5px solid black;
-    border-top: 0px;
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0;
-    z-index: 10;
-
-    &.sticky {
-      border-bottom: 4px solid $brillantBlue;
-    }
+  table, th, tr, td {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    border-collapse: collapse;
   }
 
-  tbody {
+  .compare_smash_logo {
+    width: 60px;
+  }
+
+  .compare-header {
+    color: rgb(255, 255, 255);
+    font-family: 'Smash Bros', serrif;
+    font-size: 2.5em;
+    margin: 30px;
+    text-align: center;
+  }
+
+  .table-container {
+    border: 10px solid $brillantBlue;
+    border-radius: 12px;
+    height: 75VH;
+    min-height: 400px;
+    overflow: scroll;
+    margin: 20px auto;
+    width: 90%;
+  }
+
+  .character-grid {
+    background-color: black;
     width: 100%;
-  }
-  
-  td {
-    background-color: rgb(26, 26, 26);
-    border: .5px solid rgb(0, 0, 0);
-    color: white;
-    padding: 3px 8px;
-  }
 
-  .even {
-    background-color: rgb(46, 46, 46);
-  }
+    tr:nth-child(1) th {
+      background-color: rgb(0, 0, 0);
+      border: .5px solid black;
+      border-top: 0px;
+      position: sticky;
+      position: -webkit-sticky;
+      top: 0;
+      z-index: 10;
 
-  th {
-    color: white;
-    padding: 0px 8px;
+      &.sticky {
+        border-bottom: 4px solid $brillantBlue;
+      }
+    }
 
-    &:hover {
-      color: $brillantBlue;
-      cursor: pointer;
+    tbody {
+      width: 100%;
+    }
+    
+    td {
+      background-color: rgb(26, 26, 26);
+      border: .5px solid rgb(0, 0, 0);
+      color: white;
+      padding: 3px 8px;
+    }
+
+    .even {
+      background-color: rgb(46, 46, 46);
+    }
+
+    th {
+      color: white;
+      padding: 0px 8px;
+
+      &:hover {
+        color: $brillantBlue;
+        cursor: pointer;
+      }
     }
   }
-}
 
-.arrow {
-  display: inline-block;
-  fill: $brillantBlue !important;
-  transition: transform .2s ease;
-  width: 7px;
-}
+  .arrow {
+    display: inline-block;
+    fill: $brillantBlue !important;
+    transition: transform .2s ease;
+    width: 7px;
+  }
 
-.highlight {
-  background-color: rgb(160, 160, 160) !important;
-}
+  .highlight {
+    background-color: rgb(160, 160, 160) !important;
+  }
 
-.rotate-down {
-  transform: rotate(90deg); 
-}
+  .rotate-down {
+    transform: rotate(90deg); 
+  }
 
-.icon-span {
-  margin-left: 7px
+  .icon-span {
+    margin-left: 7px
+  }
 }

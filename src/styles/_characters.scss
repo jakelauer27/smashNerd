@@ -11,6 +11,7 @@
 
 
 .characters-page {
+  animation: zoomIn .8s ease;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(15 , 200px);
