@@ -72,24 +72,19 @@ const categories = [
 
 const cardCategories = [
   {
-    name: 'Universe',
-    key1: 'universe',
-    key2: 'name'
+    name: 'Class',
+    key1: 'weight',
+    key2: 'class'
   },
   {
-    name: 'Tier',
-    key1: 'tier',
-    key2: 'tier'
+    name: 'Speed',
+    key1: 'speeds',
+    key2: 'run_speed'
   },
   {
     name: 'Rank',
     key1: 'tier',
     key2: 'rank'
-  },
-  {
-    name: 'Weight Class',
-    key1: 'weight',
-    key2: 'class'
   }
 ]
 

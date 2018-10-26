@@ -1,14 +1,21 @@
 @import 'variables';
 
+
+
+.characters-page {
+  justify-content: center;
+
+  .character-preview-icon {
+    height: 90px;
+    width: 90px;
+  }
+  
+}
+
 * {
   padding: 0;
   margin: 0;
 }
-
-.characters-page {
-  justify-content: center;
-}
-
 
 .characters-page {
   animation: zoomIn .8s ease;
@@ -30,4 +37,36 @@
 .character-preview-icon {
   height: 100px;
   width: 100px;
+}
+
+/////ANIMATION
+.zoom-appear {
+  opacity: 0;
+}
+
+.zoom-appear.zoom-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
+}
+
+.zoom-exit {
+  opacity: 1;
+}
+
+.zoom-exit.zoom-exit-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
+}
+
+.zoom-exit-done {
+  opacity: 0;
+}
+
+.zoom-enter {
+  opacity: 0;
+}
+
+.zoom-enter.zoom-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
 }

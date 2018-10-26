@@ -4,6 +4,7 @@
 @import 'landing';
 @import 'header';
 @import 'variables';
+@import 'characterInfoCard';
 
 body {
   background-image: url('../images/night_battlefield.jpg');
@@ -32,17 +33,12 @@ body {
   width: 90%;
 }
 
-section div {
+section .charater-preview-card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   border: 1px black solid;
-}
-
-div img {
-  height: 90px;
-  width: 90px;
 }
 
 h1 {
@@ -82,9 +78,7 @@ h1 {
   z-index: 1;
 }
 
-
 h1 {
-  color: black;
   font-family: 'Smash Bros', serrif;
   height: 65%;
   width: 100%;
@@ -120,7 +114,7 @@ h1 {
 
 .zoom-appear.zoom-appear-active {
   opacity: 1;
-  transition: opacity 300ms linear;
+  transition: opacity 1000ms linear;
 }
 
 .zoom-exit {
@@ -129,7 +123,7 @@ h1 {
 
 .zoom-exit.zoom-exit-active {
   opacity: 1;
-  transition: opacity 300ms linear;
+  transition: opacity 1000ms linear;
 }
 
 .zoom-exit-done {
@@ -142,5 +136,5 @@ h1 {
 
 .zoom-enter.zoom-enter-active {
   opacity: 1;
-  transition: opacity 300ms linear;
+  transition: opacity 1000ms linear;
 }

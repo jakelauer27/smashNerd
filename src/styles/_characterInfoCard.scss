@@ -1,1 +1,119 @@
 @import 'variables';
+
+.character-info-card {
+  background-color: #272B3E;
+  border-radius: 15px;
+  color: white;
+  position: fixed;
+  right: calc(50vw - 475px);
+  top: 150px;
+  padding: 10px;
+  width: 950px;
+  
+  .card {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-name {
+    color: white;
+    font-size: 2.6em;
+    font-weight: 400;
+    margin-bottom: -2px;
+  }
+  
+  .card-universe {
+    color: #C1C1C1;
+    font-size: 1.2em;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .tier-container {
+    display: flex;
+    margin: 10px
+  }
+
+  .card-tier-label {
+    font-weight: 300;
+  }
+
+  .card-tier {
+    color: white;
+    margin-left: 10px;
+  }
+
+  .main-card-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .card-label {
+    color: #D2D2D2;
+    text-shadow: 2px;
+    font-weight: 300;
+    font-size: 1.3em;
+    text-align: center;
+    text-shadow: 1px 2px black;
+  }
+
+  .card-middle-tier-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 20px;
+
+    .character-stats-div {
+      flex-grow: 1;
+      margin: 20px 0px;
+    }
+
+    .card-value {
+      text-align: center;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 2.3em;
+      margin: 0 auto;
+      text-shadow: 1px 2px black;
+      width: 120px;
+    }
+  }
+
+  .card-image {
+    height: 400px;
+  }
+
+  .card-icon {
+    height: 600px;
+    position: absolute;
+    right: 0px;
+    bottom: -80px;
+  }
+
+  .pro-con-container {
+    display: flex;
+    margin: 30px 15px;
+  }
+
+  .stat-container {
+    text-align: center;
+    width: 300px;
+
+    p {
+      font-weight: 300;
+      padding: 0px 10px;
+      line-height: 34px; 
+    }
+  }
+
+  .card-link {
+    color: $subduedBlue;
+    float: right;
+    margin: 15px;
+  }
+
+}
