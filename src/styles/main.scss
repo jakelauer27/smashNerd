@@ -20,27 +20,6 @@ body {
   margin: 0;
 }
 
-.characters-page {
-  justify-content: center;
-  align-items: center;
-}
-
-.characters-page-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(15 , 200px);
-  height: 100%;
-  width: 90%;
-}
-
-section .charater-preview-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  border: 1px black solid;
-}
-
 h1 {
   color: white;
 }
@@ -107,34 +86,3 @@ h1 {
   width: 150px;
 }
 
-/////ANIMATION
-.zoom-appear {
-  opacity: 0;
-}
-
-.zoom-appear.zoom-appear-active {
-  opacity: 1;
-  transition: opacity 1000ms linear;
-}
-
-.zoom-exit {
-  opacity: 1;
-}
-
-.zoom-exit.zoom-exit-active {
-  opacity: 1;
-  transition: opacity 1000ms linear;
-}
-
-.zoom-exit-done {
-  opacity: 0;
-}
-
-.zoom-enter {
-  opacity: 0;
-}
-
-.zoom-enter.zoom-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms linear;
-}

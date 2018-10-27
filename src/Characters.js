@@ -81,9 +81,9 @@ class Characters extends Component {
      <div className="characters-page">
        {
          this.state.characters.map((character) => {
-           return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`} key={character.index}>
-                     <h2 onClick={e => this.selectCharacter(e)} className={character.index}>{character.name}</h2>
-                     <img onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-icon`} src={character.images.icon} />
+           return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`} key={character.index}
+                    style={{'background-image': `url(${character.images.icon})`}}>
+                     <h2 onClick={e => this.selectCharacter(e)} className={`${character.index} preview-card-name`}>{character.name}</h2>
                    </div>
          })
        }
