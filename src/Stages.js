@@ -42,7 +42,7 @@ class Stages extends Component {
       <section className='stages-body'>
       {  
         this.state.stages.map((stage) => {
-          return <div onClick={e => this.selectStage(e)} className={`${stage.name.replace(/\s/g, '')} stage-cards`}>
+          return <div onClick={e => this.selectStage(e)} className={`${stage.name.replace(/\s/g, '')} stage-cards`} key={stage.name}>
                    <h2 onClick={e => this.selectStage(e)} className={stage.name.replace(/\s/g, '')}>{stage.name}</h2>
                    <img onClick={e => this.selectStage(e)} className={`${stage.name.replace(/\s/g, '')} stage-image`} src={stage.stage_image} />
                  </div>
