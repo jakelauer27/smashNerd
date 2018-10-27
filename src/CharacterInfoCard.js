@@ -1,10 +1,23 @@
 import React, { Component } from 'react';
 import { cardCategories } from './data';
 import { cardProsCons } from './data';
+import { letterSuperScripts} from './data'
 import './styles/main.scss';
 
 class CharacterInfoCard extends Component {
- 
+
+  addSuperScript(rank) {
+    if (typeof rank === 'number') {
+      let superScript = letterSuperScripts.find( (script, i) => {
+        let numArray = [...rank.toString()];
+        return script.num === parseInt(numArray[numArray.length - 1]);
+      })
+      return <h2 className={`card card-speed-value card-value`}>
+      {rank}<span className='super-script'>{superScript.script}</span></h2>;
+    }
+    return rank;
+  }
+
   render() {
     if(this.props.character === '') {
       return ( <div></div> )
@@ -33,7 +46,7 @@ class CharacterInfoCard extends Component {
                               <h3 className={`card card-${category.name.toLowerCase()}-label card-label`}>
                               {category.name}</h3>
                               <h2 className={`card card-${category.name.toLowerCase()}-value card-value`}>
-                              {this.props.character[category.key1][category.key2]}</h2>
+                              {this.addSuperScript(this.props.character[category.key1][category.key2])}</h2>
                           </div>
                   })
                 }

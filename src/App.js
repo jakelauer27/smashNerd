@@ -19,7 +19,6 @@ class App extends Component {
   }
 
   renderSection = (e) => {
-    console.log(e.target.classList[0])
     const section = e.target.classList[0];
     this.setState({
       Characters: false,

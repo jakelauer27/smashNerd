@@ -17,9 +17,17 @@ class Characters extends Component {
  componentDidMount() {
    fetch('http://whateverly-datasets.herokuapp.com/api/v1/characters')
      .then(response => response.json())
-     .then(characters => {
+     .then(data => {
         this.setState({
-          characters: characters.characters.map((character, i) => {
+          characters: data.characters.map((character, i) => {
+            let rank = 59;
+            data.characters.forEach(compare => {
+              if (character.speeds.run_speed + character.speeds.air_speed + character.speeds.initial_dash >= 
+                  compare.speeds.run_speed +  compare.speeds.air_speed + compare.speeds.initial_dash) {
+                rank --;
+              }
+            })
+            character.speeds.speed_rank = rank;
             character.index = i;
             return character;
             })
@@ -39,6 +47,7 @@ class Characters extends Component {
   }
 
   setIndex() {
+
     this.setState({
       characters: this.state.characters.map((character, i) => {
         character.index = i;
@@ -79,7 +88,6 @@ class Characters extends Component {
          })
        }
        <CharacterInfoCard character={this.state.card} scrollCard={this.scrollCard}/>
-
      </div>
    )
  }

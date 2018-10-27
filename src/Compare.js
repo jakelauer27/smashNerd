@@ -23,7 +23,17 @@ class Compare extends Component {
     .then(response => response.json())
     .then(data => {
       this.setState({
-        characters: data.characters
+        characters: data.characters.map((character) => {
+          let rank = 59;
+          data.characters.forEach(compare => {
+            if (character.speeds.run_speed + character.speeds.air_speed + character.speeds.initial_dash >= 
+              compare.speeds.run_speed +  compare.speeds.air_speed + compare.speeds.initial_dash)  {
+              rank --;
+            }
+          })
+          character.speeds.speed_rank = rank;
+          return character;
+          })
       })
     })
     .catch(error => console.log(error))
