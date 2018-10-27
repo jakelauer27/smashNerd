@@ -12,5 +12,5 @@
 			</cc:Work>
 		</rdf:RDF>
 	</metadata>
-	<path id="mainsymbolpath" style="opacity:0.5;fill#000000;fill-opacity:1;stroke:none" d="M264 131.035v136.658l23.798 163.583h94.404L406 267.693V131.035H264zM283.52 452.26h102.959v86.705H283.52z"/>
+	<path id="mainsymbolpath" style="opacity:0.4;fill:#FFFFFF;fill-opacity:.10;stroke: black;stroke-opacity: 0.1;stroke-width: 3px;" d="M264 131.035v136.658l23.798 163.583h94.404L406 267.693V131.035H264zM283.52 452.26h102.959v86.705H283.52z"/>
 </svg>
