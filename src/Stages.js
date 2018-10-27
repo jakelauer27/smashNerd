@@ -47,24 +47,14 @@ class Stages extends Component {
       })
     }
 
-    scrollStageCard(e) {
-      if (e.target.classList.contains('stage-left-button')) {
+    scrollStageCard(num) {
         let stage = this.state.stages.find((stage) => {
-          return stage.index === this.state.currentStage - 1
+          return stage.index === this.state.currentStage + num
         })
         this.setState ({
-          currentStage: this.state.currentStage - 1,
+          currentStage: this.state.currentStage + num,
           card: stage
-        })
-      } else {
-        let stage = this.state.stages.find((stage) => {
-        return stage.index === this.state.currentStage + 1
-      })
-        this.setState({
-          currentStage: this.state.currentStage + 1,
-          card: stage
-        })
-      }
+        }) 
     }
 
 

@@ -32,8 +32,8 @@ class StagesCards extends Component {
              })
             }
           </section>
-        <button onClick={e => this.props.scrollStageCard(e)} className='stage-left-button'>Left</button>
-        <button onClick={e => this.props.scrollStageCard(e)} className='stage-right-button'>Right</button>
+        <button onClick={e => this.props.scrollStageCard(-1)} className='stage-left-button'>Left</button>
+        <button onClick={e => this.props.scrollStageCard(1)} className='stage-right-button'>Right</button>
         <button className='stage-delete-button'>Delete</button>
       </div>
       )
