@@ -11,6 +11,7 @@ class Stages extends Component {
       card: '',
       currentStage: ''
     } 
+    this.scrollStageCard = this.scrollStageCard.bind(this)
 }
 
   componentDidMount(){
@@ -18,7 +19,10 @@ class Stages extends Component {
       .then(response => response.json())
       .then(stages => {
         this.setState({
-          stages: stages.stages
+          stages: stages.stages.map((stage, i) => {
+            stage.index = i;
+            return stage;
+          })
         })
       })
       .catch(error => console.log(error));
@@ -26,12 +30,41 @@ class Stages extends Component {
 
     selectStage(e) {
       let stage = this.state.stages.find((stage) => {
-        return stage.name.replace(/\s/g, '') === e.target.classList[0];
+        return stage.index === parseInt(e.target.classList[0]);
       })
       this.setState({
-        currentStage: e.target.classList[0],
+        currentStage: parseInt(e.target.classList[0]),
         card: stage
       })
+    }
+
+    setStageIndex() {
+      this.setState({
+        stages: this.state.stages.map((stage, i) => {
+          stage.index = i;
+          return stage;
+        })
+      })
+    }
+
+    scrollStageCard(e) {
+      if (e.target.classList.contains('stage-left-button')) {
+        let stage = this.state.stages.find((stage) => {
+          return stage.index === this.state.currentStage - 1
+        })
+        this.setState ({
+          currentStage: this.state.currentStage - 1,
+          card: stage
+        })
+      } else {
+        let stage = this.state.stages.find((stage) => {
+        return stage.index === this.state.currentStage + 1
+      })
+        this.setState({
+          currentStage: this.state.currentStage + 1,
+          card: stage
+        })
+      }
     }
 
 
@@ -42,13 +75,13 @@ class Stages extends Component {
       <section className='stages-body'>
       {  
         this.state.stages.map((stage) => {
-          return <div onClick={e => this.selectStage(e)} className={`${stage.name.replace(/\s/g, '')} stage-cards`} key={stage.name}>
-                   <h2 onClick={e => this.selectStage(e)} className={stage.name.replace(/\s/g, '')}>{stage.name}</h2>
-                   <img onClick={e => this.selectStage(e)} className={`${stage.name.replace(/\s/g, '')} stage-image`} src={stage.stage_image} />
+          return <div onClick={e => this.selectStage(e)} className={`${stage.index} stage-cards`} key={stage.name}>
+                   <h2 onClick={e => this.selectStage(e)} className={stage.index}>{stage.name}</h2>
+                   <img onClick={e => this.selectStage(e)} className={`${stage.index} stage-image`} src={stage.stage_image} />
                  </div>
         })
       } 
-      <StagesCards stage={this.state.card}/>
+      <StagesCards stage={this.state.card} scrollStageCard={this.scrollStageCard}/>
       </section>
       </div> 
     )
