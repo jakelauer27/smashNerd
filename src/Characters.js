@@ -57,29 +57,18 @@ class Characters extends Component {
     })
   }
 
-scrollCard(e) {
-    if (e.target.classList.contains('left-button')) {
+scrollCard(num) {
       let character = this.state.characters.find((character) => {
-      return character.index === this.state.currentCharacter - 1
+      return character.index === this.state.currentCharacter + num;
     })
       this.setState ({
-        currentCharacter: this.state.currentCharacter - 1,
-        card: character
-      })
-    } else {
-      let character = this.state.characters.find((character) => {
-      return character.index === this.state.currentCharacter + 1
-    })
-      this.setState ({
-        currentCharacter: this.state.currentCharacter + 1,
+        currentCharacter: this.state.currentCharacter + num,
         card: character
       })
     }
-  }
-
 
   removeCard(e) {
-    if (e.target.classList.contains('delete-button')) {
+    if (e.target.classList.contains('delete')) {
       this.setState({
         card: ''
       })
