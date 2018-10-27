@@ -18,9 +18,17 @@ class Characters extends Component {
  componentDidMount() {
    fetch('http://whateverly-datasets.herokuapp.com/api/v1/characters')
      .then(response => response.json())
-     .then(characters => {
+     .then(data => {
         this.setState({
-          characters: characters.characters.map((character, i) => {
+          characters: data.characters.map((character, i) => {
+            let rank = 59;
+            data.characters.forEach(compare => {
+              if (character.speeds.run_speed + character.speeds.air_speed + character.speeds.initial_dash >= 
+                  compare.speeds.run_speed +  compare.speeds.air_speed + compare.speeds.initial_dash) {
+                rank --;
+              }
+            })
+            character.speeds.speed_rank = rank;
             character.index = i;
             return character;
             })
@@ -40,6 +48,7 @@ class Characters extends Component {
   }
 
   setIndex() {
+
     this.setState({
       characters: this.state.characters.map((character, i) => {
         character.index = i;
@@ -82,16 +91,16 @@ scrollCard(e) {
      <div className="characters-page">
        {
          this.state.characters.map((character) => {
-           return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`} key={character.index}>
-                     <h2 onClick={e => this.selectCharacter(e)} className={character.index}>{character.name}</h2>
-                     <img onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-icon`} src={character.images.icon} />
+           return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`} key={character.index}
+                    style={{'background-image': `url(${character.images.icon})`}}>
+                     <h2 onClick={e => this.selectCharacter(e)} className={`${character.index} preview-card-name`}>{character.name}</h2>
                    </div>
          })
        }
+
        <CharacterInfoCard character={this.state.card} 
                           scrollCard={this.scrollCard}
                           removeCard={this.removeCard}/>
-
      </div>
    )
  }

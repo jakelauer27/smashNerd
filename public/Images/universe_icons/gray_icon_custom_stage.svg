@@ -13,6 +13,6 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-    <path id="mainsymbolpath" style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.5"
+    <path id="mainsymbolpath" style="opacity:0.4;fill:#FFFFFF;fill-opacity:.10;stroke: black;stroke-opacity: 0.1;stroke-width: 3px;"
        d="M 133.94922 38 L 113.88281 87.666016 A 44.009109 44.009079 0 0 0 83.175781 75.123047 A 44.009109 44.009079 0 0 0 39.167969 119.13086 A 44.009109 44.009079 0 0 0 83.175781 163.14062 A 44.009109 44.009079 0 0 0 125.50977 131.00195 L 183.3457 154.37109 L 216.83398 71.486328 L 133.94922 38 z M 141.51367 139.83789 L 111.33594 218 L 199.14648 197.7168 L 141.51367 139.83789 z " />
 </svg>

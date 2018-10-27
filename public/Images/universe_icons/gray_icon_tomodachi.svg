@@ -12,7 +12,7 @@
 			</cc:Work>
 		</rdf:RDF>
 	</metadata>
-	<path id="mainsymbolpath" style="opacity:0.5;fill:#000000;fill-opacity:1;stroke:none"
+	<path id="mainsymbolpath" style="opacity:0.4;fill:#FFFFFF;fill-opacity:.10;stroke: black;stroke-opacity: 0.1;stroke-width: 3px;"
 		d="m 133.56323,168.12425 20.37355,0 0,20.37355 -20.37355,0 z m -31.50001,0 20.37354,0 0,20.37355 -20.37354,0 z m 31.50001,-31.5 20.37355,0 0,20.37355 -20.37355,0 z m -31.50001,0 20.37354,0 0,20.37355 -20.37354,0 z M 128,39.15625 l -95.15625,94.8125 36,0 0,76.0625 118.3125,0 0,-76.0625 36,0 L 128,39.15625 z"
 	/>
 </svg>

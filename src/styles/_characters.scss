@@ -1,33 +1,80 @@
 @import 'variables';
 
+
+
+.characters-page {
+  justify-content: center;
+}
+
 * {
   padding: 0;
   margin: 0;
 }
 
 .characters-page {
-  justify-content: center;
-}
-
-
-.characters-page {
+  margin: 50px 20px;
   animation: zoomIn .8s ease;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(15 , 200px);
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-gap: 40px;
 }
 
 .character-preview-card {
+  background-color: rgba(46, 46, 46, 0.5);
+  background-blend-mode: darken;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-end;
   align-items: center;
-  border: 1px black solid;
   height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  transition: .4s;
 
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: rgba(46, 46, 46, 0.0);
+  }
 }
 
-.character-preview-icon {
-  height: 100px;
-  width: 100px;
+.preview-card-name {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  width: 100%;
+}
+
+/////ANIMATION
+.zoom-appear {
+  opacity: 0;
+}
+
+.zoom-appear.zoom-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
+}
+
+.zoom-exit {
+  opacity: 1;
+}
+
+.zoom-exit.zoom-exit-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
+}
+
+.zoom-exit-done {
+  opacity: 0;
+}
+
+.zoom-enter {
+  opacity: 0;
+}
+
+.zoom-enter.zoom-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms linear;
 }

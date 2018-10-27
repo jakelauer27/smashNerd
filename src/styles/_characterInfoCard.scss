@@ -1,1 +1,293 @@
 @import 'variables';
+
+.character-info-card {
+  animation: fadeIn 1s;
+  background-color: #272B3E;
+  border-radius: 15px;
+  color: white;
+  overflow: hidden;
+  position: fixed;
+  right: calc(50vw - 450px);
+  top: 120px;
+  padding: 10px;
+  width: 900px;
+  
+  .card {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .top-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px;
+  }
+  
+  .card-name {
+    color: white;
+    font-size: 3.5em;
+    font-weight: 400;
+  }
+  
+  .card-universe {
+    color: #C1C1C1;
+    font-size: 1.4em;
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  .tier-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .card-tier-label {
+    font-weight: 300;
+    font-size: 2em;
+
+  }
+
+  .card-tier {
+    border: 3px solid white;
+    border-radius: 50%;
+    color: white;
+    font-size: 3.2em;
+    font-family: 'Rye', cursive;
+    margin-left: 14px;
+    padding: 4px 20px 12px 17px;
+  }
+
+  .main-card-content {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .card-label {
+    color: #D2D2D2;
+    text-shadow: 2px;
+    font-weight: 300;
+    font-size: 1.5em;
+    text-align: center;
+    text-shadow: 1px 2px black;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+
+  .card-middle-tier-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px -25px 0px 0px;
+
+    .character-stats-div {
+      flex-grow: 1;
+      margin: 20px 0px;
+      text-align: center;
+    }
+
+    .card-value {
+      font-weight: 300;
+      font-style: italic;
+      font-size: 2em;
+      padding-right: -50px;
+      text-shadow: 1px 2px black;
+      width: 158px;
+      margin: 0 auto;
+  
+    }
+
+    .super-script {
+      font-size: .5em;
+      position: relative;
+      bottom: 22px;
+      left: 5px;
+    }
+    
+    .card-class-value {
+      font-size: 1.7em;
+    }
+  }
+
+
+  .card-image {
+    height: 400px;
+  }
+
+  .card-icon {
+    height: 650px;
+    position: absolute;
+    right: -45px;
+    bottom: -80px;
+    z-index: -1;
+  }
+
+  .pro-con-container {
+    display: flex;
+    margin: 20px 0px;
+
+    .card-label{
+      margin-left: 5px;
+    }
+  }
+
+  .stat-container {
+    text-align: center;
+    height: 150px;
+    width: 250px;
+    overflow: hidden;
+
+    p {
+      font-weight: 300;
+      padding: 0px 10px;
+      line-height: 34px; 
+    }
+  }
+
+  .card-link {
+    color: $brillantBlue;
+    float: right;
+    margin: 10px 15px;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+  .triangle {
+    background-color: black;
+    height: 1000px;
+    top: -500px;
+    left: -550px;
+    position: absolute;
+    transform: rotate(30deg);
+    z-index: -1;
+    width: 1000px;
+  }
+}
+
+.arrow-wrapper {
+  background-color: rgba(0, 0, 0, 0.61);
+  right: calc(50vw - 1000px);
+  top: -340px;
+  padding: 10px;
+  height: 2000px;
+  width: 2000px;
+
+  position: fixed;
+
+  .scroll-button {
+    border-radius: 50%;
+    color: rgb(201, 201, 201);
+    font-size: 3em;
+    background-color: rgba(27, 27, 27, 0.87);
+    padding: 15px 30px;
+    position: absolute;
+    transition: all .3s ease;
+    opacity: .8;
+    outline: none;
+
+    &:active {
+      background-color: rgb(201, 201, 201);
+      border-color: rgba(27, 27, 27, 0.87);
+      color: rgba(27, 27, 27, 0.87);
+    }
+  }
+
+  .right-button {
+    top: 670px;
+    right: 450px;
+
+    i {
+      margin-left: 4px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: translateX(3px);
+      opacity: 1;
+    }
+  }
+
+  .left-button {
+    top: 670px;
+    left: 450px;
+
+    i {
+      margin-right: 4px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: translateX(-3px);
+      opacity: 1;
+    }
+  }
+
+  .delete-button {
+    font-size: 2em;
+    padding: 10px 18px;
+    top: 410px;
+    right: 490px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(201, 201, 201);
+      border-color: rgba(27, 27, 27, 0.87);
+      color: rgba(27, 27, 27, 0.87);
+    }
+  }
+}
+
+#S {
+  color: gold;
+  border-color: gold;
+}
+
+#A {
+  color: rgb(0, 235, 137);
+  border-color: rgb(0, 235, 137);
+}
+
+#B {
+  color: rgb(36, 126, 96);
+  border-color: rgb(36, 126, 96);
+}
+
+#C {
+  color: rgb(27, 152, 255);
+  border-color: rgb(27, 152, 255);
+}
+
+#D {
+  color: rgb(101, 5, 255);
+  border-color: rgb(101, 5, 255);
+}
+
+#E {
+  color: rgb(255, 251, 5);
+  border-color: rgb(255, 251, 5);
+}
+
+#F {
+  color: rgb(223, 66, 79);
+  border-color: rgb(223, 66, 79);
+}
+
+#G {
+  color: rgb(136, 46, 54);
+  border-color: rgb(139, 53, 60);
+}
+
+#N\/A {
+  color: rgb(126, 124, 124);
+  border: none;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -10,126 +10,126 @@
   right: 0;
   z-index: 3;
   overflow: hidden;
-}
 
-.action-container {
-  width: 100%;
-  
-    .smash-logo {
-    margin: 20px calc(50vw - 305px);
-    height: 290px;
-    width: 600px;
-  }
+  .action-container {
+    width: 100%;
+    
+      .smash-logo {
+      margin: 20px calc(50vw - 305px);
+      height: 290px;
+      width: 600px;
+    }
 
-  button {
-    border: 0px;
-    background: none;
-    font-family: 'Smash Bros', serrif;
-    font-size: 2em;
-    margin: 20px calc(50vw - 100px);
-    width: 200px;
+    button {
+      border: 0px;
+      background: none;
+      font-family: 'Smash Bros', serrif;
+      font-size: 2em;
+      margin: 20px calc(50vw - 100px);
+      width: 200px;
 
-    &:hover {
-      color: white;
-      text-shadow: 1px 2px 1px black;
+      &:hover {
+        color: white;
+        text-shadow: 1px 2px 1px black;
+      }
     }
   }
-}
 
-.hide {
-  display: none;
-}
-
-@mixin cloud($duration, $left, $margin-top, $width) {
-  animation: cloudMove $duration linear infinite;
-  left: $left;
-  margin-top: $margin-top;
-  position: absolute;
-  width: $width;
-  opacity: 0.85;
-}
-
-.cloud1 {
-  @include cloud(147s, -700px, 40px, 400px);
-}
-
-.cloud2 {
-  @include cloud(150s, -1000px, 570px, 400px);
-}
-
-.cloud3 {
-  @include cloud(153s, -300px, 540px, 400px);
-}
-
-.cloud4 {
-  @include cloud(157s, -200px, 70px, 400px);
-  height: 200px;
-}
-
-.cloud5 {
-  @include cloud(166s, -600px, 350px, 200px);
-}
-
-.cloud6 {
-  @include cloud(141s, -1050px, 280px, 400px);
-}
-
-.cloud7 {
-  @include cloud(162s, 100px, 300px, 400px);
-}
-
-.cloud8 {
-  @include cloud(188s, -1300px, -20px, 500px);
-  height: 300px
-}
-
-.cloud9 {
-  @include cloud(147s, 500px, 40px, 400px);
-}
-
-.cloud10 {
-  @include cloud(150s, 200px, 570px, 400px);
-}
-
-.cloud11 {
-  @include cloud(153s, 900px, 540px, 400px);
-}
-
-.cloud12 {
-  @include cloud(157s, 1000px, 70px, 400px);
-  height: 200px;
-}
-
-.cloud13 {
-  @include cloud(166s, 600px, 350px, 200px);
-}
-
-.cloud14 {
-  @include cloud(151s, 150px, 280px, 400px);
-}
-
-.cloud15 {
-  @include cloud(172s, 1300px, 300px, 400px);
-}
-
-.cloud16 {
-  @include cloud(188s, -100px, -20px, 500px);
-  height: 300px
-}
-
-@keyframes cloudMove {
-  0% {
-    transform: translateX(1200px);
-  }
-  50% {
-    transform: translateX(0px);
+  .hide {
     display: none;
   }
-  51% {
-    transform: translateX(2400px);
-    display: block;
+
+  @mixin cloud($duration, $left, $margin-top, $width) {
+    animation: cloudMove $duration linear infinite;
+    left: $left;
+    margin-top: $margin-top;
+    position: absolute;
+    width: $width;
+    opacity: 0.85;
   }
-  100% {
-    transform: translateX(1200px);
+
+  .cloud1 {
+    @include cloud(147s, -700px, 40px, 400px);
+  }
+
+  .cloud2 {
+    @include cloud(150s, -1000px, 570px, 400px);
+  }
+
+  .cloud3 {
+    @include cloud(153s, -300px, 540px, 400px);
+  }
+
+  .cloud4 {
+    @include cloud(157s, -200px, 70px, 400px);
+    height: 200px;
+  }
+
+  .cloud5 {
+    @include cloud(166s, -600px, 350px, 200px);
+  }
+
+  .cloud6 {
+    @include cloud(141s, -1050px, 280px, 400px);
+  }
+
+  .cloud7 {
+    @include cloud(162s, 100px, 300px, 400px);
+  }
+
+  .cloud8 {
+    @include cloud(188s, -1300px, -20px, 500px);
+    height: 300px
+  }
+
+  .cloud9 {
+    @include cloud(147s, 500px, 40px, 400px);
+  }
+
+  .cloud10 {
+    @include cloud(150s, 200px, 570px, 400px);
+  }
+
+  .cloud11 {
+    @include cloud(153s, 900px, 540px, 400px);
+  }
+
+  .cloud12 {
+    @include cloud(157s, 1000px, 70px, 400px);
+    height: 200px;
+  }
+
+  .cloud13 {
+    @include cloud(166s, 600px, 350px, 200px);
+  }
+
+  .cloud14 {
+    @include cloud(151s, 150px, 280px, 400px);
+  }
+
+  .cloud15 {
+    @include cloud(172s, 1300px, 300px, 400px);
+  }
+
+  .cloud16 {
+    @include cloud(188s, -100px, -20px, 500px);
+    height: 300px
+  }
+
+  @keyframes cloudMove {
+    0% {
+      transform: translateX(1200px);
+    }
+    50% {
+      transform: translateX(0px);
+      display: none;
+    }
+    51% {
+      transform: translateX(2400px);
+      display: block;
+    }
+    100% {
+      transform: translateX(1200px);
+    }
   }
 }

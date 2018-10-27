@@ -54,9 +54,9 @@ const categories = [
     key2: 'air_speed'
   }, 
   {
-    name: 'Fall',
+    name: 'Spd-Rk',
     key1: 'speeds',
-    key2: 'fall_speed'
+    key2: 'speed_rank'
   }, 
   {
     name: 'Ctr',
@@ -72,24 +72,19 @@ const categories = [
 
 const cardCategories = [
   {
-    name: 'Universe',
-    key1: 'universe',
-    key2: 'name'
+    name: 'Class',
+    key1: 'weight',
+    key2: 'class'
   },
   {
-    name: 'Tier',
-    key1: 'tier',
-    key2: 'tier'
+    name: 'Speed',
+    key1: 'speeds',
+    key2: 'speed_rank'
   },
   {
     name: 'Rank',
     key1: 'tier',
     key2: 'rank'
-  },
-  {
-    name: 'Weight Class',
-    key1: 'weight',
-    key2: 'class'
   }
 ]
 
@@ -104,9 +99,23 @@ const cardProsCons = [
   }
 ]
 
+const letterSuperScripts = [
+  {num: 1, script: 'st'},
+  {num: 2, script: 'nd'},
+  {num: 3, script: 'rd'},
+  {num: 4, script: 'th'},
+  {num: 5, script: 'th'},
+  {num: 6, script: 'th'},
+  {num: 7, script: 'th'},
+  {num: 8, script: 'th'},
+  {num: 9, script: 'th'},
+  {num: 0, script: 'th'},
+]
+
 
 export {
   categories,
   cardCategories,
-  cardProsCons
+  cardProsCons,
+  letterSuperScripts
 };
