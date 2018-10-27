@@ -72,7 +72,7 @@ class CharacterInfoCard extends Component {
       </div>
         <button onClick={e => this.props.scrollCard(e)} className='left-button scroll-button'><i class="fas fa-angle-left"></i></button>
         <button onClick={e => this.props.scrollCard(e)} className='right-button scroll-button'><i class="fas fa-angle-right"></i></button>
-        <button className='delete-button scroll-button'><i class="fas fa-times"></i></button>
+        <button onClick={e => this.props.removeCard(e)} className='delete-button'><i class="fas fa-times"></i></button>
       </div>
     )
   }
