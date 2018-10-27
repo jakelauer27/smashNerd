@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
 import './styles/main.scss';
 import StagesCards from './StagesCards.js';
-
+import Search from './Search.js';
+import Filter from './Filter.js'
 
 class Stages extends Component {
   constructor() {
     super();
     this.state = {
+      stageList: [],
       stages: [],
       card: '',
       currentStage: ''
     } 
     this.scrollStageCard = this.scrollStageCard.bind(this)
+    this.filterByUniverse = this.filterByUniverse.bind(this);
 }
 
   componentDidMount(){
     fetch('https://whateverly-datasets.herokuapp.com/api/v1/stages')
       .then(response => response.json())
       .then(stages => {
-        this.setState({
-          stages: stages.stages.map((stage, i) => {
+        var dataset = stages.stages.map((stage, i) => {
             stage.index = i;
             return stage;
           })
+        this.setState({
+          stageList: dataset,
+          stages: dataset
         })
       })
       .catch(error => console.log(error));
@@ -57,10 +62,32 @@ class Stages extends Component {
         }) 
     }
 
+  filterByUniverse(universe) {
+    let filteredStages = this.state.stageList.filter((stage) => {  
+      return stage.universe.name === universe
+    })
+    this.setState({
+      stages: filteredStages
+    })
+  }
+
+  distillUniverses() {
+    let universes = this.state.stageList.map(stage => stage.universe.name);
+    let filteredUniverses = [];
+    universes.forEach((universe) => {
+     if(filteredUniverses.indexOf(universe) === -1) {
+      filteredUniverses.push(universe)
+     }
+    })
+    return filteredUniverses;
+  }
+
 
   render() {
     return (
       <div className='stages-page'>
+      <Filter universes={this.distillUniverses()}
+              filterByUniverse={this.filterByUniverse} />
         <h1 className='stages-header'>STAGES</h1>
       <section className='stages-body'>
       {  
