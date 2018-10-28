@@ -1,9 +1,46 @@
 @import 'variables';
 
+::placeholder {
+  color: rgb(187, 187, 187);
+  font-family: 'Open Sans' , sans-serrif;
+}
 
+.search-input {
+  border: 2px solid $brillantBlue;
+  border-radius: 7px;
+  margin: 30px calc(50% - 130px);
+  font-size: 1.3em;
+  text-align: center;
+  width: 250px;
+  padding: 3px;
+  transition: all .2s;
 
-.characters-grid {
-  justify-content: center;
+  &:hover {
+    transform: scale(1.03);
+  }
+}
+
+.filter-container {
+  margin: 0 auto;
+  width: 200px
+}
+
+.filter-label {
+  text-align: center;
+}
+
+.filter {
+  border: 2px solid $brillantBlue;
+  border-radius: 7px;
+  font-size: 1.3em;
+  text-align: center;
+  width: 100%;
+  padding: 3px;
+  transition: all .2s;
+
+  &:hover {
+    transform: scale(1.03);
+  }
 }
 
 * {
@@ -11,10 +48,16 @@
   margin: 0;
 }
 
+.grid-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
 .characters-grid {
-  margin: 50px 20px;
   animation: zoomIn .8s ease;
+  margin: 50px;
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, 200px);
   grid-gap: 40px;
 }
@@ -47,34 +90,8 @@
   width: 100%;
 }
 
-/////ANIMATION
-.zoom-appear {
-  opacity: 0;
+.none {
+  display:none;
+  position: absolute;
 }
 
-.zoom-appear.zoom-appear-active {
-  opacity: 1;
-  transition: opacity 1000ms linear;
-}
-
-.zoom-exit {
-  opacity: 1;
-}
-
-.zoom-exit.zoom-exit-active {
-  opacity: 1;
-  transition: opacity 1000ms linear;
-}
-
-.zoom-exit-done {
-  opacity: 0;
-}
-
-.zoom-enter {
-  opacity: 0;
-}
-
-.zoom-enter.zoom-enter-active {
-  opacity: 1;
-  transition: opacity 1000ms linear;
-}

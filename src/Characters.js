@@ -12,7 +12,8 @@ class Characters extends Component {
     card: '',
     characters: [],
     currentCharacter: '',
-    nextCharacter: ''
+    nextCharacter: '',
+    loading: true
    }
    this.scrollCard = this.scrollCard.bind(this);
    this.removeCard = this.removeCard.bind(this);
@@ -39,7 +40,7 @@ class Characters extends Component {
         this.setState({
           characterList: dataset,
           characters: dataset
-        })
+        }, () => {this.setState({loading: false})})
      })
      .catch(error => console.log(error))
   }
@@ -49,7 +50,7 @@ class Characters extends Component {
       return character.name.toUpperCase().includes(searchInput.toUpperCase())
     })
     this.setState({
-      characters: filteredCharacters
+      characters: this.setIndex(filteredCharacters)
     })
   }
 
@@ -63,16 +64,14 @@ class Characters extends Component {
     })
   }
 
-  setIndex() {
-    this.setState({
-      characters: this.state.characters.map((character, i) => {
-        character.index = i;
-        return character;
-      })
+  setIndex(array) {
+    return array.map((character, i) => {
+      character.index = i;
+      return character;
     })
   }
 
-scrollCard(num) {
+  scrollCard(num) {
       let character = this.state.characters.find((character) => {
       return character.index === this.state.currentCharacter + num;
     })
@@ -91,11 +90,16 @@ scrollCard(num) {
   }
 
   filterByUniverse(universe) {
-    let filteredCharacters = this.state.characterList.filter((character) => {  
-      return character.universe.name === universe
-    })
+    let filteredCharacters;
+    if (universe === 'all') {
+      filteredCharacters = this.state.characterList;
+    } else {
+      filteredCharacters = this.state.characterList.filter((character) => {  
+        return character.universe.name === universe;
+      })
+    }
     this.setState({
-      characters: filteredCharacters
+      characters: this.setIndex(filteredCharacters)
     })
   }
 
@@ -110,26 +114,32 @@ scrollCard(num) {
     return filteredUniverses;
   }
 
- render() {
+  render() {
+   if (this.loading) {
+     return (
+       <h1>HEY</h1>
+     )
+   }
    return (
     <div className='characters-page'>
      <Search search={this.search}/>
      <Filter  universes={this.distillUniverses()}
               filterByUniverse={this.filterByUniverse} />
-      <div className="characters-grid">
-       {
-         this.state.characters.map((character) => {
-           return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`} key={character.index}
-                    style={{'backgroundImage': `url(${character.images.icon})`}}>
-                     <h2 onClick={e => this.selectCharacter(e)} className={`${character.index} preview-card-name`}>{character.name}</h2>
-                   </div>
-         })
-       }
-
-       <CharacterInfoCard character={this.state.card} 
-                          scrollCard={this.scrollCard}
-                          removeCard={this.removeCard}/>
-       </div>
+      <div className='grid-container'>
+          <div className="characters-grid">
+          {
+            this.state.characters.map((character) => {
+              return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`} key={character.index}
+              style={{'backgroundImage': `url(${character.images.icon})`}}>
+                        <h2 onClick={e => this.selectCharacter(e)} className={`${character.index} preview-card-name`}>{character.name}</h2>
+                      </div>
+            })
+            }
+            <CharacterInfoCard character={this.state.card} 
+                              scrollCard={this.scrollCard}
+                              removeCard={this.removeCard}/>
+          </div>
+        </div>
      </div>
    )
  }
