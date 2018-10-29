@@ -77,9 +77,9 @@ class Characters extends Component {
     var newNum = num;
     let character = this.state.characters.find((character) => {
       if(this.state.currentCharacter === 0 && num === -1) {
-        newNum = 57;
-      } else if(this.state.currentCharacter === 57 && num === 1) {
-        newNum = -57;
+        newNum = this.state.characters.length - 1;
+      } else if(this.state.currentCharacter === this.state.characters.length - 1 && num === 1) {
+        newNum = -(this.state.characters.length - 1);
       }
       return character.index === this.state.currentCharacter + newNum;
     })
