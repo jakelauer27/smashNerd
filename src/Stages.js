@@ -15,6 +15,7 @@ class Stages extends Component {
     } 
     this.scrollStageCard = this.scrollStageCard.bind(this)
     this.filterByUniverse = this.filterByUniverse.bind(this);
+    this.removeCard = this.removeCard.bind(this);
     this.search = this.search.bind(this);
 }
 
@@ -34,34 +35,49 @@ class Stages extends Component {
       .catch(error => console.log(error));
     }
 
-    selectStage(e) {
-      let stage = this.state.stages.find((stage) => {
-        return stage.index === parseInt(e.target.classList[0]);
-      })
-      this.setState({
-        currentStage: parseInt(e.target.classList[0]),
-        card: stage
-      })
-    }
+  selectStage(e) {
+    let stage = this.state.stages.find((stage) => {
+      return stage.index === parseInt(e.target.classList[0]);
+    })
+    this.setState({
+      currentStage: parseInt(e.target.classList[0]),
+      card: stage
+    })
+  }
 
-    setStageIndex() {
+  setStageIndex() {
+    this.setState({
+      stages: this.state.stages.map((stage, i) => {
+        stage.index = i;
+        return stage;
+      })
+    })
+  }
+
+  removeCard(e) {
+    if (e.target.classList.contains('stage-delete-button')) {
+      console.log('howdy')
       this.setState({
-        stages: this.state.stages.map((stage, i) => {
-          stage.index = i;
-          return stage;
-        })
+        card: ''
       })
     }
+  }
 
-    scrollStageCard(num) {
-        let stage = this.state.stages.find((stage) => {
-          return stage.index === this.state.currentStage + num
-        })
-        this.setState ({
-          currentStage: this.state.currentStage + num,
-          card: stage
-        }) 
-    }
+  scrollStageCard(num) {
+    let newNum = num;
+    let stage = this.state.stages.find((stage) => {
+      if(this.state.currentStage === 0 && num === -1) {
+        newNum = 83;
+      } else if(this.state.currentStage === 83 && num === 1) {
+        newNum = -83;
+      }
+      return stage.index === this.state.currentStage + newNum;
+    })
+    this.setState ({
+      currentStage: this.state.currentStage + newNum,
+      card: stage
+    }) 
+  }
 
   filterByUniverse(universe) {
     let filteredStages = this.state.stageList.filter((stage) => {  
@@ -117,7 +133,9 @@ class Stages extends Component {
                  </div>
         })
       } 
-      <StagesCards stage={this.state.card} scrollStageCard={this.scrollStageCard}/>
+      <StagesCards  stage={this.state.card} 
+                    scrollStageCard={this.scrollStageCard}
+                    removeCard={this.removeCard} />
       </section>
       </div> 
     )
