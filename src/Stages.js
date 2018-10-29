@@ -75,9 +75,15 @@ class Stages extends Component {
   }
 
   filterByUniverse = (universe) => {
-    let filteredStages = this.state.stageList.filter((stage) => {  
-      return stage.universe.name === universe
-    })
+    let filteredStages;
+    if (universe === 'all') {
+      filteredStages = this.state.stageList;
+    } else {
+      filteredStages = this.state.stageList.filter((stage) => {  
+        return stage.universe.name === universe
+      })
+    }
+    document.querySelector('.search-input').value = '';
     this.setState({
       stages: filteredStages
     })
@@ -105,6 +111,7 @@ class Stages extends Component {
     let filteredStages = this.state.stageList.filter((stage) => {  
       return stage.name.toUpperCase().includes(searchInput.toUpperCase())
     })
+    document.querySelector('.filter').value = 'All';
     this.setState({
       stages: this.setIndex(filteredStages)
     })
