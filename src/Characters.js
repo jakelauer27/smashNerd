@@ -50,6 +50,7 @@ class Characters extends Component {
     let filteredCharacters = this.state.characterList.filter((character) => {  
       return character.name.toUpperCase().includes(searchInput.toUpperCase())
     })
+    document.querySelector('.filter').value = 'All';
     this.setState({
       characters: this.setIndex(filteredCharacters),
       universe: 'all'
@@ -106,6 +107,7 @@ class Characters extends Component {
         return character.universe.name === universe;
       })
     }
+    document.querySelector('.search-input').value = '';
     this.setState({
       characters: this.setIndex(filteredCharacters),
       universe: universe

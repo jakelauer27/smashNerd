@@ -56,7 +56,6 @@ class Stages extends Component {
 
   removeCard(e) {
     if (e.target.classList.contains('stage-delete-button')) {
-      console.log('howdy')
       this.setState({
         card: ''
       })

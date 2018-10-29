@@ -36,9 +36,9 @@ class App extends Component {
         <header className="header">
           <img src='./images/universe_icons/flame_smash_bros.svg' className='smash-small' />
           <div className="header-buttons">
-            <button className='Characters header-button' onClick={this.renderSection}>CHARACTERS</button>
-            <button className='Stages header-button' onClick={this.renderSection}>STAGES</button>
             <button className='Compare header-button' onClick={this.renderSection}>COMPARE</button>
+            <button className='Stages header-button' onClick={this.renderSection}>STAGES</button>
+            <button className='Characters header-button' onClick={this.renderSection}>CHARACTERS</button>
           </div>
         </header>
         {
