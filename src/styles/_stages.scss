@@ -2,32 +2,49 @@
 
 
 .stages-header {
-  color: blue;
+  color: white;
   font-family: 'Smash Bros', serrif;
+  font-size: 40px;
   height: 65%;
+  margin: 20px auto 40px auto;
+  text-align: center;
   width: 100%;
 }
 
 .stages-page {
   animation: zoomIn .8s ease;
-  margin-left: 65px;
 }
 
 .stage-cards {
+  background-color: black;
   color: white;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 8px;
+  background-blend-mode: darken;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  font-size: 13px;
+  width: 100%
 }
 
 .stages-body {
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(12, 200px);
-  height: 100%;
-  width: 95%;
+  margin: 20px 30px 20px 30px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  grid-gap: 20px;
+  border: 7px solid $brillantBlue;
+  border-radius: 12px;
+  height: 100VH;
+  min-height: 400px;
+  overflow: scroll;
+  background-color: rgb(46, 46, 46);
 }
 
 .stage-image {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
 }
