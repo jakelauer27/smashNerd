@@ -5,13 +5,20 @@
   font-family: 'Open Sans' , sans-serrif;
 }
 
+.search-container {
+  animation: zoomIn .8s ease;
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 100px;
+}
+
 .search-input {
   border: 2px solid $brillantBlue;
   border-radius: 7px;
-  margin: 30px calc(50% - 130px);
   font-size: 1.3em;
   text-align: center;
-  width: 250px;
+  height: 23px;
+  width: 200px;
   padding: 3px;
   transition: all .2s;
 
@@ -21,12 +28,11 @@
 }
 
 .filter-container {
-  margin: 0 auto;
-  width: 200px
+  display: block;
 }
 
 .filter-label {
-  text-align: center;
+  display: block;
 }
 
 .filter {
@@ -34,7 +40,7 @@
   border-radius: 7px;
   font-size: 1.3em;
   text-align: center;
-  width: 100%;
+  width: 200px;
   padding: 3px;
   transition: all .2s;
 
@@ -50,12 +56,12 @@
 
 .grid-container {
   width: 100%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .characters-grid {
   animation: zoomIn .8s ease;
-  margin: 50px;
+  margin: 170px 50px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 200px);
@@ -93,5 +99,19 @@
 .none {
   display:none;
   position: absolute;
+}
+
+.universe-pic {
+  animation: zoomIn .8s ease;
+  top: 60px;
+  right: calc(50vw - 250px);
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  z-index: -1;
+}
+
+.smash-logo {
+  height: 210px;
 }
 

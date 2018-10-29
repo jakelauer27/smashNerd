@@ -3,6 +3,7 @@ import './styles/main.scss';
 import CharacterInfoCard from './CharacterInfoCard.js';
 import Search from './Search.js';
 import Filter from './Filter.js'
+import Universe from './Universe';
 
 class Characters extends Component {
  constructor() {
@@ -12,8 +13,8 @@ class Characters extends Component {
     card: '',
     characters: [],
     currentCharacter: '',
-    nextCharacter: '',
-    loading: true
+    loading: true,
+    universe: 'all'
    }
    this.scrollCard = this.scrollCard.bind(this);
    this.removeCard = this.removeCard.bind(this);
@@ -50,7 +51,9 @@ class Characters extends Component {
       return character.name.toUpperCase().includes(searchInput.toUpperCase())
     })
     this.setState({
-      characters: this.setIndex(filteredCharacters)
+      characters: this.setIndex(filteredCharacters),
+      universe: 'all'
+
     })
   }
 
@@ -99,7 +102,8 @@ class Characters extends Component {
       })
     }
     this.setState({
-      characters: this.setIndex(filteredCharacters)
+      characters: this.setIndex(filteredCharacters),
+      universe: universe
     })
   }
 
@@ -122,9 +126,12 @@ class Characters extends Component {
    }
    return (
     <div className='characters-page'>
-     <Search search={this.search}/>
-     <Filter  universes={this.distillUniverses()}
-              filterByUniverse={this.filterByUniverse} />
+      <div className='search-container'>
+        <Search search={this.search}/>
+        <Filter  universes={this.distillUniverses()}
+                filterByUniverse={this.filterByUniverse} />
+      </div>
+      <Universe universe={this.state.universe}/>
       <div className='grid-container'>
           <div className="characters-grid">
           {
