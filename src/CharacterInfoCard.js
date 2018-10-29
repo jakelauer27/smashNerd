@@ -20,7 +20,7 @@ class CharacterInfoCard extends Component {
 
   render() {
     if(this.props.character === '') {
-      return ( <div></div> )
+      return ( <div className='none'></div> )
     } else return (
       <div className='arrow-wrapper'>
       <div className='character-info-card'>
@@ -70,9 +70,9 @@ class CharacterInfoCard extends Component {
           </div>
         </div>
       </div>
-        <button onClick={e => this.props.scrollCard(-1)} className='left-button scroll-button'><i class="fas fa-angle-left"></i></button>
-        <button onClick={e => this.props.scrollCard(1)} className='right-button scroll-button'><i class="fas fa-angle-right"></i></button>
-        <button onClick={e => this.props.removeCard(e)} className='delete delete-button scroll-button'><i class="delete fas fa-times"></i></button>
+        <button onClick={e => this.props.scrollCard(-1)} className='left-button scroll-button'><i className="fas fa-angle-left"></i></button>
+        <button onClick={e => this.props.scrollCard(1)} className='right-button scroll-button'><i className="fas fa-angle-right"></i></button>
+        <button onClick={e => this.props.removeCard(e)} className='delete delete-button scroll-button'><i className="delete fas fa-times"></i></button>
       </div>
     )
   }

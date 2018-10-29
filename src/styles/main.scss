@@ -36,8 +36,7 @@ h1 {
   margin-top: 35px;
   opacity: 1;
   width: 152px;
-  position: relative;
-  left: 68%;
+  float: right;
 }
 
 .header {
@@ -49,6 +48,7 @@ h1 {
       linear-gradient(135deg, transparent 85%, black 75%);
   background-size:25px 25px; 
   height: 60px;
+  width: 100%;
 }
 
 .smash-small {
