@@ -16,6 +16,7 @@ class Stages extends Component {
     this.scrollStageCard = this.scrollStageCard.bind(this)
     this.filterByUniverse = this.filterByUniverse.bind(this);
     this.removeCard = this.removeCard.bind(this);
+    this.search = this.search.bind(this);
 }
 
   componentDidMount(){
@@ -98,12 +99,30 @@ class Stages extends Component {
     return filteredUniverses;
   }
 
+  setIndex(array) {
+    return array.map((character, i) => {
+      character.index = i;
+      return character;
+    })
+  }
+
+  search(searchInput) {
+    let filteredStages = this.state.stageList.filter((stage) => {  
+      return stage.name.toUpperCase().includes(searchInput.toUpperCase())
+    })
+    this.setState({
+      stages: this.setIndex(filteredStages)
+    })
+  }
 
   render() {
     return (
       <div className='stages-page'>
-      <Filter universes={this.distillUniverses()}
+        <div className='search-container'>
+          <Filter universes={this.distillUniverses()}
               filterByUniverse={this.filterByUniverse} />
+          <Search search={this.search} />
+        </div>
         <h1 className='stages-header'>STAGES</h1>
       <section className='stages-body'>
       {  
