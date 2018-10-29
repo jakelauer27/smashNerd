@@ -53,7 +53,6 @@ class Characters extends Component {
     this.setState({
       characters: this.setIndex(filteredCharacters),
       universe: 'all'
-
     })
   }
 
