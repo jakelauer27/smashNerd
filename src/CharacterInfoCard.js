@@ -19,7 +19,7 @@ class CharacterInfoCard extends Component {
   }
 
   render() {
-    if(this.props.character === '') {
+    if(!this.props.character) {
       return ( <div className='none'></div> )
     } else return (
       <div className='arrow-wrapper'>
