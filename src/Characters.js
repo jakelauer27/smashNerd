@@ -16,10 +16,6 @@ class Characters extends Component {
     loading: true,
     universe: 'all'
    }
-   this.scrollCard = this.scrollCard.bind(this);
-   this.removeCard = this.removeCard.bind(this);
-   this.search = this.search.bind(this);
-   this.filterByUniverse = this.filterByUniverse.bind(this);
  }
 
  componentDidMount() {
@@ -46,7 +42,7 @@ class Characters extends Component {
      .catch(error => console.log(error))
   }
 
-  search(searchInput) {
+  search = (searchInput) => {
     let filteredCharacters = this.state.characterList.filter((character) => {  
       return character.name.toUpperCase().includes(searchInput.toUpperCase())
     })
@@ -74,7 +70,7 @@ class Characters extends Component {
     })
   }
 
-  scrollCard(num) {
+  scrollCard = (num) => {
     var newNum = num;
     let character = this.state.characters.find((character) => {
       if(this.state.currentCharacter === 0 && num === -1) {
@@ -90,7 +86,7 @@ class Characters extends Component {
     })
   }
 
-  removeCard(e) {
+  removeCard = (e) => {
     if (e.target.classList.contains('delete')) {
       this.setState({
         card: ''
@@ -98,7 +94,7 @@ class Characters extends Component {
     }
   }
 
-  filterByUniverse(universe) {
+  filterByUniverse = (universe) => {
     let filteredCharacters;
     if (universe === 'all') {
       filteredCharacters = this.state.characterList;

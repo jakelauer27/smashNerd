@@ -15,7 +15,6 @@ class App extends Component {
       Compare: false,
     }
     this.keys = Object.keys(this.state);
-    this.renderSection = this.renderSection.bind(this);
   }
 
   renderSection = (e) => {
@@ -27,7 +26,6 @@ class App extends Component {
       [section]: true
     })
   }
-  
 
   render() {
     return (

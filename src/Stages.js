@@ -12,11 +12,7 @@ class Stages extends Component {
       stages: [],
       card: '',
       currentStage: ''
-    } 
-    this.scrollStageCard = this.scrollStageCard.bind(this)
-    this.filterByUniverse = this.filterByUniverse.bind(this);
-    this.removeCard = this.removeCard.bind(this);
-    this.search = this.search.bind(this);
+  } 
 }
 
   componentDidMount(){
@@ -54,7 +50,7 @@ class Stages extends Component {
     })
   }
 
-  removeCard(e) {
+  removeCard = (e) => {
     if (e.target.classList.contains('stage-delete-button')) {
       this.setState({
         card: ''
@@ -62,7 +58,7 @@ class Stages extends Component {
     }
   }
 
-  scrollStageCard(num) {
+  scrollStageCard = (num) => {
     let newNum = num;
     let stage = this.state.stages.find((stage) => {
       if(this.state.currentStage === 0 && num === -1) {
@@ -78,7 +74,7 @@ class Stages extends Component {
     }) 
   }
 
-  filterByUniverse(universe) {
+  filterByUniverse = (universe) => {
     let filteredStages = this.state.stageList.filter((stage) => {  
       return stage.universe.name === universe
     })
@@ -105,7 +101,7 @@ class Stages extends Component {
     })
   }
 
-  search(searchInput) {
+  search = (searchInput) => {
     let filteredStages = this.state.stageList.filter((stage) => {  
       return stage.name.toUpperCase().includes(searchInput.toUpperCase())
     })
