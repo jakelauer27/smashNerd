@@ -75,14 +75,20 @@ class Characters extends Component {
   }
 
   scrollCard(num) {
-      let character = this.state.characters.find((character) => {
-      return character.index === this.state.currentCharacter + num;
+    var newNum = num;
+    let character = this.state.characters.find((character) => {
+      if(this.state.currentCharacter === 0 && num === -1) {
+        newNum = 57;
+      } else if(this.state.currentCharacter === 57 && num === 1) {
+        newNum = -57;
+      }
+      return character.index === this.state.currentCharacter + newNum;
     })
-      this.setState ({
-        currentCharacter: this.state.currentCharacter + num,
-        card: character
-      })
-    }
+    this.setState ({
+      currentCharacter: this.state.currentCharacter + newNum,
+      card: character
+    })
+  }
 
   removeCard(e) {
     if (e.target.classList.contains('delete')) {
