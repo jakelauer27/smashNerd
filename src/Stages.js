@@ -62,9 +62,9 @@ class Stages extends Component {
     let newNum = num;
     let stage = this.state.stages.find((stage) => {
       if(this.state.currentStage === 0 && num === -1) {
-        newNum = 83;
-      } else if(this.state.currentStage === 83 && num === 1) {
-        newNum = -83;
+        newNum = this.state.stages.length - 1;
+      } else if(this.state.currentStage === this.state.stages.length - 1 && num === 1) {
+        newNum = -(this.state.stages.length - 1);
       }
       return stage.index === this.state.currentStage + newNum;
     })
@@ -121,9 +121,9 @@ class Stages extends Component {
     return (
       <div className='stages-page'>
         <div className='search-container'>
+          <Search search={this.search} />
           <Filter universes={this.distillUniverses()}
               filterByUniverse={this.filterByUniverse} />
-          <Search search={this.search} />
         </div>
         <h1 className='stages-header'>STAGES</h1>
       <section className='stages-body'>
