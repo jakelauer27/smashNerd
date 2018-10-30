@@ -119,9 +119,9 @@ class Stages extends Component {
     return (
       <div className='stages-page'>
         <div className='search-container'>
+          <Search search={this.search} />
           <Filter universes={this.distillUniverses()}
               filterByUniverse={this.filterByUniverse} />
-          <Search search={this.search} />
         </div>
         <h1 className='stages-header'>STAGES</h1>
       <section className='stages-body'>
