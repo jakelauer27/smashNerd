@@ -30,7 +30,7 @@
 
     tr:nth-child(1) th {
       background-color: black;
-      border: 0.5px solid black;
+      border: 0px solid black;
       border-top: 0px;
       position: sticky;
       position: -webkit-sticky;
@@ -48,7 +48,7 @@
     
     td {
       background-color: rgb(26, 26, 26);
-      border: .5px solid rgb(0, 0, 0);
+      border: 0px solid rgb(0, 0, 0);
       color: white;
       padding: 3px 8px;
     }

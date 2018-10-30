@@ -9,7 +9,7 @@
   animation: zoomIn .8s ease;
   display: flex;
   justify-content: space-between;
-  margin: 60px 100px;
+  margin: 80px 100px 40px;
 }
 
 .search-input {
@@ -61,7 +61,7 @@
 
 .characters-grid {
   animation: zoomIn .8s ease;
-  margin: 170px 50px;
+  margin: 150px 50px;
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 200px);

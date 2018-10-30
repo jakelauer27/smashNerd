@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 class StagesCards extends Component {
 
   render() {
-    if(this.props.stage === '') {
+    if(!this.props.stage) {
       return ( <div></div> )
     } else return (
       <div className='stage-info-card' >

@@ -51,28 +51,28 @@
   }
 
   .cloud1 {
-    @include cloud(147s, -700px, 40px, 400px);
+    @include cloud(157s, -700px, 40px, 400px);
   }
 
   .cloud2 {
-    @include cloud(150s, -1000px, 570px, 400px);
+    @include cloud(200s, -1000px, 570px, 400px);
   }
 
   .cloud3 {
-    @include cloud(153s, -300px, 540px, 400px);
+    @include cloud(203s, -300px, 540px, 400px);
   }
 
   .cloud4 {
-    @include cloud(157s, -200px, 70px, 400px);
+    @include cloud(223s, -200px, 70px, 400px);
     height: 200px;
   }
 
   .cloud5 {
-    @include cloud(166s, -600px, 350px, 200px);
+    @include cloud(176s, -600px, 350px, 200px);
   }
 
   .cloud6 {
-    @include cloud(141s, -1050px, 280px, 400px);
+    @include cloud(181s, -1050px, 280px, 400px);
   }
 
   .cloud7 {
@@ -80,41 +80,41 @@
   }
 
   .cloud8 {
-    @include cloud(188s, -1300px, -20px, 500px);
+    @include cloud(248s, -1300px, -20px, 500px);
     height: 300px
   }
 
   .cloud9 {
-    @include cloud(147s, 500px, 40px, 400px);
+    @include cloud(197s, 500px, 40px, 400px);
   }
 
   .cloud10 {
-    @include cloud(150s, 200px, 570px, 400px);
+    @include cloud(180s, 200px, 570px, 400px);
   }
 
   .cloud11 {
-    @include cloud(153s, 900px, 540px, 400px);
+    @include cloud(173s, 900px, 540px, 400px);
   }
 
   .cloud12 {
-    @include cloud(157s, 1000px, 70px, 400px);
+    @include cloud(207s, 1000px, 70px, 400px);
     height: 200px;
   }
 
   .cloud13 {
-    @include cloud(166s, 600px, 350px, 200px);
+    @include cloud(206s, 600px, 350px, 200px);
   }
 
   .cloud14 {
-    @include cloud(151s, 150px, 280px, 400px);
+    @include cloud(161s, 150px, 280px, 400px);
   }
 
   .cloud15 {
-    @include cloud(172s, 1300px, 300px, 400px);
+    @include cloud(222s, 1300px, 300px, 400px);
   }
 
   .cloud16 {
-    @include cloud(188s, -100px, -20px, 500px);
+    @include cloud(258s, -100px, -20px, 500px);
     height: 300px
   }
 

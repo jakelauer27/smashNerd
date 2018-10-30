@@ -54,7 +54,7 @@
     font-size: 3.2em;
     font-family: 'Rye', cursive;
     margin-left: 14px;
-    padding: 4px 20px 12px 17px;
+    padding: 3px 20px 12px 17px;
   }
 
   .main-card-content {
@@ -134,7 +134,7 @@
     text-align: center;
     height: 150px;
     width: 250px;
-    overflow: hidden;
+    overflow: scroll;
 
     p {
       font-weight: 300;
