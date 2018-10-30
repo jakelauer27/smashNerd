@@ -85,7 +85,7 @@ class Stages extends Component {
     }
     document.querySelector('.search-input').value = '';
     this.setState({
-      stages: filteredStages
+      stages: this.setIndex(filteredStages)
     })
   }
 
@@ -101,9 +101,9 @@ class Stages extends Component {
   }
 
   setIndex(array) {
-    return array.map((character, i) => {
-      character.index = i;
-      return character;
+    return array.map((stage, i) => {
+      stage.index = i;
+      return stage;
     })
   }
 
