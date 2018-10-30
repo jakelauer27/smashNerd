@@ -5,6 +5,18 @@ import Search from './Search.js';
 import Filter from './Filter.js'
 import Universe from './Universe';
 
+// function imagesLoaded() {
+//   const characterGrid = document.querySelector('.characters-grid')
+//   const imgElements = characterGrid.querySelectorAll('div');
+//   imgElements.map( img => {
+//     if (!img.complete) {
+//       return false;
+    
+//   return true;
+//   })
+// }
+
+
 class Characters extends Component {
  constructor() {
    super();
@@ -121,6 +133,10 @@ class Characters extends Component {
     return filteredUniverses;
   }
 
+  handleImageChange(){
+    alert('hi');
+  }
+
   render() {
    if (this.loading) {
      return (
@@ -139,8 +155,12 @@ class Characters extends Component {
           <div className="characters-grid">
           {
             this.state.characters.map((character) => {
-              return  <div onClick={e => this.selectCharacter(e)} className={`${character.index} character-preview-card`} key={character.index}
-              style={{'backgroundImage': `url(${character.images.icon})`}}>
+              return  <div onClick={e => this.selectCharacter(e)} 
+                           className={`${character.index} character-preview-card`} 
+                           key={character.index}
+                           style={{'backgroundImage': `url(${character.images.icon})`}}
+                           onLoad={this.handleImageChange}
+                           onError={this.handleImageChange}>
                         <h2 onClick={e => this.selectCharacter(e)} className={`${character.index} preview-card-name`}>{character.name}</h2>
                       </div>
             })
