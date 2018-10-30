@@ -16,18 +16,18 @@
 }
 
 .stage-cards {
+  align-items: center;
   background-color: black;
   background-image: url('../images/mosaic.png');
-  color: white;
+  background-size: cover;
   border-radius: 15px;
+  color: white;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
-  height: 200px;
-  background-size: cover;
-  overflow: hidden;
   font-size: 13px;
+  height: 200px;
+  justify-content: flex-end;
+  overflow: hidden;
   width: 100%;
 
   &:hover {

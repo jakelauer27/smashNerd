@@ -3,20 +3,20 @@
 
 .stage-info-card {
   animation: fadeIn 1s;
-  border-radius: 5px;
-  color: white;
-  overflow: hidden;
-  display: flex;
-  justify-content: column;
-  position: fixed;
-  height: 455px;
-  right: calc(50vw - 595px);
-  top: 205px;
-  padding: 0px;
-  width: 1210px;
-  border-radius: 15px;
   background-color: black;
   background-image: url('../images/mosaic.png');
+  border-radius: 15px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 455px;
+  justify-content: column;
+  overflow: hidden;
+  padding: 0px;
+  position: fixed;
+  right: calc(50vw - 595px);
+  top: 205px;
+  width: 1210px;
 
   .stage-card-image {
     height: 455px;
@@ -25,11 +25,11 @@
 
   .stage-card-name {
     color: white;
+    font-family: 'Roboto', sans-serif;
     font-size: 3.1em;
     font-weight: 400;
-    padding-top: 40px;
     padding-bottom: 7px;
-    font-family: 'Roboto', sans-serif;
+    padding-top: 40px;
   }
 
   .stage-card-details {
@@ -54,13 +54,13 @@
   }
 
   .labels {
+    color: #C1C1C1;
     display: flex;
     font-size: 1.5em;
+    font-style: italic;
+    font-weight: 300;
     justify-content: space-between;
     margin: 7px 35px 0px 0px;
-    color: #C1C1C1;
-    font-weight: 300;
-    font-style: italic;
   }
 
   .stage-game-availability {
@@ -69,19 +69,13 @@
     margin: 10px 50px 0px 15px;
   }
 
-  // .stage-card-link {
-  //   position: relative;
-  //   z-index: 3;
-  // }
-
   .stage-card-info-link {
+    bottom: 15px;
     color: $brillantBlue;
     position: absolute;
-    bottom: 15px;
     top: 425px;
     right: 30px;
     z-index: 3;
-    // margin: 0px 15px;
 
     &:hover {
       color: white;
@@ -89,15 +83,15 @@
   }
 
     .triangle {
-    height: 1000px;
-    bottom: -500px;
-    right: -550px;
-    position: absolute;
-    transform: rotate(10deg);
-    z-index: 2;
-    width: 1000px;
     background-color: black;
     background-image: url('../images/mosaic.png');
+    bottom: -500px;
+    height: 1000px;
+    position: absolute;
+    right: -550px;
+    transform: rotate(10deg);
+    width: 1000px;
+    z-index: 2;
   }
 }
 
