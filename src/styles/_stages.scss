@@ -17,9 +17,9 @@
 
 .stage-cards {
   background-color: black;
+  background-image: url('../images/mosaic.png');
   color: white;
-  background-blend-mode: darken;
-  border-radius: 20px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -28,7 +28,13 @@
   background-size: cover;
   overflow: hidden;
   font-size: 13px;
-  width: 100%
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: black;
+  }
 }
 
 .stages-body {
@@ -36,15 +42,15 @@
   margin: 20px 30px 20px 30px;
   grid-template-columns: repeat(auto-fit, 200px);
   grid-gap: 20px;
-  border: 7px solid $brillantBlue;
-  border-radius: 12px;
-  height: 100VH;
-  min-height: 400px;
-  overflow: scroll;
-  background-color: rgb(46, 46, 46);
 }
 
 .stage-image {
   height: 200px;
   width: 200px;
 }
+
+.stage-name {
+  padding: 12px;
+}
+
+

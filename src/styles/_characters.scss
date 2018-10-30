@@ -12,6 +12,7 @@
 }
 
 .characters-grid {
+  padding-top: 30px;
   margin: 50px 20px;
   animation: zoomIn .8s ease;
   display: grid;
@@ -39,6 +40,7 @@
   }
 }
 
+  // background-blend-mode: darken;
 .preview-card-name {
   background-color: black;
   color: white;
