@@ -51,7 +51,7 @@ class Stages extends Component {
   }
 
   removeCard = (e) => {
-    if (e.target.classList.contains('stage-delete-button')) {
+    if (e.target.classList.contains('delete')) {
       this.setState({
         card: ''
       })
@@ -129,8 +129,8 @@ class Stages extends Component {
       <section className='stages-body'>
       {  
         this.state.stages.map((stage) => {
-          return <div onClick={e => this.selectStage(e)} className={`${stage.index} stage-cards`} key={stage.name}>
-                   <img onClick={e => this.selectStage(e)} className={`${stage.index} stage-image`} src={stage.stage_image} />
+          return <div onClick={e => this.selectStage(e)} className={`${stage.index} stage-cards`} key={stage.name} 
+                      style={{'backgroundImage': `url(${stage.stage_image})`}}>
                    <h2 onClick={e => this.selectStage(e)} className={`${stage.index} stage-name`}>{stage.name}</h2>
                  </div>
         })

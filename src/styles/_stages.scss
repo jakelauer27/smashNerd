@@ -17,8 +17,8 @@
 
 .stage-cards {
   align-items: center;
-  background-color: black;
-  background-image: url('../images/mosaic.png');
+  background-color: rgba(46, 46, 46, 0.3);
+  background-blend-mode: darken;
   background-size: cover;
   border-radius: 15px;
   color: white;
@@ -28,12 +28,13 @@
   height: 200px;
   justify-content: flex-end;
   overflow: hidden;
+  transition: all .4s;
   width: 100%;
 
   &:hover {
     cursor: pointer;
     transform: scale(1.03);
-    background-color: black;
+    background-color: rgba(46, 46, 46, 0.0);
   }
 }
 
@@ -51,6 +52,10 @@
 
 .stage-name {
   padding: 12px;
+  background-color: black;
+  background-image: url('../images/mosaic.png');
+  text-align: center;
+  width: 100%;
 }
 
 
