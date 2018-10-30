@@ -1,0 +1,170 @@
+@import 'variables';
+
+
+.stage-info-card {
+  animation: fadeIn 1s;
+  background-color: black;
+  background-image: url('../images/mosaic.png');
+  border-radius: 15px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  height: 455px;
+  justify-content: column;
+  overflow: hidden;
+  padding: 0px;
+  position: fixed;
+  right: calc(50vw - 595px);
+  top: 205px;
+  width: 1210px;
+
+  .stage-card-image {
+    height: 455px;
+    width: 835px;
+  }
+
+  .stage-card-name {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.1em;
+    font-weight: 400;
+    padding-bottom: 7px;
+    padding-top: 40px;
+  }
+
+  .stage-card-details {
+    display: block;
+    margin-left: 10px;
+    width: 500px;
+    z-index: 3;
+  }
+
+  .stage-card-universe-name {
+    color: #C1C1C1;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 15px;
+  }
+
+
+  .stage-card-available-label {
+    font-size: 1.7em;
+    margin: 50px 10px 0px 0px;
+  }
+
+  .labels {
+    color: #C1C1C1;
+    display: flex;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 300;
+    justify-content: space-between;
+    margin: 7px 35px 0px 0px;
+  }
+
+  .stage-game-availability {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 50px 0px 15px;
+  }
+
+  .stage-card-info-link {
+    bottom: 15px;
+    color: $brillantBlue;
+    position: absolute;
+    top: 425px;
+    right: 30px;
+    z-index: 3;
+
+    &:hover {
+      color: white;
+    }
+  }
+
+    .triangle {
+    background-color: black;
+    background-image: url('../images/mosaic.png');
+    bottom: -500px;
+    height: 1000px;
+    position: absolute;
+    right: -550px;
+    transform: rotate(10deg);
+    width: 1000px;
+    z-index: 2;
+  }
+}
+
+.arrow-wrapper {
+  background-color: rgba(0, 0, 0, 0.61);
+  right: calc(50vw - 1000px);
+  top: -340px;
+  padding: 10px;
+  height: 2000px;
+  width: 2000px;
+
+  position: fixed;
+
+  .scroll-button {
+    border-radius: 50%;
+    color: rgb(201, 201, 201);
+    font-size: 2em;
+    background-color: rgba(27, 27, 27, 0.87);
+    padding: 10px 18px;
+    position: absolute;
+    transition: all .3s ease;
+    opacity: .8;
+    outline: none;
+
+    &:active {
+      background-color: rgb(201, 201, 201);
+      border-color: rgba(27, 27, 27, 0.87);
+      color: rgba(27, 27, 27, 0.87);
+    }
+  }
+
+  .stage-right-button {
+    top: 715px;
+    right: 340px;
+
+    i {
+      margin-left: 4px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: translateX(3px);
+      opacity: 1;
+    }
+  }
+
+  .stage-left-button {
+    top: 715px;
+    left: 340px;
+
+    i {
+      margin-right: 4px;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transform: translateX(-3px);
+      opacity: 1;
+    }
+  }
+
+  .stage-delete-button {
+    font-size: 1.8em;
+    padding: 10px 18px;
+    top: 490px;
+    right: 340px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(201, 201, 201);
+      border-color: rgba(27, 27, 27, 0.87);
+      color: rgba(27, 27, 27, 0.87);
+    }
+  }
+}
+

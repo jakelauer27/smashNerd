@@ -130,8 +130,8 @@ class Stages extends Component {
       {  
         this.state.stages.map((stage) => {
           return <div onClick={e => this.selectStage(e)} className={`${stage.index} stage-cards`} key={stage.name}>
-                   <h2 onClick={e => this.selectStage(e)} className={stage.index}>{stage.name}</h2>
                    <img onClick={e => this.selectStage(e)} className={`${stage.index} stage-image`} src={stage.stage_image} />
+                   <h2 onClick={e => this.selectStage(e)} className={`${stage.index} stage-name`}>{stage.name}</h2>
                  </div>
         })
       } 

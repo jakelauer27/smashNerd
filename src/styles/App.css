@@ -1,0 +1,595 @@
+@font-face {
+  font-family: "Smash Bros";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
+}
+@keyframes zoomIn {
+  0% {
+    transform: translateX(2500px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.characters-page {
+  justify-content: center;
+}
+
+.characters-page {
+  animation: zoomIn 0.8s ease;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15, 200px);
+}
+
+.character-preview-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px black solid;
+  height: 200px;
+}
+
+.character-preview-icon {
+  height: 100px;
+  width: 100px;
+}
+
+@font-face {
+  font-family: "Smash Bros";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
+}
+@keyframes zoomIn {
+  0% {
+    transform: translateX(2500px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.compare-page {
+  animation: zoomIn 0.8s ease;
+  transition: all 0.5s table, th, tr, td;
+  transition-font-family: "Open Sans", sans-serif;
+  transition-text-align: center;
+  transition-border-collapse: collapse;
+}
+.compare-page .compare_smash_logo {
+  width: 60px;
+}
+.compare-page .compare-header {
+  color: white;
+  font-family: "Smash Bros", serrif;
+  font-size: 2.5em;
+  margin: 30px;
+  text-align: center;
+}
+.compare-page .table-container {
+  border: 10px solid #387fe7;
+  border-radius: 12px;
+  height: 75VH;
+  min-height: 400px;
+  overflow: scroll;
+  margin: 20px auto;
+  width: 90%;
+}
+.compare-page .character-grid {
+  background-color: black;
+  width: 100%;
+}
+.compare-page .character-grid tr:nth-child(1) th {
+  background-color: black;
+  border: 0.5px solid black;
+  border-top: 0px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 10;
+}
+.compare-page .character-grid tr:nth-child(1) th.sticky {
+  border-bottom: 4px solid #387fe7;
+}
+.compare-page .character-grid tbody {
+  width: 100%;
+}
+.compare-page .character-grid td {
+  background-color: #1a1a1a;
+  border: 0.5px solid black;
+  color: white;
+  padding: 3px 8px;
+}
+.compare-page .character-grid .even {
+  background-color: #2e2e2e;
+}
+.compare-page .character-grid th {
+  color: white;
+  padding: 0px 8px;
+}
+.compare-page .character-grid th:hover {
+  color: #387fe7;
+  cursor: pointer;
+}
+.compare-page .arrow {
+  display: inline-block;
+  fill: #387fe7 !important;
+  transition: transform 0.2s ease;
+  width: 7px;
+}
+.compare-page .highlight {
+  background-color: #a0a0a0 !important;
+}
+.compare-page .rotate-down {
+  transform: rotate(90deg);
+}
+.compare-page .icon-span {
+  margin-left: 7px;
+}
+
+@font-face {
+  font-family: "Smash Bros";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
+}
+@keyframes zoomIn {
+  0% {
+    transform: translateX(2500px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.stages-header {
+  color: blue;
+  font-family: "Smash Bros", serrif;
+  height: 65%;
+  width: 100%;
+}
+
+.stages-page {
+  animation: zoomIn 0.8s ease;
+  margin-left: 65px;
+}
+
+.stage-cards {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+}
+
+.stages-body {
+  margin: 50px 10px;
+  animation: zoomIn .8s ease;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-gap: 40px;
+  justify-content: center;
+}
+
+.stage-image {
+  height: 150px;
+  width: 150px;
+}
+
+@font-face {
+  font-family: "Smash Bros";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
+}
+@keyframes zoomIn {
+  0% {
+    transform: translateX(2500px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.landing-page {
+  background-image: url("../images/battlefield_cover.jpg");
+  background-size: cover;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+  overflow: hidden;
+}
+
+.action-container {
+  width: 100%;
+}
+.action-container .smash-logo {
+  margin: 20px calc(50vw - 305px);
+  height: 290px;
+  width: 600px;
+}
+.action-container button {
+  border: 0px;
+  background: none;
+  font-family: "Smash Bros", serrif;
+  font-size: 2em;
+  margin: 20px calc(50vw - 100px);
+  width: 200px;
+}
+.action-container button:hover {
+  color: white;
+  text-shadow: 1px 2px 1px black;
+}
+
+.hide {
+  display: none;
+}
+
+.cloud1 {
+  animation: cloudMove 147s linear infinite;
+  left: -700px;
+  margin-top: 40px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud2 {
+  animation: cloudMove 150s linear infinite;
+  left: -1000px;
+  margin-top: 570px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud3 {
+  animation: cloudMove 153s linear infinite;
+  left: -300px;
+  margin-top: 540px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud4 {
+  animation: cloudMove 157s linear infinite;
+  left: -200px;
+  margin-top: 70px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+  height: 200px;
+}
+
+.cloud5 {
+  animation: cloudMove 166s linear infinite;
+  left: -600px;
+  margin-top: 350px;
+  position: absolute;
+  width: 200px;
+  opacity: 0.85;
+}
+
+.cloud6 {
+  animation: cloudMove 141s linear infinite;
+  left: -1050px;
+  margin-top: 280px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud7 {
+  animation: cloudMove 162s linear infinite;
+  left: 100px;
+  margin-top: 300px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud8 {
+  animation: cloudMove 188s linear infinite;
+  left: -1300px;
+  margin-top: -20px;
+  position: absolute;
+  width: 500px;
+  opacity: 0.85;
+  height: 300px;
+}
+
+.cloud9 {
+  animation: cloudMove 147s linear infinite;
+  left: 500px;
+  margin-top: 40px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud10 {
+  animation: cloudMove 150s linear infinite;
+  left: 200px;
+  margin-top: 570px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud11 {
+  animation: cloudMove 153s linear infinite;
+  left: 900px;
+  margin-top: 540px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud12 {
+  animation: cloudMove 157s linear infinite;
+  left: 1000px;
+  margin-top: 70px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+  height: 200px;
+}
+
+.cloud13 {
+  animation: cloudMove 166s linear infinite;
+  left: 600px;
+  margin-top: 350px;
+  position: absolute;
+  width: 200px;
+  opacity: 0.85;
+}
+
+.cloud14 {
+  animation: cloudMove 151s linear infinite;
+  left: 150px;
+  margin-top: 280px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud15 {
+  animation: cloudMove 172s linear infinite;
+  left: 1300px;
+  margin-top: 300px;
+  position: absolute;
+  width: 400px;
+  opacity: 0.85;
+}
+
+.cloud16 {
+  animation: cloudMove 188s linear infinite;
+  left: -100px;
+  margin-top: -20px;
+  position: absolute;
+  width: 500px;
+  opacity: 0.85;
+  height: 300px;
+}
+
+@keyframes cloudMove {
+  0% {
+    transform: translateX(1200px);
+  }
+  50% {
+    transform: translateX(0px);
+    display: none;
+  }
+  51% {
+    transform: translateX(2400px);
+    display: block;
+  }
+  100% {
+    transform: translateX(1200px);
+  }
+}
+@font-face {
+  font-family: "Smash Bros";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
+}
+@keyframes zoomIn {
+  0% {
+    transform: translateX(2500px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@font-face {
+  font-family: "Smash Bros";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/smash_font.ttf") format("truetype"), url("../fonts/smash_font-webfont.woff") format("woff"), url("../fonts/smash_font-webfont.woff2") format("woff2");
+}
+@keyframes zoomIn {
+  0% {
+    transform: translateX(2500px);
+  }
+  90% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+body {
+  background-image: url("../images/night_battlefield.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #b8e0f7;
+  background-blend-mode: overlay;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.characters-page {
+  justify-content: center;
+  align-items: center;
+}
+
+.characters-page-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(15, 200px);
+  height: 100%;
+  width: 90%;
+}
+
+section div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px black solid;
+}
+
+div img {
+  height: 90px;
+  width: 90px;
+}
+
+h1 {
+  color: white;
+}
+
+.header-button {
+  background: transparent;
+  border: none;
+  display: inline-block;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 35px;
+  opacity: 1;
+  width: 152px;
+  position: relative;
+  left: 68%;
+}
+
+.header {
+  background-position: 0 0, 12.5px 0, 12.5px -12.5px, 0px 12.5px;
+  background-image: linear-gradient(45deg, black 25%, transparent 100%), linear-gradient(135deg, black 25%, transparent 100%), linear-gradient(45deg, transparent 85%, black 75%), linear-gradient(135deg, transparent 85%, black 75%);
+  background-size: 25px 25px;
+  height: 60px;
+}
+
+.smash-small {
+  height: 60px;
+  position: absolute;
+  width: 85px;
+  z-index: 1;
+}
+
+h1 {
+  color: blue;
+  font-family: 'Smash Bros', serrif;
+  height: 65%;
+  width: 100%;
+  text-align: center;
+}
+
+.stages-page {
+  animation: zoomIn .8s ease;
+  margin: auto;
+}
+
+.stage-cards {
+  background-color: rgba(46, 46, 46, 0.5);
+  background-blend-mode: darken;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: 200px;
+  background-size: cover;
+  overflow: hidden;
+  transition: .4s;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    background-color: rgba(46, 46, 46, 0.0);
+  }
+}
+
+.stages-body {
+  margin: 50px 10px;
+  animation: zoomIn .8s ease;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr);
+  grid-gap: 40px;
+  justify-content: center;
+}
+
+.stage-image {
+  height: 150px;
+  width: 150px;
+}
+
+.zoom-appear {
+  opacity: 0;
+}
+
+.zoom-appear.zoom-appear-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.zoom-exit {
+  opacity: 1;
+}
+
+.zoom-exit.zoom-exit-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+.zoom-exit-done {
+  opacity: 0;
+}
+
+.zoom-enter {
+  opacity: 0;
+}
+
+.zoom-enter.zoom-enter-active {
+  opacity: 1;
+  transition: opacity 300ms linear;
+}
+
+/*# sourceMappingURL=App.css.map */
