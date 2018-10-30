@@ -74,7 +74,6 @@ class Compare extends Component {
   render() {
     return (
       <div className='compare-page'>
-        <h1 className='compare-header'>Compare</h1>
         <div className='table-container'>
           <table className='character-grid'>
             <tbody>

@@ -12,9 +12,7 @@ class Stages extends Component {
       stages: [],
       card: '',
       currentStage: ''
-    } 
-    this.scrollStageCard = this.scrollStageCard.bind(this)
-    this.filterByUniverse = this.filterByUniverse.bind(this);
+  } 
 }
 
   componentDidMount(){
@@ -33,39 +31,59 @@ class Stages extends Component {
       .catch(error => console.log(error));
     }
 
-    selectStage(e) {
-      let stage = this.state.stages.find((stage) => {
-        return stage.index === parseInt(e.target.classList[0]);
-      })
-      this.setState({
-        currentStage: parseInt(e.target.classList[0]),
-        card: stage
-      })
-    }
-
-    setStageIndex() {
-      this.setState({
-        stages: this.state.stages.map((stage, i) => {
-          stage.index = i;
-          return stage;
-        })
-      })
-    }
-
-    scrollStageCard(num) {
-        let stage = this.state.stages.find((stage) => {
-          return stage.index === this.state.currentStage + num
-        })
-        this.setState ({
-          currentStage: this.state.currentStage + num,
-          card: stage
-        }) 
-    }
-
-  filterByUniverse(universe) {
-    let filteredStages = this.state.stageList.filter((stage) => {  
-      return stage.universe.name === universe
+  selectStage(e) {
+    let stage = this.state.stages.find((stage) => {
+      return stage.index === parseInt(e.target.classList[0]);
     })
+    this.setState({
+      currentStage: parseInt(e.target.classList[0]),
+      card: stage
+    })
+  }
+
+  setStageIndex() {
+    this.setState({
+      stages: this.state.stages.map((stage, i) => {
+        stage.index = i;
+        return stage;
+      })
+    })
+  }
+
+  removeCard = (e) => {
+    if (e.target.classList.contains('stage-delete-button')) {
+      this.setState({
+        card: ''
+      })
+    }
+  }
+
+  scrollStageCard = (num) => {
+    let newNum = num;
+    let stage = this.state.stages.find((stage) => {
+      if(this.state.currentStage === 0 && num === -1) {
+        newNum = 83;
+      } else if(this.state.currentStage === 83 && num === 1) {
+        newNum = -83;
+      }
+      return stage.index === this.state.currentStage + newNum;
+    })
+    this.setState ({
+      currentStage: this.state.currentStage + newNum,
+      card: stage
+    }) 
+  }
+
+  filterByUniverse = (universe) => {
+    let filteredStages;
+    if (universe === 'all') {
+      filteredStages = this.state.stageList;
+    } else {
+      filteredStages = this.state.stageList.filter((stage) => {  
+        return stage.universe.name === universe
+      })
+    }
+    document.querySelector('.search-input').value = '';
     this.setState({
       stages: filteredStages
     })
@@ -82,12 +100,31 @@ class Stages extends Component {
     return filteredUniverses;
   }
 
+  setIndex(array) {
+    return array.map((character, i) => {
+      character.index = i;
+      return character;
+    })
+  }
+
+  search = (searchInput) => {
+    let filteredStages = this.state.stageList.filter((stage) => {  
+      return stage.name.toUpperCase().includes(searchInput.toUpperCase())
+    })
+    document.querySelector('.filter').value = 'All';
+    this.setState({
+      stages: this.setIndex(filteredStages)
+    })
+  }
 
   render() {
     return (
       <div className='stages-page'>
-      <Filter universes={this.distillUniverses()}
+        <div className='search-container'>
+          <Filter universes={this.distillUniverses()}
               filterByUniverse={this.filterByUniverse} />
+          <Search search={this.search} />
+        </div>
         <h1 className='stages-header'>STAGES</h1>
       <section className='stages-body'>
       {  
@@ -98,7 +135,9 @@ class Stages extends Component {
                  </div>
         })
       } 
-      <StagesCards stage={this.state.card} scrollStageCard={this.scrollStageCard}/>
+      <StagesCards  stage={this.state.card} 
+                    scrollStageCard={this.scrollStageCard}
+                    removeCard={this.removeCard} />
       </section>
       </div> 
     )
