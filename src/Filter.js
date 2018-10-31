@@ -6,7 +6,7 @@ class Filter extends Component {
     return(
       <div className='filter-container'>
         <select onChange={e => this.props.filterByUniverse(e.target.value)} className='filter' placeholder='Filter by Universe'>
-        <option value='all' className='filter-option'>All</option>
+        <option value='all' className='filter-option'>All Universes</option>
           {
             this.props.universes.map((universe) => {
               return <option value={universe} className='filter-option'>{universe}</option>
