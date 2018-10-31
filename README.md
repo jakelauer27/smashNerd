@@ -18,16 +18,16 @@ Run`npm start` in your terminal
 Currently there is not an all-in-one site for getting information about all of the Smash Brothers characters and stages. In order to find everything a user may want to know they have to traverse at least 5 sites, until now! SmashNerd provides Character cards and Stage cards, but also the ability to search and filter based on original game franchise, universe, pro-ranking, and much more.
 
 SmashNerd provides the following robust information - 
-# Characters: 
+#### Characters: 
     - Condensed pros and cons for each
     - Moveset and general information
     - Speed, weight, and jump stats 
     - Performance and rankings in the pro circuit
     - Character comparison chart
-# Stages:
+#### Stages:
     - General information
     - Platform availability
-# Overall:
+#### Overall:
     - An intuitive and eloquent UI with vibrant character and stage images
     - 200 compressed svgs, images, and icons for every character, stage, and universe and 
     - Link to even more information
