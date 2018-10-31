@@ -4,7 +4,7 @@ The quintessential site for Smash Brothers nerds to access all information on Sm
 
 <img width="1260" alt="screen shot 2018-10-31 at 3 18 15 pm" src="https://user-images.githubusercontent.com/33442154/47819497-4d472400-dd20-11e8-83d0-4e4914bd17da.png">
 
-### Set Up - Front End
+### Set Up - Front-end
 
 Clone this repo. 
 Run `npm install` in your terminal
@@ -15,7 +15,7 @@ Run`npm start` in your terminal
 
 ### Background / About
 
-Currently there is not an all-in-one site for getting information about all of the Smash Brothers characters and stages. In order to find everything a user may want to know they have to traverse at least 5 sites, until now! SmashNerd provides Character cards and Stage cards, but also the ability to search and filter based on original game franchise, universe, pro-ranking, and much more.
+Currently there is not an all-in-one site for getting information about all of the Smash Brothers characters and stages. In order to find everything a user may want to know they have to traverse at least 5 sites, until now! SmashNerd provides Character cards and Stage cards, but also the ability to search and filter based on character speed, universe, pro-ranking, and much more.
 
 SmashNerd provides the following robust information - 
 #### Characters: 
@@ -107,9 +107,6 @@ Additional enhancements will include:
 
 <img width="423" alt="screen shot 2018-10-31 at 3 07 25 pm" src="https://user-images.githubusercontent.com/33442154/47819015-dbbaa600-dd1e-11e8-88f4-9d7ee23f4d7d.png">
 
-### See it live!
-
-https://jakelauer27.github.io/smash_brothers/
 
 ### Original Assignment
 
@@ -121,7 +118,7 @@ http://frontend.turing.io/projects/whateverly.html
 https://gist.github.com/libbyeh/2df7d82449328a754888fb570640ba8d
 
 ### Contributors
-Justin Torrence: https://github.com/JustinTorrance
+Justin Torrance: https://github.com/JustinTorrance
 
 Jake Lauer: https://github.com/jakelauer27
 
