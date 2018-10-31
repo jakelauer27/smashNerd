@@ -1,7 +1,7 @@
 {
   "main.css": "/smash_brothers/static/css/main.c73cae9d.chunk.css",
-  "main.js": "/smash_brothers/static/js/main.0ac28c52.chunk.js",
-  "main.js.map": "/smash_brothers/static/js/main.0ac28c52.chunk.js.map",
+  "main.js": "/smash_brothers/static/js/main.19ed50fd.chunk.js",
+  "main.js.map": "/smash_brothers/static/js/main.19ed50fd.chunk.js.map",
   "static/js/1.7ae1cd35.chunk.js": "/smash_brothers/static/js/1.7ae1cd35.chunk.js",
   "static/js/1.7ae1cd35.chunk.js.map": "/smash_brothers/static/js/1.7ae1cd35.chunk.js.map",
   "runtime~main.js": "/smash_brothers/static/js/runtime~main.f38950a4.js",
@@ -9,6 +9,6 @@
   "static/media/main.scss": "/smash_brothers/static/media/mosaic.ef086065.png",
   "static/css/main.c73cae9d.chunk.css.map": "/smash_brothers/static/css/main.c73cae9d.chunk.css.map",
   "index.html": "/smash_brothers/index.html",
-  "precache-manifest.601de63e7a6b8b0016a877d815454e68.js": "/smash_brothers/precache-manifest.601de63e7a6b8b0016a877d815454e68.js",
+  "precache-manifest.84b30fde8e2175f91ccd640e37efe370.js": "/smash_brothers/precache-manifest.84b30fde8e2175f91ccd640e37efe370.js",
   "service-worker.js": "/smash_brothers/service-worker.js"
 }
