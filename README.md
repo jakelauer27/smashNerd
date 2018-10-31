@@ -2,6 +2,8 @@
 
 The quintessential site for Smash Brothers nerds to access all information on Smash Bros characters, stages and stats. It is developed to be easily updated when Smash Ultimate is released in December 2018.  
 
+<img width="1260" alt="screen shot 2018-10-31 at 3 18 15 pm" src="https://user-images.githubusercontent.com/33442154/47819497-4d472400-dd20-11e8-83d0-4e4914bd17da.png">
+
 ### Set Up - Front-end
 
 Clone this repo. 
@@ -33,48 +35,47 @@ SmashNerd provides the following robust information -
 ### User Stories
 
 # Landing Page
-As a user, when I arrive to the landing page, I will see a "continue to site" button. When I click on that button, I will be taken to the characters page.
+ - As a user, when I arrive to the landing page, I will see a "continue to site" button. When I click on that button, I will be taken to the characters page.
 
 # Characters Page:
-As a user, I can see all 58 characters' icons and names in alphabetical order. In order to
+ - As a user, I can see all 58 characters' icons and names in alphabetical order. In order to
 view more info about each character, I can click on each card. By clicking on a card, the
 card enlarges and rotates, showing me the information about each character.
 
-If I want to scroll through each card while a card is enlarged, I can click on arrows
+ - If I want to scroll through each card while a card is enlarged, I can click on arrows
 to the right or left of the card. To exit the individual card, I can click an X by the card. I see the card close or minimize
 back to normal size.
 
 # Stages Page:
-As a user, when I view the stages page, I see the name and icon for every stage
+ - As a user, when I view the stages page, I see the name and icon for every stage
 in alphabetical order on the page.
 
-When I click on a card, I see the card enlarge and reveal additional information
+ - When I click on a card, I see the card enlarge and reveal additional information
 about the repective stage. 
 
-If I want to scroll through each card while a card is enlarged, I can click on arrows
+ - If I want to scroll through each card while a card is enlarged, I can click on arrows
 to the right or left of the card. To exit the individual card, I can click an X by the card. I see the card close or minimize
 back to normal size.
 
 # Compare Page:
-As a user, when I click on the link for the compare page, I should be taken
+ - As a user, when I click on the link for the compare page, I should be taken
 to a new page where I see a grid of stats for each player.
 
-The row headers are the names of each character.
-The column headers contain the following:
-  tier
-  rank
-  wins/losses
-  weight class
-  weight value
-  jump height
-  run speed
-  dash speed
-  air speed
-  fall speed
-  fast fall speed
-  * Each cell in the table will contain the particular statistic for the character.
+ - The row headers are the names of each character. The column headers contain the following:
+  *tier
+  *rank
+  *wins/losses
+  *weight class
+  *weight value
+  *jump height
+  *run speed
+  *dash speed
+  *air speed
+  *fall speed
+  *fast fall speed
+  *Each cell in the table will contain the particular statistic for the character.
 
-As a user, if I click on a column header, the characters will be sorted from
+-As a user, if I click on a column header, the characters will be sorted from
 best to worst of that specific statistic.
 
 ### Primary Technologies Used
@@ -92,8 +93,6 @@ Additional enhancements will include:
 <img width="1438" alt="screen shot 2018-10-31 at 3 02 56 pm" src="https://user-images.githubusercontent.com/33442154/47818767-4e775180-dd1e-11e8-8435-d06b34996555.png">
 
 <img width="1439" alt="screen shot 2018-10-31 at 3 03 16 pm" src="https://user-images.githubusercontent.com/33442154/47818814-67800280-dd1e-11e8-93ae-fcbabfb6b264.png">
-
-<img width="1260" alt="screen shot 2018-10-31 at 3 18 15 pm" src="https://user-images.githubusercontent.com/33442154/47819497-4d472400-dd20-11e8-83d0-4e4914bd17da.png">
 
 <img width="1439" alt="screen shot 2018-10-31 at 3 03 34 pm" src="https://user-images.githubusercontent.com/33442154/47818840-75ce1e80-dd1e-11e8-9231-1127065824af.png">
 
