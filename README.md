@@ -107,7 +107,7 @@ Additional enhancements will include:
 
 <img width="423" alt="screen shot 2018-10-31 at 3 07 25 pm" src="https://user-images.githubusercontent.com/33442154/47819015-dbbaa600-dd1e-11e8-88f4-9d7ee23f4d7d.png">
 
-### Now Available on Github!
+### See it live!
 
 https://jakelauer27.github.io/smash_brothers/
 
