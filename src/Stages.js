@@ -3,6 +3,7 @@ import './styles/main.scss';
 import StagesCards from './StagesCards.js';
 import Search from './Search.js';
 import Filter from './Filter.js'
+import Universe from './Universe';
 
 class Stages extends Component {
   constructor() {
@@ -11,7 +12,8 @@ class Stages extends Component {
       stageList: [],
       stages: [],
       card: '',
-      currentStage: ''
+      currentStage: '',
+      universe: 'all'
   } 
 }
 
@@ -85,7 +87,8 @@ class Stages extends Component {
     }
     document.querySelector('.search-input').value = '';
     this.setState({
-      stages: this.setIndex(filteredStages)
+      stages: this.setIndex(filteredStages),
+      universe: universe
     })
   }
 
@@ -125,7 +128,7 @@ class Stages extends Component {
           <Filter universes={this.distillUniverses()}
               filterByUniverse={this.filterByUniverse} />
         </div>
-        <h1 className='stages-header'>STAGES</h1>
+        <Universe universe={this.state.universe}/>
       <section className='stages-body'>
       {  
         this.state.stages.map((stage) => {

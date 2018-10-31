@@ -8,7 +8,7 @@
   overflow: hidden;
   position: fixed;
   right: calc(50vw - 450px);
-  top: 120px;
+  top: 140px;
   padding: 10px;
   width: 900px;
   
@@ -194,8 +194,8 @@
   }
 
   .right-button {
-    top: 670px;
-    right: 450px;
+    top: 680px;
+    right: 480px;
 
     i {
       margin-left: 4px;
@@ -209,8 +209,8 @@
   }
 
   .left-button {
-    top: 670px;
-    left: 450px;
+    top: 680px;
+    left: 480px;
 
     i {
       margin-right: 4px;
@@ -226,8 +226,8 @@
   .delete-button {
     font-size: 2em;
     padding: 10px 18px;
-    top: 410px;
-    right: 490px;
+    top: 430px;
+    right: 480px;
 
     &:hover {
       cursor: pointer;

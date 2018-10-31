@@ -59,4 +59,18 @@
   width: 100%;
 }
 
+.universe-pic {
+  animation: zoomIn .8s ease;
+  top: 60px;
+  right: calc(50vw - 248px);
+  position: absolute;
+  height: 250px;
+  width: 500px;
+  z-index: -1;
+}
+
+.smash-logo {
+  height: 210px;
+}
+
 
