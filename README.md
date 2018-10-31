@@ -4,7 +4,7 @@ The quintessential site for Smash Brothers nerds to access all information on Sm
 
 <img width="1260" alt="screen shot 2018-10-31 at 3 18 15 pm" src="https://user-images.githubusercontent.com/33442154/47819497-4d472400-dd20-11e8-83d0-4e4914bd17da.png">
 
-### Set Up - Front-end
+### Set Up - Front End
 
 Clone this repo. 
 Run `npm install` in your terminal
@@ -107,6 +107,9 @@ Additional enhancements will include:
 
 <img width="423" alt="screen shot 2018-10-31 at 3 07 25 pm" src="https://user-images.githubusercontent.com/33442154/47819015-dbbaa600-dd1e-11e8-88f4-9d7ee23f4d7d.png">
 
+### Now Available on Github!
+
+https://jakelauer27.github.io/smash_brothers/
 
 ### Original Assignment
 
