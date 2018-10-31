@@ -29,6 +29,7 @@ class Stages extends Component {
           stage.index = i;
           return stage;
         });
+
         this.setState({
           stageList: dataset,
           stages: dataset
@@ -135,18 +136,24 @@ class Stages extends Component {
       <div className='stages-page'>
         <div className='search-container'>
           <Search search={this.search}
-                  suggestions={this.state.suggestions} />
+            suggestions={this.state.suggestions} />
           <Filter universes={this.distillUniverses()}
-                  filterByUniverse={this.filterByUniverse} />
+            filterByUniverse={this.filterByUniverse} />
         </div>
         <Universe universe={this.state.universe}/>
         <section className='stages-body'>
           {  
             this.state.stages.map((stage) => {
-              return <div onClick={e => this.selectStage(e)} className={`${stage.index} stage-cards`} key={stage.name} 
-                style={{'backgroundImage': `url(${stage.stage_image})`}}>
-                <h2 onClick={e => this.selectStage(e)} className={`${stage.index} stage-name`}>{stage.name}</h2>
-              </div>;
+              return (
+                <div onClick={e => this.selectStage(e)} 
+                  className={`${stage.index} stage-cards`} 
+                  key={stage.name} 
+                  style={{'backgroundImage': `url(${stage.stage_image})`}}>
+                  <h2 onClick={e => this.selectStage(e)} 
+                    className={`${stage.index} stage-name`}>{stage.name}
+                  </h2>
+                </div>
+              );
             })
           } 
           <StagesCards  stage={this.state.card} 

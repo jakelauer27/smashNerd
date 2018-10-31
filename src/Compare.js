@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { categories } from './data';
 import CompareItem from './CompareItem';
 import './styles/main.scss';
-import { CSSTransitionGroup } from 'react-transition-group';
-
 
 class Compare extends Component {
   constructor() {
@@ -13,8 +11,6 @@ class Compare extends Component {
       highlight: 'Name',
       up: '',
       rotate: '',
-      highlight: 'Name'
-
     };
   }
 
@@ -27,8 +23,12 @@ class Compare extends Component {
             let rank = 59;
 
             data.characters.forEach(compare => {
-              if (character.speeds.run_speed + character.speeds.air_speed + character.speeds.initial_dash >= 
-              compare.speeds.run_speed +  compare.speeds.air_speed + compare.speeds.initial_dash)  {
+              if (character.speeds.run_speed + 
+                  character.speeds.air_speed + 
+                  character.speeds.initial_dash 
+                  >= compare.speeds.run_speed +  
+                  compare.speeds.air_speed + 
+                  compare.speeds.initial_dash)  {
                 rank --;
               }
             });
@@ -77,7 +77,7 @@ class Compare extends Component {
     });
   }
 
-  sortDown(e) {
+  sortDown() {
     return this.state.characters.reverse();
   }
 
@@ -88,7 +88,10 @@ class Compare extends Component {
           <table className='character-grid'>
             <tbody>
               <tr className='table-header'>
-                <th><img className='compare_smash_logo'src='./images/universe_icons/flame_smash_bros.svg'/></th>
+                <th>
+                  <img className='compare_smash_logo'
+                    src='./images/universe_icons/flame_smash_bros.svg'/>
+                </th>
                 {
                   categories.map((category, index) => {
                     let highlight = '';
@@ -100,9 +103,14 @@ class Compare extends Component {
                       up = 'up';
                       rotate = 'rotate-down';
                     }
-                    return <th onClick={e => this.sortTable(e, category.key1, category.key2)} className={`${category.name} ${up} ${highlight}`} key={index}>
+                    return <th onClick={e => this.sortTable(e, category.key1, category.key2)} 
+                      className={`${category.name} ${up} ${highlight}`} 
+                      key={index}>
                       {category.name} 
-                      <span className='icon-span'><i className={`${category.name} arrow fas fa-caret-right ${up} ${rotate}`}></i></span>
+                      <span className='icon-span'>
+                        <i className={`${category.name} arrow fas fa-caret-right ${up} ${rotate}`}>
+                        </i>
+                      </span>
                     </th>;
                   })
                 }

@@ -28,9 +28,14 @@ class Characters extends Component {
         this.trie.populate(data.characters.map(character => character.name));
         var dataset = data.characters.map((character, i) => {
           let rank = 59;
+
           data.characters.forEach(compare => {
-            if (character.speeds.run_speed + character.speeds.air_speed + character.speeds.initial_dash >= 
-                  compare.speeds.run_speed +  compare.speeds.air_speed + compare.speeds.initial_dash) {
+            if (character.speeds.run_speed + 
+                character.speeds.air_speed + 
+                character.speeds.initial_dash 
+                >= compare.speeds.run_speed +  
+                compare.speeds.air_speed + 
+                compare.speeds.initial_dash) {
               rank --;
             }
           });
@@ -53,6 +58,7 @@ class Characters extends Component {
     let filteredCharacters = this.state.characterList.filter((character) => {  
       return character.name.toUpperCase().includes(searchInput.toUpperCase());
     });
+
     document.querySelector('.filter').value = 'All';
     this.setState({
       characters: this.setIndex(filteredCharacters),
@@ -84,7 +90,9 @@ class Characters extends Component {
     let character = this.state.characters.find((character) => {
       if (this.state.currentCharacter === 0 && num === -1) {
         newNum = this.state.characters.length - 1;
-      } else if (this.state.currentCharacter === this.state.characters.length - 1 && num === 1) {
+      } else if (this.state.currentCharacter === 
+                this.state.characters.length - 1 
+                && num === 1) {
         newNum = -(this.state.characters.length - 1);
       }
       return character.index === this.state.currentCharacter + newNum;
@@ -138,7 +146,7 @@ class Characters extends Component {
       <div className='characters-page'>
         <div className='search-container'>
           <Search search={this.search}
-                  suggestions={this.state.suggestions}/>
+            suggestions={this.state.suggestions}/>
           <Filter  universes={this.distillUniverses()}
             filterByUniverse={this.filterByUniverse} />
         </div>
@@ -152,7 +160,10 @@ class Characters extends Component {
                     className={`${character.index} character-preview-card`} 
                     key={character.index}
                     style={{'backgroundImage': `url(${character.images.icon})`}}>
-                    <h2 onClick={e => this.selectCharacter(e)} className={`${character.index} preview-card-name`}>{character.name}</h2>
+                    <h2 onClick={e => this.selectCharacter(e)} 
+                      className={`${character.index} preview-card-name`}>
+                      {character.name}
+                    </h2>
                   </div>
                 );    
               })

@@ -28,11 +28,16 @@ class Landing extends Component {
           <div className='action-container'>
             {
               clouds.map( (cloud, i) => {
-                return  <img className={`${cloud} cloud`} key={i} src={`./images/general/${cloud}.png`} />;
+                return  <img className={`${cloud} cloud`} 
+                  key={i} 
+                  src={`./images/general/${cloud}.png`} />;
               })
             }
-            <img className='smash-logo' src='./images/general/smash_logo_large.png' />
-            <button className='Characters' onClick={this.hide}>Continue to Site</button>
+            <img className='smash-logo' 
+              src='./images/general/smash_logo_large.png' />
+            <button className='Characters' 
+              onClick={this.hide}>Continue to Site
+            </button>
           </div>
         </div>
       );
