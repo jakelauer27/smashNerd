@@ -12,7 +12,6 @@
 }
 
 .stages-page {
-  animation: zoomIn .8s ease;
   width: 100%;
 }
 
@@ -29,7 +28,7 @@
   height: 200px;
   justify-content: flex-end;
   overflow: hidden;
-  transition: all .4s;
+  transition: .4s;
   width: 100%;
 
   &:hover {
@@ -40,11 +39,12 @@
 }
 
 .stages-body {
+  animation: zoomIn .8s ease;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 40px;
   grid-template-columns: repeat(auto-fit, 200px);
-  margin-top: 150px;
   justify-content: center;
+  margin: 150px 100px 0px 100px;
 }
 
 .stage-image {
@@ -70,8 +70,5 @@
   z-index: -1;
 }
 
-.smash-logo {
-  height: 210px;
-}
 
 

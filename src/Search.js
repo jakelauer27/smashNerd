@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import './styles/main.scss';
  
-
-
-
 class Search extends Component {
   render() {
     return (
