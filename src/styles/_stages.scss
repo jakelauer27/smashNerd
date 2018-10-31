@@ -12,7 +12,6 @@
 }
 
 .stages-page {
-  animation: zoomIn .8s ease;
   width: 100%;
 }
 
@@ -21,7 +20,7 @@
   background-color: rgba(46, 46, 46, 0.3);
   background-blend-mode: darken;
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 20px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -29,7 +28,7 @@
   height: 200px;
   justify-content: flex-end;
   overflow: hidden;
-  transition: all .4s;
+  transition: .4s;
   width: 100%;
 
   &:hover {
@@ -40,10 +39,12 @@
 }
 
 .stages-body {
+  animation: zoomIn .8s ease;
   display: grid;
-  grid-gap: 20px;
+  grid-gap: 40px;
   grid-template-columns: repeat(auto-fit, 200px);
-  margin: 150px 30px 150px 63px;
+  justify-content: center;
+  margin: 150px 100px 0px 100px;
 }
 
 .stage-image {
@@ -69,8 +70,5 @@
   z-index: -1;
 }
 
-.smash-logo {
-  height: 210px;
-}
 
 

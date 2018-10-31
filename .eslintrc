@@ -16,37 +16,24 @@
   "rules": {
     "brace-style": "error",
     "comma-spacing": [
-      "warn",
-      {
+      "warn", {
         "before": false,
         "after": true
       }
     ],
+    "react/prop-types": 0,
     "curly": "error",
-    "eqeqeq": [
-      "error",
-      "always"
-    ],
-    "getter-return": [
-      "error",
-      {
-        "allowImplicit": true
-      }
-    ],
-    "indent": [
-      "warn",
-      2
-    ],
+    "eqeqeq": ["error", "always"],
+    "getter-return": ["error", { "allowImplicit": true }],
+    "indent": ["warn", 2],
     "key-spacing": [
-      "error",
-      {
+      "error", {
         "beforeColon": false,
         "afterColon": true
       }
     ],
     "keyword-spacing": [
-      "error",
-      {
+      "error", {
         "before": true,
         "after": true
       }
@@ -60,8 +47,8 @@
       80
     ],
     "new-cap": [
-      "error",
-      {
+      "error", {
+
         "newIsCap": true
       }
     ],
@@ -74,28 +61,22 @@
       "error",
       "always"
     ],
-    "semi": [
-      "error",
-      "always"
-    ],
+    "semi": ["error", "always"],
     "semi-spacing": [
-      "error",
-      {
+      "error", {
         "before": false,
         "after": true
       }
     ],
     "space-before-blocks": [
-      "error",
-      {
+      "error", {
         "functions": "always",
         "keywords": "always",
         "classes": "always"
       }
     ],
     "space-infix-ops": [
-      "error",
-      {
+      "error", {
         "int32Hint": false
       }
     ]

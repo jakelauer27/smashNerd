@@ -9,7 +9,7 @@
   animation: zoomIn .8s ease;
   display: flex;
   justify-content: space-between;
-  margin: 80px 100px 40px;
+  margin: 80px 140px 40px;
 }
 
 .search-input {
@@ -21,9 +21,40 @@
   width: 200px;
   padding: 3px;
   transition: all .2s;
+  position: relative;
+  z-index: 1;
 
   &:hover {
     transform: scale(1.03);
+  }
+}
+
+.suggestions-container {
+  position: relative;
+}
+
+.suggestions {
+  border: 2px solid $brillantBlue;
+  border-radius: 0 0 7px 7px;
+  background: white;
+  color: rgb(99, 99, 99);
+  list-style: none;
+  position: absolute;
+  top: -5px;
+  width: 205px;
+
+  .suggestion {
+    padding: 3px 8px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(173, 173, 173);
+      color: white;
+    }
+  }
+
+  .suggestion0 {
+    padding-top: 9px;
   }
 }
 
@@ -88,7 +119,6 @@
   }
 }
 
-  // background-blend-mode: darken;
 .preview-card-name {
   background-color: black;
   background-image: url('../images/mosaic.png');
