@@ -4,11 +4,11 @@ The quintessential site for Smash Brothers nerds to access all information on Sm
 
 ### Set Up - Front-end
 
-Clone this repo
+Clone this repo. 
 Run `npm install` in your terminal
 
 Run the app in the development mode:
-Open [http://localhost:3000](http://localhost:3000) to view in the browser
+Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 Run`npm start` in your terminal
 
 ### Background / About
@@ -16,26 +16,26 @@ Run`npm start` in your terminal
 Currently there is not an all-in-one site for getting information about all of the Smash Brothers characters and stages. In order to find everything a user may want to know they have to traverse at least 5 sites, until now! SmashNerd provides Character cards and Stage cards, but also the ability to search and filter based on original game franchise, universe, pro-ranking, and much more.
 
 SmashNerd provides the following robust information - 
-Characters: 
+# Characters: 
     - Condensed pros and cons for each
     - Moveset and general information
     - Speed, weight, and jump stats 
     - Performance and rankings in the pro circuit
     - Character comparison chart
-Stages:
+# Stages:
     - General information
     - Platform availability
-Overall:
+# Overall:
     - An intuitive and eloquent UI with vibrant character and stage images
     - 200 compressed svgs, images, and icons for every character, stage, and universe and 
     - Link to even more information
     
 ### User Stories
 
-#Landing Page
+# Landing Page
 As a user, when I arrive to the landing page, I will see a "continue to site" button. When I click on that button, I will be taken to the characters page.
 
-#Characters Page:
+# Characters Page:
 As a user, I can see all 58 characters' icons and names in alphabetical order. In order to
 view more info about each character, I can click on each card. By clicking on a card, the
 card enlarges and rotates, showing me the information about each character.
@@ -44,7 +44,7 @@ If I want to scroll through each card while a card is enlarged, I can click on a
 to the right or left of the card. To exit the individual card, I can click an X by the card. I see the card close or minimize
 back to normal size.
 
-#Stages Page:
+# Stages Page:
 As a user, when I view the stages page, I see the name and icon for every stage
 in alphabetical order on the page.
 
@@ -55,7 +55,7 @@ If I want to scroll through each card while a card is enlarged, I can click on a
 to the right or left of the card. To exit the individual card, I can click an X by the card. I see the card close or minimize
 back to normal size.
 
-#Compare Page:
+# Compare Page:
 As a user, when I click on the link for the compare page, I should be taken
 to a new page where I see a grid of stats for each player.
 
