@@ -34,10 +34,10 @@ SmashNerd provides the following robust information -
     
 ### User Stories
 
-# Landing Page
+#### Landing Page
  - As a user, when I arrive to the landing page, I will see a "continue to site" button. When I click on that button, I will be taken to the characters page.
 
-# Characters Page:
+#### Characters Page:
  - As a user, I can see all 58 characters' icons and names in alphabetical order. In order to
 view more info about each character, I can click on each card. By clicking on a card, the
 card enlarges and rotates, showing me the information about each character.
@@ -46,7 +46,7 @@ card enlarges and rotates, showing me the information about each character.
 to the right or left of the card. To exit the individual card, I can click an X by the card. I see the card close or minimize
 back to normal size.
 
-# Stages Page:
+#### Stages Page:
  - As a user, when I view the stages page, I see the name and icon for every stage
 in alphabetical order on the page.
 
@@ -57,7 +57,7 @@ about the repective stage.
 to the right or left of the card. To exit the individual card, I can click an X by the card. I see the card close or minimize
 back to normal size.
 
-# Compare Page:
+#### Compare Page:
  - As a user, when I click on the link for the compare page, I should be taken
 to a new page where I see a grid of stats for each player.
 
