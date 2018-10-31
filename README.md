@@ -15,7 +15,7 @@ Run`npm start` in your terminal
 
 ### Background / About
 
-Currently there is not an all-in-one site for getting information about all of the Smash Brothers characters and stages. In order to find everything a user may want to know they have to traverse at least 5 sites, until now! SmashNerd provides Character cards and Stage cards, but also the ability to search and filter based on original game franchise, universe, pro-ranking, and much more.
+Currently there is not an all-in-one site for getting information about all of the Smash Brothers characters and stages. In order to find everything a user may want to know they have to traverse at least 5 sites, until now! SmashNerd provides Character cards and Stage cards, but also the ability to search and filter based on character speed, universe, pro-ranking, and much more.
 
 SmashNerd provides the following robust information - 
 #### Characters: 
@@ -118,7 +118,7 @@ http://frontend.turing.io/projects/whateverly.html
 https://gist.github.com/libbyeh/2df7d82449328a754888fb570640ba8d
 
 ### Contributors
-Justin Torrence: https://github.com/JustinTorrance
+Justin Torrance: https://github.com/JustinTorrance
 
 Jake Lauer: https://github.com/jakelauer27
 
