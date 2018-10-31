@@ -75,7 +75,7 @@ to a new page where I see a grid of stats for each player.
   *fast fall speed
   *Each cell in the table will contain the particular statistic for the character.
 
--As a user, if I click on a column header, the characters will be sorted from
+- As a user, if I click on a column header, the characters will be sorted from
 best to worst of that specific statistic.
 
 ### Primary Technologies Used
