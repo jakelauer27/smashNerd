@@ -22,7 +22,7 @@ class Characters extends Component {
   }
 
   componentDidMount() {
-    fetch('http://whateverly-datasets.herokuapp.com/api/v1/characters')
+    fetch('https://whateverly-datasets.herokuapp.com/api/v1/characters')
       .then(response => response.json())
       .then(data => {
         this.trie.populate(data.characters.map(character => character.name));
