@@ -12,7 +12,9 @@ class CompareRow extends Component {
   render() {
     return (
       <tr>
-        <td className={this.props.row}><img src={this.props.character.images.small_icon}/></td>
+        <td className={this.props.row}>
+          <img src={this.props.character.images.small_icon}/>
+        </td>
         {
           categories.map((category, index) => {
             let highlight = '';
@@ -21,9 +23,13 @@ class CompareRow extends Component {
               highlight = 'highlight';
             }
             if (!category.key2) {
-              return <td className={`${this.props.row} ${highlight}`} key={index}>{this.props.character[category.key1]}</td>;
+              return <td className={`${this.props.row} ${highlight}`} 
+                key={index}>{this.props.character[category.key1]}
+              </td>;
             } else {
-              return <td className={`${this.props.row} ${highlight}`} key={index}>{this.props.character[category.key1][category.key2]}</td>;
+              return <td className={`${this.props.row} ${highlight}`} 
+                key={index}>{this.props.character[category.key1][category.key2]}
+              </td>;
             }
           })
         }

@@ -15,11 +15,14 @@ class StagesCards extends Component {
           <div className='stage-info-card' >
             <div className='triangle'></div>
             <section className='stage-card-main' >
-              <img className='stage-card-image' src={this.props.stage.stage_image} />
+              <img className='stage-card-image' 
+                src={this.props.stage.stage_image} />
             </section>
             <section className='stage-card-details'> 
               <h1 className='stage-card-name'>{this.props.stage.name}</h1>
-              <p className='stage-card-universe-name'>{this.props.stage.universe.name}</p>
+              <p className='stage-card-universe-name'>
+                {this.props.stage.universe.name}
+              </p>
               <h2 className='stage-card-available-label'>Now Available On:</h2>
               <div className='labels'>
                 <p className='stage-card-label'>DLC</p>
@@ -35,17 +38,32 @@ class StagesCards extends Component {
                       if (this.props.stage[key]) {
                         value = 'Yes';
                       } 
-                      return ( <p className={`stage-cards-${key}`} key={index}>{value}</p> );
+                      return ( 
+                        <p className={`stage-cards-${key}`} 
+                          key={index}>{value}</p> 
+                      );
                     }
                   })
                 }
               </section>
             </section>
-            <a href={this.props.stage.smash_wiki} className='stage-card-info-link'>Learn More</a>
+            <a href={this.props.stage.smash_wiki} 
+              className='stage-card-info-link'>Learn More
+            </a>
           </div>
-          <button onClick={e => this.props.scrollStageCard(-1)} className='stage-left-button scroll-button'><i className="fas fa-angle-left"></i></button>
-          <button onClick={e => this.props.scrollStageCard(1)} className='stage-right-button scroll-button'><i className="fas fa-angle-right"></i></button>
-          <button onClick={e => this.props.removeCard(e)}className=' delete stage-delete-button scroll-button'><i onClick={e => this.props.removeCard(e)} className="delete fas fa-times"></i></button>
+          <button onClick={() => this.props.scrollStageCard(-1)} 
+            className='stage-left-button scroll-button'>
+            <i className="fas fa-angle-left"></i>
+          </button>
+          <button onClick={() => this.props.scrollStageCard(1)} 
+            className='stage-right-button scroll-button'>
+            <i className="fas fa-angle-right"></i>
+          </button>
+          <button onClick={e => this.props.removeCard(e)}
+            className=' delete stage-delete-button scroll-button'>
+            <i onClick={e => this.props.removeCard(e)} 
+              className="delete fas fa-times"></i>
+          </button>
         </div>
       );
     }

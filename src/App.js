@@ -18,6 +18,7 @@ class App extends Component {
 
   renderSection = (e) => {
     const section = e.target.classList[0];
+
     this.setState({
       Characters: false,
       Stages: false,
@@ -31,11 +32,15 @@ class App extends Component {
       <div className="App">
         <Landing renderCharacters={this.renderSection}/>
         <header className="header">
-          <img src='./images/universe_icons/flame_smash_bros.svg' className='smash-small' />
+          <img src='./images/universe_icons/flame_smash_bros.svg' 
+            className='smash-small' />
           <div className="header-buttons">
-            <button className='Compare header-button' onClick={this.renderSection}>COMPARE</button>
-            <button className='Stages header-button' onClick={this.renderSection}>STAGES</button>
-            <button className='Characters header-button' onClick={this.renderSection}>CHARACTERS</button>
+            <button className='Compare header-button' 
+              onClick={this.renderSection}>COMPARE</button>
+            <button className='Stages header-button' 
+              onClick={this.renderSection}>STAGES</button>
+            <button className='Characters header-button' 
+              onClick={this.renderSection}>CHARACTERS</button>
           </div>
         </header>
         {
