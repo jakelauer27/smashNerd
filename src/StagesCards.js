@@ -1,9 +1,6 @@
 import './styles/main.scss';
 import React, { Component } from 'react';
 
-
-
-
 class StagesCards extends Component {
 
   render() {

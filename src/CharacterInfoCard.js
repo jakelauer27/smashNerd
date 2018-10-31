@@ -10,8 +10,13 @@ class CharacterInfoCard extends Component {
     if (typeof rank === 'number') {
       let superScript = letterSuperScripts.find( (script) => {
         let numArray = [...rank.toString()];
-
-        return script.num === parseInt(numArray[numArray.length - 1]);
+          console.log(parseInt(numArray.join('')))
+        if (parseInt(numArray.join('')) ===  11 || parseInt(numArray.join('')) === 12 || parseInt(numArray.join('')) === 13) {
+          console.log(script)
+          return 'th';
+        } else {
+          return script.num === parseInt(numArray[numArray.length - 1]);
+        }
       });
 
       return <h2 className={`card card-speed-value card-value`}>

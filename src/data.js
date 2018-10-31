@@ -100,6 +100,7 @@ const cardProsCons = [
 ];
 
 const letterSuperScripts = [
+  {num: 11, script: 'th'},
   {num: 1, script: 'st'},
   {num: 2, script: 'nd'},
   {num: 3, script: 'rd'},
