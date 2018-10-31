@@ -8,7 +8,7 @@ class StagesCards extends Component {
 
   render() {
     if(!this.props.stage) {
-      return ( <div></div> )
+      return ( <div className='none'></div> )
     } else return (
       <div className='arrow-wrapper'>
         <div className='stage-info-card' >

@@ -27,6 +27,7 @@
     height: 455px;
     width: 500px;
     z-index: 3;
+    display: block;
   }
 
   .stage-card-name {
@@ -35,17 +36,18 @@
     font-family: 'Roboto', sans-serif;
     font-size: 3.1em;
     font-weight: 400;
-    height: 50px;
-    padding-bottom: 7px;
+    margin-bottom: 7px;
     padding-top: 20px;
   }
 
   .stage-card-universe-name {
     color: #C1C1C1;
+    display: block;
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic;
     padding-bottom: 15px;
+    margin-top: auto;
   }
 
   .stage-card-available-label {

@@ -21,7 +21,7 @@
   background-color: rgba(46, 46, 46, 0.3);
   background-blend-mode: darken;
   background-size: cover;
-  border-radius: 15px;
+  border-radius: 20px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -43,7 +43,8 @@
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, 200px);
-  margin: 150px 30px 150px 63px;
+  margin-top: 150px;
+  justify-content: center;
 }
 
 .stage-image {
