@@ -6,7 +6,6 @@
   background-color: black;
   background-image: url('../images/mosaic.png');
   border-radius: 15px;
-  border-radius: 5px;
   color: white;
   display: flex;
   height: 455px;
@@ -47,8 +46,8 @@
     font-size: 1.5em;
     font-weight: 300;
     font-style: italic;
-    padding-bottom: 15px;
     margin-top: auto;
+    padding-bottom: 15px;
   }
 
   .stage-card-available-label {
@@ -99,13 +98,13 @@
 
 .arrow-wrapper {
   background-color: rgba(0, 0, 0, 0.61);
+  height: 2000px;
   right: calc(50vw - 1000px);
   top: -340px;
   padding: 10px;
-  height: 2000px;
+  position: fixed;
   width: 2000px;
 
-  position: fixed;
 
   .scroll-button {
     border-radius: 50%;
