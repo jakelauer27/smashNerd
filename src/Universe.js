@@ -13,7 +13,7 @@ class Universe extends Component {
     }
     return (
       <img className='universe-pic' 
-        src={`./images/universe_logos/${this.props.universe.replace(/\s/g, '_')}_logo.png`}>
+        src={`./images/universe_logos/${(this.props.universe.replace(/\s/g, '_')).toLowerCase()}_logo.png`}>
       </img>
     );
   }
