@@ -21,9 +21,41 @@
   width: 200px;
   padding: 3px;
   transition: all .2s;
+  position: relative;
+  z-index: 4;
 
   &:hover {
     transform: scale(1.03);
+  }
+}
+
+.suggestions-container {
+  position: relative;
+  z-index: 1;
+}
+
+.suggestions {
+  border: 2px solid $brillantBlue;
+  border-radius: 0 0 7px 7px;
+  background: white;
+  color: rgb(99, 99, 99);
+  list-style: none;
+  position: absolute;
+  top: -5px;
+  width: 205px;
+
+  .suggestion {
+    padding: 3px 8px;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(173, 173, 173);
+      color: white;
+    }
+  }
+
+  .suggestion0 {
+    padding-top: 9px;
   }
 }
 

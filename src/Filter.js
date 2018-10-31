@@ -3,7 +3,7 @@ import './styles/main.scss';
 
 class Filter extends Component {
   render() {
-    return(
+    return (
       <div className='filter-container'>
         <select onChange={e => this.props.filterByUniverse(e.target.value)} className='filter' placeholder='Filter by Universe'>
         <option value='all' className='filter-option'>All Universes</option>
@@ -15,7 +15,7 @@ class Filter extends Component {
         </select>
       </div>
 
-      )
+    );
   }
 }
 

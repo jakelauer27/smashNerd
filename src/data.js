@@ -68,7 +68,7 @@ const categories = [
     key1: 'strongest_smash',
     key2: 'damage'
   }, 
-]
+];
 
 const cardCategories = [
   {
@@ -86,7 +86,7 @@ const cardCategories = [
     key1: 'tier',
     key2: 'rank'
   }
-]
+];
 
 const cardProsCons = [
   {
@@ -97,7 +97,7 @@ const cardProsCons = [
     name: 'Cons',
     key: 'cons'
   }
-]
+];
 
 const letterSuperScripts = [
   {num: 1, script: 'st'},
@@ -110,7 +110,7 @@ const letterSuperScripts = [
   {num: 8, script: 'th'},
   {num: 9, script: 'th'},
   {num: 0, script: 'th'},
-]
+];
 
 
 export {
