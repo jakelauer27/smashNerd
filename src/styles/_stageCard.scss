@@ -15,28 +15,29 @@
   padding: 0px;
   position: fixed;
   right: calc(50vw - 595px);
-  top: 205px;
-  width: 1210px;
+  top: 180px;
+  width: 1200px;
 
   .stage-card-image {
     height: 455px;
     width: 835px;
   }
 
+  .stage-card-details {
+    height: 455px;
+    width: 500px;
+    z-index: 3;
+  }
+
   .stage-card-name {
     color: white;
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-size: 3.1em;
     font-weight: 400;
+    height: 50px;
     padding-bottom: 7px;
-    padding-top: 40px;
-  }
-
-  .stage-card-details {
-    display: block;
-    margin-left: 10px;
-    width: 500px;
-    z-index: 3;
+    padding-top: 20px;
   }
 
   .stage-card-universe-name {
@@ -47,10 +48,9 @@
     padding-bottom: 15px;
   }
 
-
   .stage-card-available-label {
     font-size: 1.7em;
-    margin: 50px 10px 0px 0px;
+    margin: 50px 10px 12px 0px;
   }
 
   .labels {
@@ -70,10 +70,9 @@
   }
 
   .stage-card-info-link {
-    bottom: 15px;
     color: $brillantBlue;
     position: absolute;
-    top: 425px;
+    top: 420px;
     right: 30px;
     z-index: 3;
 
@@ -124,7 +123,7 @@
   }
 
   .stage-right-button {
-    top: 715px;
+    top: 700px;
     right: 340px;
 
     i {
@@ -139,8 +138,8 @@
   }
 
   .stage-left-button {
-    top: 715px;
-    left: 340px;
+    top: 700px;
+    left: 350px;
 
     i {
       margin-right: 4px;

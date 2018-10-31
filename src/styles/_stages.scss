@@ -13,6 +13,7 @@
 
 .stages-page {
   animation: zoomIn .8s ease;
+  width: 100%;
 }
 
 .stage-cards {
@@ -40,9 +41,9 @@
 
 .stages-body {
   display: grid;
-  margin: 20px 30px 20px 30px;
-  grid-template-columns: repeat(auto-fit, 200px);
   grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  margin: 150px 30px 150px 63px;
 }
 
 .stage-image {
@@ -51,9 +52,9 @@
 }
 
 .stage-name {
-  padding: 12px;
   background-color: black;
   background-image: url('../images/mosaic.png');
+  padding: 12px;
   text-align: center;
   width: 100%;
 }
