@@ -88,6 +88,7 @@ best to worst of that specific statistic.
 ### Enhancements
 Additional enhancements will include:
  - Add additional edits to make fully responsive
+ - Add additional animations to characters and stages cards and/or background
 
 ### Screenshots
 <img width="1438" alt="screen shot 2018-10-31 at 3 02 56 pm" src="https://user-images.githubusercontent.com/33442154/47818767-4e775180-dd1e-11e8-8435-d06b34996555.png">
