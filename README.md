@@ -106,13 +106,15 @@ Additional enhancements will include:
 
 <img width="614" alt="screen shot 2018-10-31 at 3 07 10 pm" src="https://user-images.githubusercontent.com/33442154/47818979-c776a900-dd1e-11e8-87e7-9496cf0c1096.png">
 
-<img width="423" alt="screen shot 2018-10-31 at 3 07 25 pm" src="https://user-images.githubusercontent.com/33442154/47819015-dbbaa600-dd1e-11e8-88f4-9d7ee23f4d7d.png">
-
 
 ### Original Assignment
 
 Mod 2 Project from Turing School of Software & Design
 http://frontend.turing.io/projects/whateverly.html
+
+### See it Live! 
+
+https://jakelauer27.github.io/smash_brothers/
 
 ### DTR Memo
 
