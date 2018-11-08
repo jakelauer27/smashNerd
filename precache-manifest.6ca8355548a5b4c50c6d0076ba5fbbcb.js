@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "1c7d68cfaf29aeb6e7fb133aca9ecbe2",
-    "url": "/smash_brothers/static/media/smash_font-webfont.1c7d68cf.woff"
+    "revision": "ef086065072234382dc61983151856f2",
+    "url": "/smash_brothers/static/media/mosaic.ef086065.png"
   },
   {
     "revision": "975b254c9c0600ffc9d8",
@@ -24,12 +24,12 @@ self.__precacheManifest = [
     "url": "/smash_brothers/static/js/main.975b254c.chunk.js"
   },
   {
-    "revision": "49be4aa83b59e92e46ba03d2a46b7a9c",
-    "url": "/smash_brothers/static/media/smash_font.49be4aa8.ttf"
+    "revision": "1c7d68cfaf29aeb6e7fb133aca9ecbe2",
+    "url": "/smash_brothers/static/media/smash_font-webfont.1c7d68cf.woff"
   },
   {
-    "revision": "ef086065072234382dc61983151856f2",
-    "url": "/smash_brothers/static/media/mosaic.ef086065.png"
+    "revision": "49be4aa83b59e92e46ba03d2a46b7a9c",
+    "url": "/smash_brothers/static/media/smash_font.49be4aa8.ttf"
   },
   {
     "revision": "8e8d23f019fb8ae94801c1bf22772dc2",
