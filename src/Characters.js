@@ -5,7 +5,8 @@ import Search from './Search.js';
 import Filter from './Filter.js';
 import Universe from './Universe';
 import Trie from '@jake.lauer27/autocomplete';
-
+import LoadingElement from './LoadingElement';
+var imagesLoaded = require('imagesloaded');
 
 class Characters extends Component {
   constructor() {
@@ -16,7 +17,8 @@ class Characters extends Component {
       characters: [],
       currentCharacter: '',
       universe: 'all',
-      suggestions: []
+      suggestions: [],
+      loading: true
     };
     this.trie = new Trie();
   }
@@ -43,13 +45,17 @@ class Characters extends Component {
           character.index = i;
           return character;
         });
-
         this.setState({
           characterList: dataset,
           characters: dataset
         });
+        imagesLoaded( '.characters-grid', { background: true }, () => {
+          this.setState({
+            loading: false
+          })
+        }); 
       })
-      .catch(error => console.log(error));
+      .catch(error => console.log(error));     
   }
 
   search = (searchInput) => {
@@ -170,6 +176,7 @@ class Characters extends Component {
               scrollCard={this.scrollCard}
               removeCard={this.removeCard}/>
           </div>
+          <LoadingElement loading={this.state.loading}/>
         </div>
       </div>
     );

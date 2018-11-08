@@ -5,6 +5,7 @@
   "homepage": "http://jakelauer27.github.io/smash_brothers",
   "dependencies": {
     "@jake.lauer27/autocomplete": "^1.1.1",
+    "imagesloaded": "^4.1.4",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
     "react-scripts": "2.0.5",
@@ -16,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy" : "npm run build&&gh-pages -d build",
+    "deploy": "npm run build&&gh-pages -d build",
     "eslint": "./node_modules/.bin/eslint ."
   },
   "eslintConfig": {

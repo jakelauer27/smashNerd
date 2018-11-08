@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { categories } from './data';
 import CompareItem from './CompareItem';
+import LoadingElement from './LoadingElement';
 import './styles/main.scss';
+var imagesLoaded = require('imagesloaded');
 
 class Compare extends Component {
   constructor() {
@@ -11,6 +13,7 @@ class Compare extends Component {
       highlight: 'Name',
       up: '',
       rotate: '',
+      loading: true
     };
   }
 
@@ -36,6 +39,11 @@ class Compare extends Component {
             return character;
           })
         });
+        imagesLoaded( '.characters-grid', { background: true }, () => {
+          this.setState({
+            loading: false
+          })
+        }); 
       })
       .catch(error => console.log(error));
   }
@@ -134,6 +142,7 @@ class Compare extends Component {
               }
             </tbody>
           </table>
+          <LoadingElement loading={this.state.loading}/>
         </div>
       </div>
     );

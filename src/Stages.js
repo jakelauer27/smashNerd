@@ -4,7 +4,9 @@ import StagesCards from './StagesCards.js';
 import Search from './Search.js';
 import Filter from './Filter.js';
 import Universe from './Universe';
+import LoadingElement from './LoadingElement';
 import Trie from '@jake.lauer27/autocomplete';
+var imagesLoaded = require('imagesloaded');
 
 class Stages extends Component {
   constructor() {
@@ -15,7 +17,8 @@ class Stages extends Component {
       card: '',
       currentStage: '',
       universe: 'all',
-      suggestions: []
+      suggestions: [],
+      loading: true
     }; 
     this.trie = new Trie();
   }
@@ -34,6 +37,12 @@ class Stages extends Component {
           stageList: dataset,
           stages: dataset
         });
+
+        imagesLoaded( '.characters-grid', { background: true }, () => {
+          this.setState({
+            loading: false
+          })
+        }); 
       })
       .catch(error => console.log(error));
   }
@@ -160,6 +169,7 @@ class Stages extends Component {
             scrollStageCard={this.scrollStageCard}
             removeCard={this.removeCard} />
         </section>
+        <LoadingElement loading={this.state.loading}/>
       </div> 
     );
   }

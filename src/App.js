@@ -5,6 +5,7 @@ import Compare from './Compare';
 import Stages from './Stages';
 import './styles/main.scss';
 
+
 class App extends Component {
   constructor() {
     super();
