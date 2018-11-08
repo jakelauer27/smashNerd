@@ -36,5 +36,9 @@
   position: absolute;
   width: 85px;
   z-index: 1;
+
+  &:hover {
+    cursor: pointer; 
+  }
 }
 

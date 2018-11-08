@@ -12,6 +12,7 @@ class App extends Component {
       Characters: false,
       Stages: false,
       Compare: false,
+      landing: true
     };
     this.keys = Object.keys(this.state);
   }
@@ -27,13 +28,23 @@ class App extends Component {
     });
   }
 
+  toggleLanding = (show) => {
+    this.setState({
+      landing: show,
+      Characters: true
+    })
+  }
+
   render() {
     return (
       <div className="App">
-        <Landing renderCharacters={this.renderSection}/>
+        <Landing renderCharacters={this.renderSection}
+          showLanding={this.state.landing}
+          toggleLanding={(show) => this.toggleLanding(show)}/>
         <header className="header">
           <img src='./images/universe_icons/flame_smash_bros.svg' 
-            className='smash-small' />
+            className='smash-small' 
+            onClick={() => this.toggleLanding(true)}/>
           <div className="header-buttons">
             <button className='Compare header-button' 
               onClick={this.renderSection}>COMPARE</button>

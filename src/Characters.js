@@ -47,8 +47,6 @@ class Characters extends Component {
         this.setState({
           characterList: dataset,
           characters: dataset
-        }, () => {
-          this.setState({loading: false});
         });
       })
       .catch(error => console.log(error));

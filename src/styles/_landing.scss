@@ -1,6 +1,7 @@
 @import 'variables';
 
 .landing-page {
+  animation: name duration timing-function delay iteration-count direction fill-mode;
   background-image: url('../images/battlefield_cover.jpg');
   background-size: cover;
   bottom: 0;
@@ -36,6 +37,33 @@
         text-shadow: 1px 2px 1px black;
       }
     }
+  }
+
+  .countdown-container {
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgba(246, 239, 255, 0), rgba(0, 0, 0, 0.562), rgba(246, 239, 255, 0));
+    margin: 0px calc(50vw - 350px);
+    position: relative;
+    top: 250px;
+    width: 700px
+  }
+
+  #timer {
+    color: white;
+    font-size: 2.4em;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
+  }
+
+  .countdown-label {
+    color: white;
+    font-size: 1.8em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-shadow: 2px 2px 2px black;
+    text-align: center;
   }
 
   .hide {
@@ -123,16 +151,8 @@
     0% {
       transform: translateX(1200px);
     }
-    50% {
-      transform: translateX(0px);
-      display: none;
-    }
-    51% {
-      transform: translateX(2400px);
-      display: block;
-    }
     100% {
-      transform: translateX(1200px);
+      transform: translateX(-1200px);
     }
   }
 }
