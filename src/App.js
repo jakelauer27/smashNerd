@@ -32,7 +32,9 @@ class App extends Component {
   toggleLanding = (show) => {
     this.setState({
       landing: show,
-      Characters: true
+      Characters: !show,
+      Stages: false,
+      Compare: false,
     })
   }
 
