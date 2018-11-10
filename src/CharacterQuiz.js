@@ -4,29 +4,33 @@ import quizQuestions from './utils/quizQuestions'
 import LoadingElement from './LoadingElement';
 import './styles/main.scss';
 import QuizQuestion from './QuizQuestion';
+import ChosenCharacter from './ChosenCharacter';
 var imagesLoaded = require('imagesloaded');
+
+const reformattedCharacters = JSON.parse(JSON.stringify(characters.characters.map((character) => {
+  let rank = 59;
+
+  characters.characters.forEach(compare => {
+    if (character.speeds.run_speed + 
+        character.speeds.air_speed + 
+        character.speeds.initial_dash 
+        >= compare.speeds.run_speed +  
+        compare.speeds.air_speed + 
+        compare.speeds.initial_dash)  {
+      rank --;
+    }
+  });
+  character.rank = character.tier.rank;
+  character.speed_rank = rank;
+  return character;
+})))
 
 class CharacterQuiz extends Component {
   constructor() {
     super();
     this.state = {
-      charactersLeft: JSON.parse(JSON.stringify(characters.characters.map((character) => {
-        let rank = 59;
-
-        characters.characters.forEach(compare => {
-          if (character.speeds.run_speed + 
-              character.speeds.air_speed + 
-              character.speeds.initial_dash 
-              >= compare.speeds.run_speed +  
-              compare.speeds.air_speed + 
-              compare.speeds.initial_dash)  {
-            rank --;
-          }
-        });
-        character.speed_rank = rank;
-        return character;
-      }))),
-      chosenCharacter: {},
+      charactersLeft: reformattedCharacters,
+      chosenCharacter: '',
       currentQuestionIndex: -1,
       quizQuestions: JSON.parse(JSON.stringify(quizQuestions.quizQuestions))
     };
@@ -38,8 +42,10 @@ class CharacterQuiz extends Component {
   //   })
   // }
 
-  startQuiz() {
+  startQuiz = () => {
     this.setState({
+      charactersLeft: reformattedCharacters,
+      chosenCharacter: '',
       currentQuestionIndex: 0
     })
   }
@@ -70,15 +76,19 @@ class CharacterQuiz extends Component {
   filterCharacters(direction, category) {
     if (direction < 2) {
       this.setState({
-        charactersLeft: this.state.charactersLeft.filter((character, i, array) => {
-          return character[category] >= array.length/4;
+        charactersLeft: this.state.charactersLeft.sort((a, b) => {
+          return a[category] > b[category]
+        }).filter((character, i, array) => {
+          return i < array.length * 2/3 ;
         })
       })
       return
     }
     this.setState({
-      charactersLeft: this.state.charactersLeft.filter((character, i, array) => {
-        return character[category] >= (array.length - array.length/4);
+      charactersLeft: this.state.charactersLeft.sort((a, b) => {
+        return a[category] < b[category]
+      }).filter((character, i, array) => {
+        return i < array.length * 2/3 ;
       })
     })
   }
@@ -94,9 +104,11 @@ class CharacterQuiz extends Component {
     return (
       <div className='character-quiz-page'>
         <h2>Take the quiz to find out which character you are!</h2>
-        <button onClick={() => this.startQuiz()}>Start the Quiz</button>
         <QuizQuestion currentQuestion={this.state.quizQuestions[this.state.currentQuestionIndex]}
-          nextQuestion={this.nextQuestion}/>
+          nextQuestion={this.nextQuestion}
+          startQuiz={this.startQuiz}/>
+        <ChosenCharacter chosenCharacter={this.state.chosenCharacter}
+          startQuiz={this.startQuiz}/>
       </div>
     )
   }

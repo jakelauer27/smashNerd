@@ -10,11 +10,22 @@ const quizQuestions = [
     ],
     "next": "next",
     "game-selections": [
-      ["Smash Bros. 4", "Smash Bros. Brawl"],
+      ["Smash Bros. 4", "Smash Bros. 4"],
       ["Smash Bros. 4", "Smash Bros. Brawl"],
       ["Smash Bros. Melee", "Smash Bros. Brawl"],
       ["Smash Bros. (64)", "Smash Bros. Melee"]
     ]
+  },
+  {
+    "category": "speed_rank",
+    "question": "Do you prefer speed or power?",
+    "answers": [
+      "Speed is everything",
+      "I like quick, but some power is necessary",
+      "I prefer the two to be evenly balanced",
+      "Power is everything"
+    ],
+    "next": "next"
   },
   {
     "category": "nice",
@@ -47,17 +58,6 @@ const quizQuestions = [
       "I could care less about money",
       "I want to live in a van down by the river"
     
-    ],
-    "next": "next"
-  },
-  {
-    "category": "speed_rank",
-    "question": "Do you prefer speed or power?",
-    "answers": [
-      "Speed is everything",
-      "I like quick, but some power is necessary",
-      "I prefer the two to be evenly balanced",
-      "Power is everything"
     ],
     "next": "next"
   },

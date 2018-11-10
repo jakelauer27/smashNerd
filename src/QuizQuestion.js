@@ -18,7 +18,7 @@ class QuizQuestion extends Component {
 
   render() {
     if (!this.props.currentQuestion) {
-      return <div className='none'></div>
+      return  <button onClick={() => this.props.startQuiz()}>Start the Quiz</button>
     }
    return (
     <div className='quiz-question-container'>
