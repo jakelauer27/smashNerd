@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "ef086065072234382dc61983151856f2",
-    "url": "/smash_brothers/static/media/mosaic.ef086065.png"
+    "revision": "05230e6355d9ea1e8f3467980d0e099f",
+    "url": "/smash_brothers/static/media/smash_font-webfont.05230e63.woff2"
   },
   {
     "revision": "975b254c9c0600ffc9d8",
@@ -16,8 +16,8 @@ self.__precacheManifest = [
     "url": "/smash_brothers/static/js/runtime~main.f38950a4.js"
   },
   {
-    "revision": "05230e6355d9ea1e8f3467980d0e099f",
-    "url": "/smash_brothers/static/media/smash_font-webfont.05230e63.woff2"
+    "revision": "ef086065072234382dc61983151856f2",
+    "url": "/smash_brothers/static/media/mosaic.ef086065.png"
   },
   {
     "revision": "975b254c9c0600ffc9d8",
