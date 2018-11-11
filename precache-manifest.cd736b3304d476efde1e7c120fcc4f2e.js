@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/smash_brothers/static/media/smash_font-webfont.1c7d68cf.woff"
   },
   {
-    "revision": "f5dffe2a4f481412119c",
-    "url": "/smash_brothers/static/css/main.543db3be.chunk.css"
+    "revision": "892cff082bfe508a2ddb",
+    "url": "/smash_brothers/static/css/main.a6e7c80a.chunk.css"
   },
   {
     "revision": "a0d294240c3b9294d330",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/smash_brothers/static/media/mosaic.ef086065.png"
   },
   {
-    "revision": "f5dffe2a4f481412119c",
-    "url": "/smash_brothers/static/js/main.f5dffe2a.chunk.js"
+    "revision": "892cff082bfe508a2ddb",
+    "url": "/smash_brothers/static/js/main.892cff08.chunk.js"
   },
   {
     "revision": "49be4aa83b59e92e46ba03d2a46b7a9c",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/smash_brothers/static/media/battlefield_cover.23aad1af.jpg"
   },
   {
-    "revision": "1547310e178a9902b21d53f08955d3f2",
+    "revision": "7d6b952a58700535185065f8ffe129b4",
     "url": "/smash_brothers/index.html"
   }
 ];

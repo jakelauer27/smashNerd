@@ -1,14 +1,14 @@
 {
-  "main.css": "/smash_brothers/static/css/main.543db3be.chunk.css",
-  "main.js": "/smash_brothers/static/js/main.f5dffe2a.chunk.js",
-  "main.js.map": "/smash_brothers/static/js/main.f5dffe2a.chunk.js.map",
+  "main.css": "/smash_brothers/static/css/main.a6e7c80a.chunk.css",
+  "main.js": "/smash_brothers/static/js/main.892cff08.chunk.js",
+  "main.js.map": "/smash_brothers/static/js/main.892cff08.chunk.js.map",
   "static/js/1.a0d29424.chunk.js": "/smash_brothers/static/js/1.a0d29424.chunk.js",
   "static/js/1.a0d29424.chunk.js.map": "/smash_brothers/static/js/1.a0d29424.chunk.js.map",
   "runtime~main.js": "/smash_brothers/static/js/runtime~main.f38950a4.js",
   "runtime~main.js.map": "/smash_brothers/static/js/runtime~main.f38950a4.js.map",
   "static/media/main.scss": "/smash_brothers/static/media/mosaic.ef086065.png",
-  "static/css/main.543db3be.chunk.css.map": "/smash_brothers/static/css/main.543db3be.chunk.css.map",
+  "static/css/main.a6e7c80a.chunk.css.map": "/smash_brothers/static/css/main.a6e7c80a.chunk.css.map",
   "index.html": "/smash_brothers/index.html",
-  "precache-manifest.8b9269f4a3cf6560ad1b75aeb9845481.js": "/smash_brothers/precache-manifest.8b9269f4a3cf6560ad1b75aeb9845481.js",
+  "precache-manifest.cd736b3304d476efde1e7c120fcc4f2e.js": "/smash_brothers/precache-manifest.cd736b3304d476efde1e7c120fcc4f2e.js",
   "service-worker.js": "/smash_brothers/service-worker.js"
 }
