@@ -10,9 +10,9 @@ class ChosenCharacter extends Component {
     }
    return (
     <div className='chosen-character-container'>
-      <img src={this.props.chosenCharacter.images.large}></img>
-      <h1>{this.props.chosenCharacter.name}</h1>
-      <button onClick={() => this.props.startQuiz()}>Take the Quiz Again</button>
+      <h2 className='chosen-character'>You got {this.props.chosenCharacter.name}!</h2>
+      <img className='quiz-image' src={this.props.chosenCharacter.images.large}></img>
+      <button onClick={() => this.props.startQuiz()}><p>Take Again</p></button>
     </div>
    )
   }

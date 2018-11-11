@@ -6,6 +6,7 @@
 @import 'variables';
 @import 'characterInfoCard';
 @import 'stageCard';
+@import 'quiz';
 
 body {
   background-image: url('../images/night_battlefield.jpg');
@@ -53,7 +54,7 @@ h1 {
 .loading-container {
   position: absolute;
   top: 400px; 
-  right:  calc(50vw - 64px);
+  right:  calc(50vw - 32px);
 }
 
 .lds-ring {

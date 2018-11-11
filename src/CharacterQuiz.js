@@ -61,8 +61,8 @@ class CharacterQuiz extends Component {
       this.filterCharacters(answerIndex, this.state.quizQuestions[this.state.currentQuestionIndex].category)
     }
     this.setState({
-      currentQuestionIndex: this.state.currentQuestionIndex += 1,
-    })
+      currentQuestionIndex: this.state.currentQuestionIndex += 1
+    }, () => true)
   }
 
   filterCharactersByGame(games) {
@@ -70,7 +70,7 @@ class CharacterQuiz extends Component {
       charactersLeft: this.state.charactersLeft.filter(character => {
         return (character.past_smash_games.includes(games[0]) || character.past_smash_games.includes(games[1]))
       })
-    })
+    }, () => true)
   }
 
   filterCharacters(direction, category) {
@@ -81,7 +81,7 @@ class CharacterQuiz extends Component {
         }).filter((character, i, array) => {
           return i < array.length * 2/3 ;
         })
-      })
+      }, () => true)
       return
     }
     this.setState({
@@ -90,7 +90,7 @@ class CharacterQuiz extends Component {
       }).filter((character, i, array) => {
         return i < array.length * 2/3 ;
       })
-    })
+    }, () => true)
   }
 
   revealCharacter() {
@@ -106,9 +106,9 @@ class CharacterQuiz extends Component {
         <h2>Take the quiz to find out which character you are!</h2>
         <QuizQuestion currentQuestion={this.state.quizQuestions[this.state.currentQuestionIndex]}
           nextQuestion={this.nextQuestion}
-          startQuiz={this.startQuiz}/>
-        <ChosenCharacter chosenCharacter={this.state.chosenCharacter}
-          startQuiz={this.startQuiz}/>
+          startQuiz={this.startQuiz}
+          chosenCharacter={this.state.chosenCharacter}>
+        </QuizQuestion>
       </div>
     )
   }

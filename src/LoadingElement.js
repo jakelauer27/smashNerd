@@ -8,7 +8,7 @@ class LoadingElement extends Component {
     }
     return (
       <div className='loading-container'>
-        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+        <div className="lds-ring"><div></div><div></div><div></div><div></div></div>
       </div>
     );
   }

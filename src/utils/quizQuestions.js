@@ -29,7 +29,7 @@ const quizQuestions = [
   },
   {
     "category": "nice",
-    "question": 'How many friends do you have',
+    "question": 'How many friends do you have?',
     "answers": [
       "A million! Everyone is my friend",	
       "A few. I’m a friendly person",
