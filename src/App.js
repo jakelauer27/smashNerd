@@ -4,6 +4,7 @@ import Characters from './Characters';
 import Compare from './Compare';
 import Stages from './Stages';
 import './styles/main.scss';
+import CharacterQuiz from './CharacterQuiz';
 
 
 class App extends Component {
@@ -13,6 +14,7 @@ class App extends Component {
       Characters: false,
       Stages: false,
       Compare: false,
+      Quiz: false,
       landing: true
     };
     this.keys = Object.keys(this.state);
@@ -25,6 +27,7 @@ class App extends Component {
       Characters: false,
       Stages: false,
       Compare: false,
+      Quiz: false,
       [section]: true
     });
   }
@@ -35,6 +38,7 @@ class App extends Component {
       Characters: !show,
       Stages: false,
       Compare: false,
+      Quiz: false
     })
   }
 
@@ -49,6 +53,8 @@ class App extends Component {
             className='smash-small' 
             onClick={() => this.toggleLanding(true)}/>
           <div className="header-buttons">
+            <button className='Quiz header-button' 
+              onClick={this.renderSection}>QUIZ</button>
             <button className='Compare header-button' 
               onClick={this.renderSection}>COMPARE</button>
             <button className='Stages header-button' 
@@ -67,6 +73,8 @@ class App extends Component {
                 return <Stages key={key} />;
               case 'Compare':
                 return <Compare key={key}/>;
+              case 'Quiz':
+                return <CharacterQuiz key={key}/>;
               }
             }
           })
