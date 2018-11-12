@@ -16,8 +16,15 @@ class QuizQuestion extends Component {
     })
   }
 
-  async submitAnswer(e) {
+  async onSubmitQuestionPending(e) {
     await this.props.nextQuestion(this.state.chosenAnswer, e.target.innerText)
+  }
+
+  submitAndReset(e) {
+    let submission = this.onSubmitQuestionPending(e)
+    submission.then(() => this.setState({
+      chosenAnswer: false
+    }))
   }
 
   render() {
@@ -66,13 +73,7 @@ class QuizQuestion extends Component {
       }
       </div>
       <button disabled={!this.state.chosenAnswer}
-        onClick={(e) => {
-          let submission = this.submitAnswer(e)
-          submission.then(() => this.setState({
-            chosenAnswer: false
-          }))
-        }
-        }>
+        onClick={(e) => { this.submitAndReset(e) }}>
         <p>{this.props.currentQuestion.next}</p>
       </button>
     </div>
