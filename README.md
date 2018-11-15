@@ -1,8 +1,12 @@
-# SmashNerd - Turing Mod 2 FE Project (Whateverly)
+# SmashNerd 
 
 The quintessential site for Smash Brothers nerds to access all information on Smash Bros characters, stages and stats. It is developed to be easily updated when Smash Ultimate is released in December 2018.  
 
 <img width="1260" alt="screen shot 2018-10-31 at 3 18 15 pm" src="https://user-images.githubusercontent.com/33442154/47819497-4d472400-dd20-11e8-83d0-4e4914bd17da.png">
+
+### See it Live! 
+
+https://jakelauer27.github.io/smash_brothers/
 
 ### Set Up - Front-end
 
@@ -112,9 +116,6 @@ Additional enhancements will include:
 Mod 2 Project from Turing School of Software & Design
 http://frontend.turing.io/projects/whateverly.html
 
-### See it Live! 
-
-https://jakelauer27.github.io/smash_brothers/
 
 ### DTR Memo
 
