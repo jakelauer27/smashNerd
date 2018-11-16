@@ -7,7 +7,7 @@ class QuizQuestion extends Component {
     super();
     this.state = {
       chosenAnswer: false,
-    } 
+    }
   }
 
   chooseAnswer(e) {
@@ -16,11 +16,15 @@ class QuizQuestion extends Component {
     })
   }
 
-  submitAnswer(e) {
-    this.props.nextQuestion(this.state.chosenAnswer, e.target.innerText)
-    this.setState({
+  async onSubmitQuestionPending(e) {
+    await this.props.nextQuestion(this.state.chosenAnswer, e.target.innerText)
+  }
+
+  submitAndReset(e) {
+    let submission = this.onSubmitQuestionPending(e)
+    submission.then(() => this.setState({
       chosenAnswer: false
-    })
+    }))
   }
 
   render() {
@@ -55,8 +59,8 @@ class QuizQuestion extends Component {
         this.props.currentQuestion.answers.map((answer, i) => {
           return (
             <div className='answer' key={i}>
-               <input type='radio' 
-                value={answer} 
+               <input type='radio'
+                value={answer}
                 name='answers'
                 checked={parseInt(this.state.chosenAnswer) === i}
                 id={i}
@@ -64,15 +68,12 @@ class QuizQuestion extends Component {
                 onChange={(e) => this.chooseAnswer(e)} />
                 <label for={i}>{answer}</label>
             </div>
-          ) 
+          )
         })
       }
       </div>
       <button disabled={!this.state.chosenAnswer}
-        onClick={(e) => {
-          this.submitAnswer(e) 
-        }
-        }>
+        onClick={(e) => { this.submitAndReset(e) }}>
         <p>{this.props.currentQuestion.next}</p>
       </button>
     </div>
@@ -81,6 +82,6 @@ class QuizQuestion extends Component {
 }
 
 
-                       
+
 
 export default QuizQuestion;
