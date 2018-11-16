@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/smash_brothers/precache-manifest.cd736b3304d476efde1e7c120fcc4f2e.js"
+  "/smash_brothers/precache-manifest.49c5ea28f898c578fea4b2eb4742623a.js"
 );
 
 workbox.clientsClaim();
