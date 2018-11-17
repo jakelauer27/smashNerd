@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/smashNerd/static/media/smash_font-webfont.1c7d68cf.woff"
   },
   {
-    "revision": "80458da1b6544bf1140e",
-    "url": "/smashNerd/static/css/main.3d81ec1f.chunk.css"
+    "revision": "72ca5e8b202863e0b604",
+    "url": "/smashNerd/static/css/main.e0bf3f6a.chunk.css"
   },
   {
     "revision": "338a2fe60ae3dd5a0b25",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/smashNerd/static/media/mosaic.ef086065.png"
   },
   {
-    "revision": "80458da1b6544bf1140e",
-    "url": "/smashNerd/static/js/main.80458da1.chunk.js"
+    "revision": "72ca5e8b202863e0b604",
+    "url": "/smashNerd/static/js/main.72ca5e8b.chunk.js"
   },
   {
     "revision": "49be4aa83b59e92e46ba03d2a46b7a9c",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/smashNerd/static/media/battlefield_cover.23aad1af.jpg"
   },
   {
-    "revision": "79d50ee399b212bdab1276a194fcbb0b",
+    "revision": "440b69d510d7a5354bee761d7e357770",
     "url": "/smashNerd/index.html"
   }
 ];
