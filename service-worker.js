@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/smashNerd/precache-manifest.97cb0ee6ec879317b55b2911f7517f91.js"
+  "/smashNerd/precache-manifest.ea5933e99470605b1a2ec9670c3b8f02.js"
 );
 
 workbox.clientsClaim();
