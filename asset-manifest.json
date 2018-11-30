@@ -1,14 +1,14 @@
 {
-  "main.css": "/smashNerd/static/css/main.a55c1f74.chunk.css",
-  "main.js": "/smashNerd/static/js/main.d4a2135d.chunk.js",
-  "main.js.map": "/smashNerd/static/js/main.d4a2135d.chunk.js.map",
-  "static/js/1.338a2fe6.chunk.js": "/smashNerd/static/js/1.338a2fe6.chunk.js",
-  "static/js/1.338a2fe6.chunk.js.map": "/smashNerd/static/js/1.338a2fe6.chunk.js.map",
-  "runtime~main.js": "/smashNerd/static/js/runtime~main.af1daea7.js",
-  "runtime~main.js.map": "/smashNerd/static/js/runtime~main.af1daea7.js.map",
-  "static/media/main.scss": "/smashNerd/static/media/mosaic.ef086065.png",
-  "static/css/main.a55c1f74.chunk.css.map": "/smashNerd/static/css/main.a55c1f74.chunk.css.map",
-  "index.html": "/smashNerd/index.html",
-  "precache-manifest.ea5933e99470605b1a2ec9670c3b8f02.js": "/smashNerd/precache-manifest.ea5933e99470605b1a2ec9670c3b8f02.js",
-  "service-worker.js": "/smashNerd/service-worker.js"
+  "main.css": "/static/css/main.57b10853.chunk.css",
+  "main.js": "/static/js/main.7504102e.chunk.js",
+  "main.js.map": "/static/js/main.7504102e.chunk.js.map",
+  "static/js/1.338a2fe6.chunk.js": "/static/js/1.338a2fe6.chunk.js",
+  "static/js/1.338a2fe6.chunk.js.map": "/static/js/1.338a2fe6.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/main.scss": "/static/media/mosaic.ef086065.png",
+  "static/css/main.57b10853.chunk.css.map": "/static/css/main.57b10853.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.c12bf7cad2e88b37c847615ba3863ed5.js": "/precache-manifest.c12bf7cad2e88b37c847615ba3863ed5.js",
+  "service-worker.js": "/service-worker.js"
 }
