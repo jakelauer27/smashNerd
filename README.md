@@ -6,7 +6,7 @@ The quintessential site for Smash Brothers nerds to access all information on Sm
 
 ### See it Live! 
 
-https://jakelauer27.github.io/smashNerd/
+smash-nerd.com
 
 ### Set Up - Front-end
 
