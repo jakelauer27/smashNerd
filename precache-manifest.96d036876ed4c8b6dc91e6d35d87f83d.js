@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/smash_font-webfont.1c7d68cf.woff"
   },
   {
-    "revision": "7504102e511fb5113b39",
+    "revision": "dd33ebef9dcee7e5bf4f",
     "url": "/static/css/main.57b10853.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/static/media/mosaic.ef086065.png"
   },
   {
-    "revision": "7504102e511fb5113b39",
-    "url": "/static/js/main.7504102e.chunk.js"
+    "revision": "dd33ebef9dcee7e5bf4f",
+    "url": "/static/js/main.dd33ebef.chunk.js"
   },
   {
     "revision": "49be4aa83b59e92e46ba03d2a46b7a9c",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/static/media/battlefield_cover.23aad1af.jpg"
   },
   {
-    "revision": "1626fc4e8a662c088fe53fc5e4fe9708",
+    "revision": "e60cce8a3c6d1913354a7c6c382e5a5f",
     "url": "/index.html"
   }
 ];
