@@ -4,10 +4,6 @@ The quintessential site for Smash Brothers nerds to access all information on Sm
 
 <img width="1260" alt="screen shot 2018-10-31 at 3 18 15 pm" src="https://user-images.githubusercontent.com/33442154/47819497-4d472400-dd20-11e8-83d0-4e4914bd17da.png">
 
-### See it Live! 
-
-smash-nerd.com
-
 ### Set Up - Front-end
 
 Clone this repo. 
